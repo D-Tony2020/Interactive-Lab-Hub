@@ -25,19 +25,19 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 
 ## Part A. Plan 
 
-Topic: “Sunrise Wakeup Lamp” – Circadian-Based Intelligent Light Wake-Up System
+**Topic: “Adaptive Dawn” – Circadian-Based Intelligent Light Wake-Up System**
 
-Background
+**Background**
 
 People often wake up feeling groggy and irritable (“sleep inertia”) when traditional alarms forcefully interrupt deep sleep. Modern chronobiology shows that the sleep–wake cycle is structured in 90-minute phases, and waking during REM or light sleep is far more refreshing. Meanwhile, light is the primary regulator of circadian rhythms—especially short-wavelength blue light (460–480 nm), which suppresses melatonin and stimulates cortisol production. Natural sunrise provides the perfect wake-up cue, yet our schedules are often disconnected from daylight.
 
 This project proposes an intelligent, circadian-based light wake-up system that integrates sleep monitoring and a dynamic light simulation, replacing harsh alarms with a naturalistic sunrise experience.
 
-Setting
+**Setting**
 
 A modern bedroom from night to morning. The environment is dark and quiet, centered on the user’s rest. The interactive device, positioned on the wall or bedside, collaborates with a minimalist sleep tracker and an adaptive lighting system to guide the user’s awakening.
 
-Activity
+**Activity**
 
 Before sleep: the user sets a desired wake-up time and wears a simple sleep tracker.
 
@@ -47,7 +47,7 @@ As morning nears: the device initiates a gradual “sunrise” simulation—star
 
 Wake-up moment: The user awakens naturally at the lightest sleep stage close to the target time, instead of being startled by an alarm.
 
-Goals
+**Goals**
 
 Eliminate Sleep Inertia: Avoid waking during deep sleep, enabling smoother morning transitions.
 
@@ -65,7 +65,7 @@ Sunrise Wake-Up Alarm：
 
 \*\***Include pictures of your storyboards here**\*\*
 
-I think this device is very useful. Sometimes when I just want to take a short nap, it can prevent me from waking up feeling uncomfortable. It can well control my sleep depth and state, and I especially need this device when I need to wake up at the right time.
+**Wenzhuo Ma:** I think this device is very useful. Sometimes when I just want to take a short nap, it can prevent me from waking up feeling uncomfortable. It can well control my sleep depth and state, and I especially need this device when I need to wake up at the right time.
 \*\***Summarize feedback you got here.**\*\*
 
 
@@ -122,12 +122,14 @@ Tested “quick nap mode” (shorter 10-min sunrise).
 Three design variations were explored:
 
 Bedside Lamp – Compact, friendly, familiar.
-< img width="1024" height="1024" alt="cf0fe63bf861cd3f0743b174d94db623" src="https://github.com/user-attachments/assets/d7c0dc42-cf38-4469-9d13-be9c9237b53e" />
-< img width="1024" height="1024" alt="fe8e0cf8d34e596b9004f083048cf81e" src="https://github.com/user-attachments/assets/dabb8aa3-367e-42db-b7ef-d80b3263c08c" />
+<img width="1024" height="1024" alt="36fa4fa446c583178e5301c5b5542641" src="https://github.com/user-attachments/assets/236dc70d-8583-4f53-9c11-2221df506fa6" />
+<img width="1024" height="1024" alt="36fa4fa446c583178e5301c5b5542641" src="https://github.com/user-attachments/assets/4e87eccd-c2b5-44f6-be6e-3831f34338dd" />
+
 
 Wall-Mounted Panel – Sleek, futuristic, integrated with décor.
-< img width="1024" height="1024" alt="c1c59a25c94b6479fdc9e847ef1eabf1" src="https://github.com/user-attachments/assets/cec5d441-7bce-4e34-8815-3f2412914da7" />
-< img width="1536" height="1024" alt="b4a5962f61c33ae41f88cebeb06e2f8f" src="https://github.com/user-attachments/assets/ae241db8-1299-43ab-94e1-7506b35b9741" />
+<img width="1024" height="1024" alt="1518024ee9a812c4c9100194e1ab8021" src="https://github.com/user-attachments/assets/f79979c0-5665-41d4-b004-36924816f08b" />
+<img width="1024" height="1536" alt="3693e07fe014213d01e1b55982b4a943" src="https://github.com/user-attachments/assets/bb4439c2-ab14-4ad5-a528-beb0d56491d4" />
+
 
 
 

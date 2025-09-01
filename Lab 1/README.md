@@ -80,28 +80,28 @@ The interactive device can be anything _except_ a computer, a tablet computer or
 
 <mark> _**Original Prompt:** "Clean up these notes to make them suitable for a document on a prototype device that lights up a specific color. If two people share a characteristic, both devices would light up when they’re in a shared context, like traveling to the same destination or have the same interest. The setting will be in public or social places, creating opportunities for people to randomly encounter each other who share something similar. Here are the corresponding notes [Input Raw Notes]"_ </mark>
 
-<mark> ### Interaction Scenario 1
+<mark> ### Interaction Scenario 1 </mark>
 
-- **Setting:** City park
-- **Players:** Runners / Running Enthusiasts
-- **Activity:** Marathon Training / Hobby Running
-- **Goals:** To match runners training for the same marathon or following the same route
+- <mark> **Setting:** City park </mark>
+- <mark> **Players:** Runners / Running Enthusiasts </mark>
+- <mark> **Activity:** Marathon Training / Hobby Running </mark>
+- <mark> **Goals:** To match runners training for the same marathon or following the same route </mark>
   ***
 
-### Interaction Scenario 2
+<mark> ### Interaction Scenario 2 </mark>
 
-- **Setting:** The Cafe
-- **Players:** Cafe customers
-- **Activity:** Miscellaneous / Consuming cafe food
-- **Goals:** To match people having same food likings.
+- <mark> **Setting:** The Cafe </mark>
+- <mark> **Players:** Cafe customers </mark>
+- <mark> **Activity:** Miscellaneous / Consuming cafe food </mark>
+- <mark> **Goals:** To match people having same food likings. </mark>
   ***
 
-### Interaction Scenario 3
+<mark> ### Interaction Scenario 3 </mark>
 
-- **Setting:** At the station
-- **Players:** Commuters
-- **Activity:** Waiting for the bus/tram/train/metro
-- **Goals:** To match people traveling to the same destination and are from the same organization. </mark>
+- <mark> **Setting:** At the station </mark>
+- <mark> **Players:** Commuters </mark>
+- <mark> **Activity:** Waiting for the bus/tram/train/metro </mark>
+- <mark> **Goals:** To match people traveling to the same destination and are from the same organization. </mark>
 
 Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene.
 

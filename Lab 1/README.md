@@ -141,7 +141,11 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
 
+We soon discovered that not all associations lend themselves to pleasant conversations. For instance, in our café skit, we attempt to convey this by having the association simply ordering the same items, and then having that associative light turn on, even though there’s no real reason for having such a conversation beyond simply ordering the same food. Another challenge was accounting for the device’s wearability and how well it can withstand high-intensity activities like running. Ultimately, the problems that arose from acting out the scenes had to do with more of the social conventions of an interaction, but at the same time, the device is trying to break social conventions by immediately allowing for a conversation between two strangers, which inevitably would have to create some form of awkwardness.
+
 \*\***Are there new ideas that occur to you or your collaborator that come up from the acting?**\*\*
+
+Perhaps allowing for other forms of feedback so that a user doesn't always have to be looking at the light in order to understand whether or not there is a person nearby that shares similarities. Perhaps also considering different parameters that can be placed within such a device to allow only for a more refined selection of associations rather than whatever it can infer from situational context.
 
 ## Part C. Prototype the device
 
@@ -155,8 +159,9 @@ If you run into technical issues with this tool, you can also use a light switch
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
 
-The app worked very well for the purposes of this lab. We appreciated the fact that it was able to be hosted on multiple devices from a single server, which means that we could have multiple Tinkerbells at once, which is very useful for our use case since we were having a complementary interactive system (i.e. two wearable devices that were supposedly communicating with one another synchronously). One limitation that somewhat changed our design was the fact that it is difficult to change the hue and the contrast of a color at the same time. This makes it difficult to cycle through different shades of colors, and thus means that we would be limited primarily to either changing the hue continuously or the contrast continuously. Thankfully, for our testing purposes, we only needed to change the contrast of a color as we decided that each color corresponded to one particular connective interaction.
-\_\_\_\_
+The app worked very well for the purposes of this lab. We appreciated the fact that it was able to be hosted on multiple devices from a single server, which means that we could have multiple Tinkerbells at once, which is very useful for our use case since we were having a complementary interactive system (i.e. two wearable devices that were supposedly communicating with one another synchronously).
+
+One limitation that somewhat changed our design was the fact that it is difficult to change the hue and the contrast of a color at the same time. This makes it difficult to cycle through different shades of colors, and thus means that we would be limited primarily to either changing the hue continuously or the contrast continuously. Thankfully, for our testing purposes, we only needed to change the contrast of a color as we decided that each color corresponded to one particular connective interaction.
 
 ## Part D. Wizard the device
 
@@ -171,7 +176,8 @@ Now, hange the goal within the same setting, and update the interaction with the
 \*\***Show the follow-up work here.**\*\*
 
 ![Proccess 5](https://github.com/thomknoe/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Process/Process_5.jpg)
-![Proccess 6](https://github.com/thomknoe/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Process/Process_.jpg)
+![Proccess 6](https://github.com/thomknoe/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Process/Process_6.jpg)
+![Proccess 7](https://github.com/thomknoe/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Process/Process_7.jpg)
 
 ## Part E. Costume the device
 
@@ -185,6 +191,7 @@ Think about the setting of the device: is the environment a place where the devi
 ![Sketch 2](https://github.com/thomknoe/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Images/Sketch_2.jpg)
 ![Sketch 3](https://github.com/thomknoe/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Images/Sketch_3.jpg)
 ![Costume 1](https://github.com/thomknoe/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Images/Costume_1.JPG)
+![Costume 2](https://github.com/thomknoe/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Images/Costume_2.JPG)
 ![AI Image](https://github.com/thomknoe/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Images/AI_Image.jpg)
 
 _**AI Usage:** AI Image generated using ChatGPT (Dall-E). All original artifacts preserved._
@@ -193,12 +200,12 @@ _**Original Prompt:** "Create an image of a firefly inspired wearable device tha
 
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 
-The original form factor drew inspiration from fireflies, which use bioluminescence to socially interact with their kind. The costume needed to conform to the rectangular oblong shape of the iPhone, necessitating a shell-like design. Since the device would be wearable, we also explored alternative forms that could be attached to the body, such as an arm band, wrist band, and necklace, as shown in the sketches. The wearable needed to be prominently worn and displayed, so that the light could be seen both by the wearer (user) and the observer (partner) that it would correspond to.
+The original form factor drew inspiration from fireflies, which use bioluminescence to socially interact with their kind. The costume needed to conform to the rectangular oblong shape of the iPhone, necessitating a shell-like design. Since the device would be wearable, we also explored alternative forms that could be attached to the body, such as an arm band, wrist band, and necklace, as shown in the sketches. The wearable needed to be prominently worn and displayed, so that the light could be seen both by the wearer (i.e. user) and the observer (i.e. partner) that it would correspond to.
 
 ![Inspiration 1](https://github.com/thomknoe/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Process/Inspiration_1.jpg)
 ![Inspiration 2](https://github.com/thomknoe/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Process/Inspiration_2.jpg)
 
-_**Image Source:** Eastern firefly (Photinus pyralis) flying at late evening (Georgia, USA). By Ivan Kuzmin._
+_**Image Source:** Eastern firefly (Photinus pyralis) flying at late evening (Georgia, USA). By Ivan Kuzmin. (Adobe Stock Cornell License)_
 
 ## Part F. Record
 

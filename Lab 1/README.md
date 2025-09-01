@@ -67,7 +67,7 @@ _Sunrise Wake-Up Alarm：_
 
 \*\***Include pictures of your storyboards here**\*\*
 
-\*\***Feedback**\*\*
+\*\***Feedback:**\*\*
 
 **Wenzhuo Ma:** I think this device is very useful. Sometimes when I just want to take a short nap, it can prevent me from waking up feeling uncomfortable. It can well control my sleep depth and state, and I especially need this device when I need to wake up at the right time.
 

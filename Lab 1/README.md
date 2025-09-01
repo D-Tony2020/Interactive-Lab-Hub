@@ -25,7 +25,7 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 
 ## Part A. Plan 
 
-Topic: “Adaptive Dawn” – Circadian-Based Intelligent Light Wake-Up System
+Topic: “Sunrise Wakeup Lamp” – Circadian-Based Intelligent Light Wake-Up System
 
 Background
 

@@ -126,7 +126,9 @@ Present your ideas to the other people in your breakout room (or in small groups
 
 \*\***Summarize feedback you got here.**\*\*
 
-We held a collaborative conversation and ideation session with our team members. They proposed ideas, critiqued each other’s suggestions, and discussed the feasibility of implementing the technology. We explored frameworks and technologies like AI, computer vision, data mining, etc., that could facilitate the interaction, considering the vast amount of data each user would need to provide and the proximity to the device would have to perform meaningfully. Initially, the wearable was conceived for private settings like homes or domestic fears, but it evolved into a more public-facing device for social engagement. We discussed scenarios and use cases, but the complexity of dating and matchmaking was deemed too challenging. We also explored the idea of color-coding private emotions, but it was impractical for a wearable device. After discussing various topics and potential use cases, we narrowed them down to the ones we’re representing in this lab assignment: meeting someone out on a run, meeting someone in a café, or meeting someone waiting for public transit.
+We held a collaborative conversation and ideation session with our team members. They proposed ideas, critiqued each other’s suggestions, and discussed the feasibility of implementing the technology itself. We explored different settings and technologies that could facilitate such a spontaneous protocol taht also infered similarities from user. Considering the vast amount of data each user would need to provide and the proximity to the device would have to perform meaningfully, technologies like AI and computer vision were also considered.
+
+Initially, the wearable was conceived for private settings like homes or domestic spaces, but it evolved into a more public-facing device for social engagement. We discussed dating and matchmaking as a use case, but the complexity was deemed too challenging and could lead to more cumbersome interactions. We also explored the idea of color-coding emotions, but it too was deemed improbable for a wearable device. After discussing various topics and potential use cases, we narrowed them down to the ones we’re representing in this lab assignment: meeting someone out on a run, meeting someone in a café, or meeting someone waiting for public transit.
 
 ![Proccess 1](https://github.com/thomknoe/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Process/Process_1.jpg)
 ![Proccess 2](https://github.com/thomknoe/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Process/Process_2.jpg)
@@ -153,6 +155,7 @@ If you run into technical issues with this tool, you can also use a light switch
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
 
+The app worked very well for the purposes of this lab. We appreciated the fact that it was able to be hosted on multiple devices from a single server, which means that we could have multiple Tinkerbells at once, which is very useful for our use case since we were having a complementary interactive system (i.e. two wearable devices that were supposedly communicating with one another synchronously). One limitation that somewhat changed our design was the fact that it is difficult to change the hue and the contrast of a color at the same time. This makes it difficult to cycle through different shades of colors, and thus means that we would be limited primarily to either changing the hue continuously or the contrast continuously. Thankfully, for our testing purposes, we only needed to change the contrast of a color as we decided that each color corresponded to one particular connective interaction.
 \_\_\_\_
 
 ## Part D. Wizard the device

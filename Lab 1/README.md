@@ -1,6 +1,6 @@
 # Staging Interaction
 
-\*\***Haotian Xu(hx332), Xiaocheng Li(xl2222)**\*\*
+\*\***Dean Xu(hx332), Xiaocheng Li(xl2222)**\*\*
 
 
 

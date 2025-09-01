@@ -74,11 +74,11 @@ The interactive device can be anything _except_ a computer, a tablet computer or
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
 
-This speculative wearable device is set in public or social contexts where strangers can be close, like waiting areas or events. Two or more strangers, who’ve never met, are brought together by the device’s indication of a shared characteristic, context, or goal. They share a passive presence in these environments, and the device’s activation transforms this into a potential shared activity, inviting conversation and community. The device’s goal is to facilitate connection in specific contexts using a shared, colored light signal. Interaction is mediated by the device’s autonomous, consensual, and choice-based behavior. The light glows when the device is active, and when in proximity to another device with a matching setting, both devices react simultaneously, intensifying, pulsing, or changing in sync. Players can acknowledge the match and initiate a conversation to discover their shared commonality. The light acts as a natural icebreaker, providing a guaranteed shared topic to discuss.
+This speculative wearable device is set in public or social contexts where strangers can be closeby, like waiting areas or events. Two or more strangers, who’ve never met, are brought together by the device’s indication of a shared characteristic, context, or goal. They share a passive presence in these environments, and the device’s activation transforms this into a potential shared activity, inviting conversation. The device’s goal is to facilitate connection in specific contexts using a shared, colored light signal. The light glows when the device is active, and when in proximity to another device with a matching setting, both devices react simultaneously, intensifying, pulsing, or changing in sync. Players can acknowledge the match and initiate a conversation to discover their shared commonality. The light acts as a natural icebreaker, providing a shared topic to discuss.
 
 _**AI Usage:** Utilized assistance from Apple Writing Tools to condense notes taken durring ideation discussiom into a succinct paragraph._
 
-_**Original Prompt:** "Clean up these notes to make them suitable for a document on a prototype device that lights up a specific color. If two people share a characteristic, both devices would light up when they’re in a shared context, like traveling to the same destination. The setting will be in public or social places, creating opportunities for people to randomly encounter each other who share something similar. Here are the corresponding notes [Input Raw Notes]"_
+_**Original Prompt:** "Clean up these notes to make them suitable for a document on a prototype device that lights up a specific color. If two people share a characteristic, both devices would light up when they’re in a shared context, like traveling to the same destination or have the same interest. The setting will be in public or social places, creating opportunities for people to randomly encounter each other who share something similar. Here are the corresponding notes [Input Raw Notes]"_
 
 ### Interaction Scenario 1
 
@@ -102,7 +102,6 @@ _**Original Prompt:** "Clean up these notes to make them suitable for a document
 - **Players:** Commuters
 - **Activity:** Waiting for the bus/tram/train/metro
 - **Goals:** To match people traveling to the same destination and are from the same organization.
-  \_\_
 
 Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene.
 
@@ -119,8 +118,6 @@ Storyboards are a tool for visually exploring a users interaction with a device.
 _**AI Usage:** Storyboard 7 generated using ChatGPT (Dall-E). All original artifacts preserved._
 
 _**Original Prompt:** "My team and I are creating a wearable prototype that lights up whenever it detects someone nearby that has something in common with you...Give me a storyboard of this happening at a music festival and necklace for form of prototype."_
-
-\_\_
 
 Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
 

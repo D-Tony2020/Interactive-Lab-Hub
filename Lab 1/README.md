@@ -208,7 +208,7 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
-### Prototyped Interaction Series
+### <mark> Prototyped Interaction Series </mark>
 
 - <mark> Watch the Interaction Scenario 1 here: [Interaction 1 Video Link](https://drive.google.com/file/d/1IGFkaVVd7U4Mh4-HQyjOTki25YtIyRfO/view?usp=sharing) </mark>
 

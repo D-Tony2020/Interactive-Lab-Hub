@@ -71,6 +71,8 @@ _Sunrise Wake-Up Alarm：_
 
 **Wenzhuo Ma:** I think this device is very useful. Sometimes when I just want to take a short nap, it can prevent me from waking up feeling uncomfortable. It can well control my sleep depth and state, and I especially need this device when I need to wake up at the right time.
 
+**Yeyuan Zhang:** Superb painting skills—lovely and delicate. I find it very appealing and feel an impulse to experience the product myself.
+Regarding the functional aspect, it comes across as a gentle and protective device that helps maintain a comfortable, natural biorhythm. I believe I would enjoy it. That said, it could be enhanced with more sophisticated tuning features that support overall health, such as fine adjustments for temperature, air quality, and even ambient sound, in addition to light. This would create a more holistic experience, not only assisting in the wake-up phase but also providing comprehensive care throughout the entire sleep cycle.
 
 ## Part B. Act out the Interaction
 

@@ -80,7 +80,7 @@ The interactive device can be anything _except_ a computer, a tablet computer or
 
 <mark> _**Original Prompt:** "Clean up these notes to make them suitable for a document on a prototype device that lights up a specific color. If two people share a characteristic, both devices would light up when they’re in a shared context, like traveling to the same destination or have the same interest. The setting will be in public or social places, creating opportunities for people to randomly encounter each other who share something similar. Here are the corresponding notes [Input Raw Notes]"_ </mark>
 
-<mark> ### Interaction Scenario 1 </mark>
+### <mark> Interaction Scenario 1 </mark>
 
 - <mark> **Setting:** City park </mark>
 - <mark> **Players:** Runners / Running Enthusiasts </mark>
@@ -88,7 +88,7 @@ The interactive device can be anything _except_ a computer, a tablet computer or
 - <mark> **Goals:** To match runners training for the same marathon or following the same route </mark>
   ***
 
-<mark> ### Interaction Scenario 2 </mark>
+### <mark> Interaction Scenario 2 </mark>
 
 - <mark> **Setting:** The Cafe </mark>
 - <mark> **Players:** Cafe customers </mark>
@@ -96,7 +96,7 @@ The interactive device can be anything _except_ a computer, a tablet computer or
 - <mark> **Goals:** To match people having same food likings. </mark>
   ***
 
-<mark> ### Interaction Scenario 3 </mark>
+### <mark> Interaction Scenario 3 </mark>
 
 - <mark> **Setting:** At the station </mark>
 - <mark> **Players:** Commuters </mark>

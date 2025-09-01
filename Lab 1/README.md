@@ -74,9 +74,9 @@ The interactive device can be anything _except_ a computer, a tablet computer or
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
 
-This speculative wearable device is set in public or social contexts where strangers can be closeby, like waiting areas or events. Two or more strangers, who’ve never met, are brought together by the device’s indication of a shared characteristic, context, or goal. They share a passive presence in these environments, and the device’s activation transforms this into a potential shared activity, inviting conversation. The device’s goal is to facilitate connection in specific contexts using a shared, colored light signal. The light glows when the device is active, and when in proximity to another device with a matching setting, both devices react simultaneously, intensifying, pulsing, or changing in sync. Players can acknowledge the match and initiate a conversation to discover their shared commonality. The light acts as a natural icebreaker, providing a shared topic to discuss.
+This speculative wearable device is set in public or social contexts where strangers can be close by, like waiting areas or events. Two or more strangers, who’ve never met, are brought together by the device’s indication of a shared characteristic, context, or goal. They share a passive presence in these environments, and the device’s activation transforms this into a potential shared activity, inviting conversation. The device’s goal is to facilitate connection in specific contexts using a shared, colored light signal. The light glows when the device is active, and when in proximity to another device with a matching setting, both devices react simultaneously, intensifying, pulsing, or changing in sync. Players can acknowledge the match and initiate a conversation to discover their shared commonality. The light acts as a natural icebreaker, providing a shared topic to discuss.
 
-_**AI Usage:** Utilized assistance from Apple Writing Tools to condense notes taken durring ideation discussiom into a succinct paragraph._
+_**AI Usage:** Utilized assistance from Apple Writing Tools to condense notes taken durring ideation discussion into a succinct paragraph._
 
 _**Original Prompt:** "Clean up these notes to make them suitable for a document on a prototype device that lights up a specific color. If two people share a characteristic, both devices would light up when they’re in a shared context, like traveling to the same destination or have the same interest. The setting will be in public or social places, creating opportunities for people to randomly encounter each other who share something similar. Here are the corresponding notes [Input Raw Notes]"_
 
@@ -123,7 +123,7 @@ Present your ideas to the other people in your breakout room (or in small groups
 
 \*\***Summarize feedback you got here.**\*\*
 
-We held a collaborative conversation and ideation session with our team members. They proposed ideas, critiqued each other’s suggestions, and discussed the feasibility of implementing the technology itself. We explored different settings and technologies that could facilitate such a spontaneous protocol taht also infered similarities from user. Considering the vast amount of data each user would need to provide and the proximity to the device would have to perform meaningfully, technologies like AI and computer vision were also considered.
+We held a collaborative conversation and ideation session with our team members. They proposed ideas, critiqued each other’s suggestions, and discussed the feasibility of implementing the technology itself. We explored different settings and technologies that could facilitate such a spontaneous protocol that also infered similarities from the user. Considering the vast amount of data each user would need to provide and the proximity to the device would have to perform meaningfully, technologies like AI and computer vision were also considered.
 
 Initially, the wearable was conceived for private settings like homes or domestic spaces, but it evolved into a more public-facing device for social engagement. We discussed dating and matchmaking as a use case, but the complexity was deemed too challenging and could lead to more cumbersome interactions. We also explored the idea of color-coding emotions, but it too was deemed improbable for a wearable device. After discussing various topics and potential use cases, we narrowed them down to the ones we’re representing in this lab assignment: meeting someone out on a run, meeting someone in a café, or meeting someone waiting for public transit.
 
@@ -219,7 +219,7 @@ _**Image Source:** Eastern firefly (Photinus pyralis) flying at late evening (Ge
 \*\***Please indicate who you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design.
 
-Collaborators: Rajvi Ranjit Patil, Om Kamath, Laura Moreno
+Collaborators: Thomas Knoepffler, Rajvi Ranjit Patil, Om Kamath, Laura Moreno
 
 # Staging Interaction, Part 2
 

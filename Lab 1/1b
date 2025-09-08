@@ -1,0 +1,171 @@
+
+
+
+# Staging Interaction - Staging Interaction, Part 2 
+
+\*\***Haotian Xu & Xiaocheng Li**\*\*
+
+
+
+
+
+## Lab Overview
+For this assignment, you are going to:
+
+A) [Plan](#part-a-plan) 
+
+B) [Act out the interaction](#part-b-act-out-the-interaction) 
+
+C) [Prototype the device](#part-c-prototype-the-device)
+
+D) [Wizard the device](#part-d-wizard-the-device) 
+
+E) [Costume the device](#part-e-costume-the-device)
+
+F) [Record the interaction](#part-f-record)
+
+Labs are due on Mondays. Make sure this page is linked to on your main class hub page.
+
+## Part A. Plan 
+
+Topic: “HoloSwing” – Futuristic Motion-Sensing Tennis Racket for Indoor Practice
+
+Background & Pain Point
+
+Many tennis enthusiasts want to practice their strokes at home, but real balls are impractical indoors—too noisy, potentially damaging, and disturbing to neighbors. At the same time, swinging without a ball lacks feedback and immersion.
+This product addresses that pain point by combining visual (light), haptic (vibration), and audio (impact sounds) feedback, enabling realistic solo or multiplayer tennis experiences without a physical ball.
+
+Setting
+
+A living room or indoor recreational space. Two players (or one solo player) hold futuristic tennis rackets with built-in displays, LED lighting, and haptics.
+
+Activity
+
+Players start the session by pressing a button; rackets light up with a “READY” signal.
+
+Virtual balls are served, shown on the racket’s semi-transparent display and guided by LED cues.
+
+Players swing and rally, with each hit producing visual bursts of light, racket vibration, and sound effects, simulating real contact.
+
+Different light colors represent swing strength.
+
+The match ends with celebratory visuals (“WIN” / “GOOD GAME”).
+
+Goals
+
+Enable At-Home Tennis Training: Provide realistic practice without real balls, avoiding noise and damage.
+
+Deliver Multi-Sensory Feedback: Use light, vibration, and sound to recreate the sensation of real hits.
+
+Encourage Social Play: Allow multiplayer rallies and gamified competition in limited spaces.
+
+## Storyboards
+
+Start / Ready – Players hold rackets, screen shows “READY”, frame glows blue, handle vibrates softly.
+![b1e120ae8da0b20ba939512f982d9b5b](https://github.com/user-attachments/assets/271b9d42-5122-483e-be7c-7b00e41b7f3c)
+
+Serve – Player A swings; a yellow ball graphic bursts into light waves; strong vibration mimics impact.
+![a0d091ce4d050e6219170d5820fd700c](https://github.com/user-attachments/assets/2992ff07-c409-4130-a033-957d33cb71ac)
+
+Rally – Virtual ball travels between rackets; incoming ball shown as glowing dot; rackets flash colors on hit (green/orange/red = hit power).
+![14c6a078c930e38f35e8822e4dd7e9f7](https://github.com/user-attachments/assets/e53343b1-6159-4102-815f-2e1237d1ed64)
+
+Game Over – Winner’s racket shows “WIN”, the other shows “GOOD GAME”; rackets tap together, lights and cheers celebrate.
+![69059a4eeb1f94687071648fbcddfd5c](https://github.com/user-attachments/assets/428fd42b-a3cd-4cdd-914c-492851211fb2)
+
+
+## Part B. Act out the Interaction
+
+We role-played with mock rackets (using cardboard + flashlight).
+
+On paper: Sequences felt logical.
+
+In acting: Timing of light/vibration cues proved essential—too slow and feedback felt fake.
+
+New ideas emerged: add combo challenges (hit sequences) to gamify training.
+
+## Part C. Prototype the device
+
+We used smartphone screens taped into cardboard racket frames:
+
+
+Vibration motor = phone’s haptic feedback.
+
+Flashlight app = simulate color lighting.
+
+Feedback on “Tinkerbelle” Tool (light simulation):
+
+Good for rapid prototyping light cues.
+
+Hard to sync between two players’ devices → future version could use Wi-Fi / Bluetooth.
+
+
+## Part D. Wizard the device
+One person controlled ball trajectory via remote commands.
+
+Another acted as the player.
+
+Follow-up Iteration:
+
+Tested single-player “Wall Rally Mode”: ball always returns automatically, encouraging repetitive stroke practice.
+
+Added vibration + sound even without another player to keep solo play immersive.
+
+
+## Part E. Costume the device
+
+Design Exploration:
+
+Futuristic Transparent Head – Semi-transparent LED display embedded in racket face.
+
+Frame Lighting – Multi-color LED strip around racket, changing with action.
+
+Haptic Grip – Silicone handle with vibration + speaker for impact feel.
+
+<img width="1024" height="1024" alt="4c90317f64ade12c7fe7c563b596e33f" src="https://github.com/user-attachments/assets/76506edb-fa36-4d98-8477-c54da7cb5c3c" />
+![acba127e139b65a5069576fe49df89d4](https://github.com/user-attachments/assets/69d11409-c70f-4047-9de8-45a2231ad643)
+
+![393b2af2c912ecfa430f160c5c1ec282](https://github.com/user-attachments/assets/934c0cb4-f1eb-4250-ba28-76edfb62bcf4)
+
+![631c5434ca7418034bb71fd0b092db81](https://github.com/user-attachments/assets/70a3b445-ec58-4820-8397-7335001f8218)
+![65f2982c5dd754047d56e4bccab14259](https://github.com/user-attachments/assets/a616a1f6-997a-4f01-be57-c463e7c51b7a)
+
+Design Concerns:
+
+Weight balance (screen + LEDs vs playability).
+
+Durability of semi-transparent display.
+
+Ensuring light/sound feedback is noticeable but not disturbing to others.
+
+
+
+
+## Part F. Record
+We recorded a prototype demo (see HoloSwing1.mp4).
+
+Shows READY phase, serve, rally, and WIN celebration.
+
+Demonstrates how multi-sensory feedback enhances realism.
+
+https://drive.google.com/file/d/1qOD6UXnweT5oU5WZuxn30M9NDXKM5_JQ/view?usp=sharing
+
+
+
+
+
+Partner Feedback:
+
+A: Light cues very clear; could add AR projection for more immersive ball tracking.
+
+B: Vibration feedback critical—make it stronger for smashes.
+
+C: Solo mode is key for actual home practice; expand it into a structured training system.
+
+Second Iteration:
+
+Added stronger haptic + audio pairing for smashes.
+
+Enhanced solo rally mode for training without partner.
+
+Updated storyboards with “practice drills” scenarios.

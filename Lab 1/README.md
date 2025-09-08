@@ -204,6 +204,12 @@ Think about the setting of the device: is the environment a place where the devi
 
 <mark> _**Image Source:** Eastern firefly (Photinus pyralis) flying at late evening (Georgia, USA). By Ivan Kuzmin. (Adobe Stock Cornell License)_ </mark>
 
+<mark> One interesting note we received during our feedback session was that our device had a similar provocation to the instructional art of Miranda, July, namely the Somebody app (2014), which functioned as a messaging app where users could not send a text directly to a friend. Instead, they had to entrust their message to a stranger who was physically near the intended recipient. This feedback served as a grounding theme for our device, whereby the awkward and serendipitous nature of spontaneous conversation would serve as the thesis of the device itself, not just as a quirk that needed to be systematically fixed. </mark>
+
+![Inspiration 3](https://github.com/thomknoe/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Process/Inspiration_3.jpg)
+
+<mark> _**Image Source:** Miranda July, Somebody (2014)._ </mark>
+
 ## Part F. Record
 
 \*\***Take a video of your prototyped interaction.**\*\*
@@ -253,3 +259,19 @@ Do last week’s assignment again, but this time:
 3. We will be grading with an emphasis on creativity.
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+
+<mark> Given the feedback on our project, we decided to incorporate some elements of haptic feedback into the interaction. While we also were interested in taking the direction of being more context-aware with the device (i.e. limiting it to certain venues and locations that called for conversational engagement), we ultimately decided to continue with our original vision of keeping the device as a wearable that provokes discussion. The incorporation of haptics does allow for it to be more discreet, allowing the user not to bring too much attention to themselves at the moment of a connective interaction. The frequency of the vibration will modulate as they approach the Interlocutor, making the act of finding the other person as part of the engagement. </mark>
+
+![Updated Storyboard 1](https://github.com/thomknoe/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Storyboards/Updated_Storyboard_1.jpg)
+![Updated Storyboard 2](https://github.com/thomknoe/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Storyboards/Updated_Storyboard_2.jpg)
+![Updated Storyboard 3](https://github.com/thomknoe/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Storyboards/Updated_Storyboard_3.jpg)
+
+<mark> _**AI Usage:** AI Storyboards generated using Google Gemini. All original artifacts preserved._ </mark>
+
+### <mark> Updated Prototyped Interaction Series (Haptic Overlay) </mark>
+
+- <mark> Watch the Updated Haptic Interaction Scenario 1 here: [Haptic Interaction 1 Video Link](https://drive.google.com/file/d/1ktKe_nPDNFaMgdUzrm6dHQKmYQ28m3cy/view?usp=sharing) </mark>
+
+- <mark> Watch the Updated Haptic Interaction Scenario 2 here: [Haptic Interaction 2 Video Link](https://drive.google.com/file/d/1RYV4q3CxR32O6BMdA7oLW0dWzQGctyrb/view?usp=sharing) </mark>
+
+- <mark> Watch the Updated Haptic Interaction Scenario 3 here: [Haptic Interaction 3 Video Link](https://drive.google.com/file/d/1KXg1cpbe75Kh11Tz4souRe962TKug9FD/view?usp=sharing) </mark>

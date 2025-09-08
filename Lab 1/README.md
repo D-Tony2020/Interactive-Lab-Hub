@@ -231,6 +231,19 @@ You will be assigned three partners from other groups. Go to their github pages,
 
 \*\***Summarize feedback from your partners here.**\*\*
 
+### <mark> Key Feedback Points </mark>
+
+- <mark> The device must not be "always on." It should activate only in pre-approved, receptive settings (e.g., networking events, conferences, concerts) and remain discreet otherwise. </mark>
+- <mark> A bright, always-visible light is problematic. It's ineffective in sunlight and intrusive in public. The design should be fashionable and adaptable—more like a piece of jewelry than a tech device, allowing it to fit different environments. </mark>
+- <mark> Use a color-coded system (e.g., Red/No, Yellow/Maybe, Green/Go) to indicate openness to interaction. </mark>
+- <mark> Ability to limit connections to specific groups (e.g., close friends, same professional field) or by regional programming. </mark>
+- <mark> Instead of relying solely on light, use haptic feedback (e.g., vibrations that "grow" in intensity as users get closer) as the primary, more discreet notification method to guide the meetup. </mark>
+- <mark> A notification and security layer is essential to ensure user safety and consent. </mark>
+
+<mark> _**AI Usage:** Utilized assistance from Apple Writing Tools to condense raw notes taken durring feedback sessions into itemized bullet points._ </mark>
+
+<mark> _**Original Prompt:** "Take this feedback about a haptic wearable device that lights up when you’re close to someone who shares a characteristic with you, almost like a social device. Clean up these notes and feedback and make them very concise for a summary of feedback [Input Raw Notes]"_ </mark>
+
 ## Make it your own
 
 Do last week’s assignment again, but this time:

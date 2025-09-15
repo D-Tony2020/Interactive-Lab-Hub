@@ -90,6 +90,15 @@ Clone your own lab-hub repo for this assignment to your Pi and change the direct
 ```
 Depends on the setting, you might be asked to provide your GitHub user name and password. Remember to use the "Personal Access Tokens" you just set up as the password instead of your account one!
 
+Check if the directory has clone sucessfully, you should see the Interactive-Lab-Hub under the home directory listed:
+```
+(venv) pi@raspberrypi:~ $ ls
+Bookshelf      Documents            Music     Public                 venv
+create_img.sh  Downloads            pi-apps   screen_boot_script.py  Videos
+Desktop        Interactive-Lab-Hub  Pictures  Templates
+(venv) pi@raspberrypi:~ $
+```
+
 
 Install the packages from the requirements.txt and run the example script `cli_clock.py`:
 
@@ -130,7 +139,7 @@ Line up the screen and press it on the headers. The hole in the screen should ma
 
 The display uses a communication protocol called [SPI](https://www.circuitbasics.com/basics-of-the-spi-communication-protocol/) to speak with the raspberry pi. We won't go in depth in this course over how SPI works. The port on the bottom of the display connects to the SDA and SCL pins used for the I2C communication protocol which we will cover later. GPIO (General Purpose Input/Output) pins 23 and 24 are connected to the two buttons on the left. GPIO 22 controls the display backlight.
 
-To show you the IP and Mac address of the Pi to allow connecting remotely we created a service that launches a python script that runs on boot. For the following steps stop the service by typing ``` sudo systemctl stop mini-screen.service```. Othwerise two scripts will try to use the screen at once. 
+To show you the IP and Mac address of the Pi to allow connecting remotely we created a service that launches a python script that runs on boot. For the following steps stop the service by typing ``` sudo systemctl stop piscreen.service --now```. Othwerise two scripts will try to use the screen at once. You may start it again by typing ``` sudo systemctl start piscreen.service --now```
 
 We can test it by typing 
 ```
@@ -143,7 +152,7 @@ You can type the name of a color then press either of the buttons on the MiniPiT
 ```
 
 #### Displaying Info with Texts
-You can look in `screen_boot_script.py` and `stats.py` for how to display text on the screen!
+You can look in `screen_boot_script.py` for how to display text on the screen!
 
 #### Displaying an image
 
@@ -175,35 +184,9 @@ Option 3. A nowadays often preferred method is to use Microsoft [VS code to remo
 
 Pro Tip: Using tools like [code-server](https://coder.com/docs/code-server/latest) you can even setup a VS Code coding environment hosted on your raspberry pi and code through a web browser on your tablet or smartphone! 
 
-## Part E.
-### Modify the barebones clock to make it your own
+## Part E. Now moved to Lab2 Part 2.
 
-Does time have to be linear?  How do you measure a year? [In daylights? In midnights? In cups of coffee?](https://www.youtube.com/watch?v=wsj15wPpjLY)
-
-Can you make time interactive? You can look in `screen_test.py` for examples for how to use the buttons.
-
-Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www.billverplank.com/IxDSketchBook.pdf)!
-
-**We strongly discourage and will reject the results of literal digital or analog clock display.**
-
-
-\*\*\***A copy of your code should be in your Lab 2 Github repo.**\*\*\*
-
-After you edit and work on the scripts for Lab 2, the files should be upload back to your own GitHub repo! You can push to your personal github repo by adding the files here, commiting and pushing.
-
-```
-(venv) pi@raspberrypi:~/Interactive-Lab-Hub/Lab 2 $ git add .
-(venv) pi@raspberrypi:~/Interactive-Lab-Hub/Lab 2 $ git commit -m 'your commit message here'
-(venv) pi@raspberrypi:~/Interactive-Lab-Hub/Lab 2 $ git push
-```
-
-After that, Git will ask you to login to your GitHub account to push the updates online, you will be asked to provide your GitHub user name and password. Remember to use the "Personal Access Tokens" you set up in Part A as the password instead of your account one! Go on your GitHub repo with your laptop, you should be able to see the updated files from your Pi!
-
-
-## Part F. 
-## Make a short video of your modified barebones PiClock
-
-\*\*\***Take a video of your PiClock.**\*\*\*
+## Part F. Now moved to Lab2 Part 2.
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
@@ -217,6 +200,37 @@ After that, Git will ask you to login to your GitHub account to push the updates
 2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
 
 # Lab 2 Part 2
+
+## Assignment that was formerly Lab 2 Part E.
+### Modify the barebones clock to make it your own
+
+Does time have to be linear?  How do you measure a year? [In daylights? In midnights? In cups of coffee?](https://www.youtube.com/watch?v=wsj15wPpjLY)
+
+Can you make time interactive? You can look in `screen_test.py` for examples for how to use the buttons.
+
+Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www.billverplank.com/IxDSketchBook.pdf)!
+
+**We strongly discourage and will reject the results of literal digital or analog clock display.**
+
+
+\*\*\***A copy of your code should be in your Lab 2 Github repo.**\*\*\*
+
+
+## Assignment that was formerly Part F. 
+## Make a short video of your modified barebones PiClock
+
+\*\*\***Take a video of your PiClock.**\*\*\*
+
+After you edit and work on the scripts for Lab 2, the files should be upload back to your own GitHub repo! You can push to your personal github repo by adding the files here, commiting and pushing.
+
+```
+(venv) pi@raspberrypi:~/Interactive-Lab-Hub/Lab 2 $ git add .
+(venv) pi@raspberrypi:~/Interactive-Lab-Hub/Lab 2 $ git commit -m 'your commit message here'
+(venv) pi@raspberrypi:~/Interactive-Lab-Hub/Lab 2 $ git push
+```
+
+After that, Git will ask you to login to your GitHub account to push the updates online, you will be asked to provide your GitHub user name and password. Remember to use the "Personal Access Tokens" you set up in Part A as the password instead of your account one! Go on your GitHub repo with your laptop, you should be able to see the updated files from your Pi!
+
 
 [Update your Lab Hub](pull_updates/README.md) to get the latest content and requirements for Part 2.
 

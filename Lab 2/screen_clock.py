@@ -61,11 +61,22 @@ backlight.switch_to_output()
 backlight.value = True
 
 while True:
-    # Draw a black filled box to clear the image.
-    draw.rectangle((0, 0, width, height), outline=0, fill=400)
+    # 清屏（黑色背景）
+    draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
-    #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
+    # 获取当前时间
+    now = time.strftime("%m/%d/%Y %H:%M:%S")
 
-    # Display image.
+    # 设置文本位置（屏幕中央偏上）
+    text_x = 20
+    text_y = height // 2 - 10
+
+    # 在屏幕上绘制时间
+    draw.text((text_x, text_y), now, font=font, fill="#FFFFFF")
+
+    # 显示图像
     disp.image(image, rotation)
+
+    # 每秒刷新一次
     time.sleep(1)
+

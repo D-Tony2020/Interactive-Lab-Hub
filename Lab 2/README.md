@@ -84,6 +84,8 @@ The display hardware was correctly connected. The test script worked as expected
 ![302a8617f0f9c1f4234b245bad9b91b9](https://github.com/user-attachments/assets/7b107e07-2bb6-4cc9-a1a5-074dc29a6549)
 ![2167b38c7870f5e9d7a18b8b568e31d1](https://github.com/user-attachments/assets/92c6cb96-8078-4e36-b097-4b8a28b990ff)
 ![ee2bbff7b2810e2c6294b5de3f03759c](https://github.com/user-attachments/assets/12148039-5578-403b-9f48-468efd470640)
+![bf5459099569f71d9c4a3bf7d5fe6565](https://github.com/user-attachments/assets/8f923796-cb11-49b6-b9cb-bdbafd944f07)
+![6a03a60743fc92632d8996e0d6501ce4](https://github.com/user-attachments/assets/a0f3e026-245a-4240-b8b2-90883c91b77a)
 
 ---
 

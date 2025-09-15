@@ -206,6 +206,7 @@ Pro Tip: Using tools like [code-server](https://coder.com/docs/code-server/lates
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
 ![Brainstorm 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Brainstorm_1.jpg)
+![Brainstorm 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Brainstorm_2.jpg)
 
 # Prep for Part 2
 

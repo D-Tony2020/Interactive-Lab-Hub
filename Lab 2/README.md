@@ -1,7 +1,6 @@
 # Interactive Prototyping: The Clock of Pi
 
 **Collaborators:** Dean Xu (hx332)
-*(Please add the names of any lab partners here, if applicable.)*
 
 ---
 

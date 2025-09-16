@@ -205,6 +205,16 @@ Pro Tip: Using tools like [code-server](https://coder.com/docs/code-server/lates
 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
+For this project, I was inspired by the artwork of Tega Brain, creative a technologist and professor at NYU. Her work often deals with topics concerning temporal logic in relation to natural processes, and finding a way to frustrate modern infrastructures in order to propose a provocation of which sheds "eclectic engineering," a avant garde method of design that subverts anthropocentric and capitalistic paradigms and provokes new ontologies and radical ecologies. And her particular her series _Being Radiotropic (2016)_ and piece _Ecological Time_ both showcase this speculative interporetation of time, ecapsulated in object form.
+
+![Inspiration 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Proccess/Inspiration_!.jpg)
+![Inspiration 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Proccess/Inspiration_2.jpg)
+<mark> _**Image Source:** Tega Brain, Being Radiotropic (2016)._ </mark>
+![Inspiration 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Proccess/Inspiration_3.jpg)
+<mark> _**Image Source:** Tega Brain, Ecological Time._ </mark>
+
+I started off this lab by first undergoing two different ideas for a kind of time keeping device; One that tracks the time in relation to the migratory patterns of birds and another that tracks the discrete timeframes between each subway stop on the F line. The ideation sketches are seen as follows.
+
 ![Brainstorm 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Brainstorm_1.jpg)
 ![Brainstorm 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Brainstorm_2.jpg)
 

@@ -1,6 +1,6 @@
 # Interactive Prototyping: The Clock of Pi
 
-**NAMES OF COLLABORATORS HERE**
+\*\***Thomas Knoepffler, Carrie Wang, Xiaocheng Li, Dean Xu, Julia Chen**\*\*
 
 Does it feel like time is moving strangely during this semester?
 
@@ -204,6 +204,8 @@ Pro Tip: Using tools like [code-server](https://coder.com/docs/code-server/lates
 ## Part G.
 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
+
+**Individual Work (Thomas Knoepffler)**
 
 <mark> For this project, I was inspired by the artwork of Tega Brain, a creative technologist and professor at NYU. Her work deals with topics concerning temporal logic in relation to nature, and finding a way to frustrate modern infrastructures in order to propose a kind of provocation she calls "eclectic engineering," which is a type of design that subverts anthropocentric and capitalistic paradigms and directs us to new ontologies and radical ecologies. Her particular series _Being Radiotropic (2016)_ and piece _Ecological Time_ both showcase this speculative interpretation of time being interfaced by other organisms or entities otuside of ourselves, and both ecapsulated in object form. </mark>
 

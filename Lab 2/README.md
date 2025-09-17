@@ -215,7 +215,7 @@ Pro Tip: Using tools like [code-server](https://coder.com/docs/code-server/lates
 
 <mark> _**Image Source:** Tega Brain, Ecological Time._ </mark>
 
-<mark> I started off this lab by first undergoing two different ideas for a kind of time keeping device; One that tracks the time in relation to the migratory patterns of birds and another that tracks the discrete timeframes between each subway stop on the F line. The ideation sketches are seen as follows. </mark>
+<mark> I started this lab by first sketching two different ideas for time keeping devices; One that tracks the time in relation to the migratory patterns of birds and another that tracks the discrete timeframes between each subway stop on the F line. The ideation sketches are seen below. </mark>
 
 ![Brainstorm 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Brainstorm_1.jpg)
 ![Brainstorm 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Brainstorm_2.jpg)

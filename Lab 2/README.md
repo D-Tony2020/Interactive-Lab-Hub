@@ -1,6 +1,6 @@
 # Interactive Prototyping: The Clock of Pi
 
-**Collaborators:** Dean Xu (hx332)
+**Collaborators:** Thomas Knoepffler, Carrie Wang, Xiaocheng Li, Dean Xu, Julia Chen
 
 ---
 

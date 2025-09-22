@@ -1,6 +1,6 @@
 # Interactive Prototyping: The Clock of Pi
 
-\*\***Thomas Knoepffler, Carrie Wang, Xiaocheng Li, Dean Xu, Julia Chen**\*\*
+\*\***Thomas Knoepffler, Carrie Wang, Xiaocheng Li Julia Chen, DFD**\*\*
 
 Does it feel like time is moving strangely during this semester?
 
@@ -230,6 +230,8 @@ Pro Tip: Using tools like [code-server](https://coder.com/docs/code-server/lates
 
 # Lab 2 Part 2
 
+**Group Work (Thomas Knoepffler, Carrie Wang, Xiaocheng Li Julia Chen)**
+
 ## Assignment that was formerly Lab 2 Part E.
 
 ### Modify the barebones clock to make it your own
@@ -244,11 +246,46 @@ Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www
 
 \*\*\***A copy of your code should be in your Lab 2 Github repo.**\*\*\*
 
+<mark> For the next part of this lab, our team came together to conceptualize a kind of clock that we could collectively work on. We came together with our initial ideas and deliberated on common themes that resonated with eachother. We decided to go with an idea we were ideating upon in last semester's Design for Phsyical Interaction class in Ithaca, an alarm clock that pours water on the user's head when it is time to wake up. The device would be a playful frustration for user's morning routine, adding a comedic schadenfreude to begrudgingness that is present in most traditional alarm clocks.  </mark> 
+
+![Storyboard 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Storyboard_1.jpg)
+
+<mark> We utilized both the MiniPiTFTF to display a short 10 second count down followed by a "WAKE UP!!!" message on the screen, and a small Stepper Motor that would hold a cup of water and pour it at the end of the countdown. This required a careful consideration of we might use multi-threading functions so as to not overlap protocols with one another, but still alow the user to have various controls. We also needed to change our initial pin setup, eventually using a pin extender add-on that would let us use shared pins. A 3D printed platform was made to hold the electronics assembly and a cardboard enclosure was created to house the wires. The clock was then decorated with office decor to make more appropriate for a domestic setting. </mark>
+
+![Assembly 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Assembly_1.jpg)
+![Assembly 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Assembly_2.jpg)
+![Assembly 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Assembly_3.jpg)
+![Assembly 4](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Assembly_4.jpg)
+![Assembly 5](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Assembly_5.jpg)
+![Assembly 6](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Assembly_6.jpg)
+
+<mark> The device was situated to hang over a shelf or other elevation above a bed. The deomstration showed that the device worked in concept, although considering the anticipation and depending on the sleeping position, the moment of waterfall can be...unexpected. </mark>
+
+![Internals 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Internals_1.jpg)
+![Internals 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Internals_2.jpg)
+![Internals 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Internals_3.jpg)
+![View 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/View_1.jpg)
+![View 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/View_2.jpg)
+![View 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/View_3.jpg)
+
 ## Assignment that was formerly Part F.
 
 ## Make a short video of your modified barebones PiClock
 
 \*\*\***Take a video of your PiClock.**\*\*\*
+
+<mark> Our code can be found at [water_alarm_clock.py](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/water_alarm_clock.py) </mark>
+
+<mark> _**AI Usage:** Utilized assistance from ChatGPT for the writing of code._ </mark>
+
+<mark> _**Pros:** The code was very quick to generate and was pretty adaptive to the broader context of the task. ChatGPT is very adept at remembering context for extended converations and can call-back to various instances to revise earleir versions of the genrerated code, which was ideal for building upon both the Stepper Motor and the MiniPiTFT functionality._ </mark>
+
+<mark> _**Cons:** Often times, ChatGPT can often get stuck in a suggestion loop (i.e., suggesting code changes that already have been proposed but have no effect). The biggest limitation was the fact that it is very myopic when it comes to hardware issues. After deugging the code extensivley, we found the main issue to be hardware related (e.g., a change in wire setup) which was something that ChatGPT could not pick up on._ </mark>
+
+
+- <mark> Watch the Clock View 1 here: [Clock 1 Video Link](https://drive.google.com/file/d/10chgjFNB8tFSNr2_Ddpjtch2ASdxsr6L/view?usp=sharing) </mark>
+
+- <mark> Watch the Clock View 2 here: [Clock 2 Video Link](https://drive.google.com/file/d/14ocHxTv_eLegoDM1LgB9Ggoroa1MLGL-/view?usp=sharing) </mark>
 
 After you edit and work on the scripts for Lab 2, the files should be upload back to your own GitHub repo! You can push to your personal github repo by adding the files here, commiting and pushing.
 
@@ -265,5 +302,12 @@ After that, Git will ask you to login to your GitHub account to push the updates
 Modify the code from last week's lab to make a new visual interface for your new clock. You may [extend the Pi](Extending%20the%20Pi.md) by adding sensors or buttons, but this is not required.
 
 As always, make sure you document contributions and ideas from others explicitly in your writeup.
+
+<mark> One other work that inspired us for this lab was the wearable art of Kathleen McDermott. Specifically Urban Armor #9, a harness that slaps the wearers face at 5:00pm to signal the end of the work day. Our work hopes to explore a similar design space, namley a satirical play on human interfacing objects and their relationship to ourselves and time. </mark>
+
+![Inspiration 4](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Proccess/Inspiration_4.jpg)
+<mark> _**Image Source:** Kathleen McDermott, Urban Armor #9 (2019)._ </mark>
+
+<mark> Collaborators: Thomas Knoepffler (Hardware & Assembly), Carrie Wang (Storyboards & Editor), Xiaocheng Li (3D Modeling), Julia Chen (Developer & Debugger) </mark>
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page.

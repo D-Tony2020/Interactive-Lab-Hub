@@ -132,4 +132,5 @@ while True:
 ---
 
 ## Part G.
+Individual Work (Dean Xu)
 <img width="1079" height="1527" alt="image" src="https://github.com/user-attachments/assets/f54b7821-8697-464c-9edb-e37d32bde717" />

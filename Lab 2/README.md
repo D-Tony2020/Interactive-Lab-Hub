@@ -1,6 +1,6 @@
 # Interactive Prototyping: The Clock of Pi
 
-**NAMES OF COLLABORATORS HERE**
+\*\***Thomas Knoepffler, Carrie Wang, Xiaocheng Li, Dean Xu, Julia Chen**\*\*
 
 Does it feel like time is moving strangely during this semester?
 
@@ -204,6 +204,20 @@ Pro Tip: Using tools like [code-server](https://coder.com/docs/code-server/lates
 ## Part G.
 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
+
+**Individual Work (Thomas Knoepffler)**
+
+<mark> For this project, I was inspired by the artwork of Tega Brain, a creative technologist and professor at NYU. Her work deals with topics concerning temporal logic in relation to nature, and finding a way to frustrate modern infrastructures in order to propose a kind of provocation she calls "eclectic engineering," which is a type of design that subverts anthropocentric and capitalistic paradigms and directs us to new ontologies and radical ecologies. Her particular series _Being Radiotropic (2016)_ and piece _Ecological Time_ both showcase this speculative interpretation of time being interfaced by other organisms or entities otuside of ourselves, and both ecapsulated in object form. </mark>
+
+![Inspiration 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Proccess/Inspiration_1.jpg)
+![Inspiration 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Proccess/Inspiration_2.jpg)
+<mark> _**Image Source:** Tega Brain, Being Radiotropic (2016)._ </mark>
+
+![Inspiration 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Proccess/Inspiration_3.jpg)
+
+<mark> _**Image Source:** Tega Brain, Ecological Time._ </mark>
+
+<mark> I started this lab by first sketching two different ideas for time keeping devices; One that tracks the time in relation to the migratory patterns of birds and another that tracks the discrete timeframes between each subway stop on the F line. The ideation sketches are seen below. </mark>
 
 ![Brainstorm 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Brainstorm_1.jpg)
 ![Brainstorm 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Brainstorm_2.jpg)

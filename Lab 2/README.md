@@ -334,3 +334,7 @@ As always, make sure you document contributions and ideas from others explicitly
 <mark> Collaborators: Thomas Knoepffler (Hardware & Assembly), Carrie Wang (Storyboards & Editor), Xiaocheng Li (3D Modeling), Julia Chen (Developer & Debugger), Dean Xu (AI Artist) </mark>
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page.
+
+- <mark> Watch the Behind the Scenes Video 1 here: [Behind the Scenes 1 Video Link](https://drive.google.com/file/d/1b21GkXEWpixatx5N_U9vCuk-lmLI_eCU/view?usp=sharing) </mark>
+
+- <mark> Watch the Behind the Scenes Video 2 here: [Behind the Scenes 2 Video Link](https://drive.google.com/file/d/1LTpdXPyYD4rvL5D3Sy68XP0bnh-fDJyK/view?usp=sharing) </mark>

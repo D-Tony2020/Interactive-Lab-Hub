@@ -230,8 +230,6 @@ Pro Tip: Using tools like [code-server](https://coder.com/docs/code-server/lates
 
 # Lab 2 Part 2
 
-**Group Work (Thomas Knoepffler, Carrie Wang, Xiaocheng Li Julia Chen, Dean Xu)**
-
 ## Assignment that was formerly Lab 2 Part E.
 
 ### Modify the barebones clock to make it your own
@@ -245,6 +243,8 @@ Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www
 **We strongly discourage and will reject the results of literal digital or analog clock display.**
 
 \*\*\***A copy of your code should be in your Lab 2 Github repo.**\*\*\*
+
+**Group Work (Thomas Knoepffler, Carrie Wang, Xiaocheng Li Julia Chen, Dean Xu)**
 
 <mark> For the next part of this lab, our team came together to conceptualize a kind of clock that we could collectively work on. We came together with our initial ideas and deliberated on common themes that resonated with eachother. We decided to go with an idea we were ideating upon in last semester's Design for Phsyical Interaction class in Ithaca, an alarm clock that pours water on the user's head when it is time to wake up. The device would be a playful frustration for user's morning routine, adding a comedic schadenfreude to begrudgingness that is present in most traditional alarm clocks.  </mark> 
 
@@ -261,7 +261,7 @@ Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www
 <mark> _**Original Prompt:** "Please design product renderings for a water-based alarm clock. The alarm clock's base should be a clear water tank with a digital time display. The robotic arm of the alarm clock should have a nozzle at its end, capable of extending over the bed to aim at a sleeping person's face. Ensure the bedside table is flush with the bed, and a plant is placed on the bedside table. For the second consecutive story image, please show the alarm clock display reading 'Wake Up' with a water droplet icon, while the nozzle gently mists a small amount of water onto a naturally waking person with slightly opened eyes."_ </mark>
 
 
-<mark> We utilized both the MiniPiTFTF to display a short 10 second count down followed by a "WAKE UP!!!" message on the screen, and a small Stepper Motor that would hold a cup of water and pour it at the end of the countdown. This required a careful consideration of we might use multi-threading functions so as to not overlap protocols with one another, but still alow the user to have various controls. We also needed to change our initial pin setup, eventually using a pin extender add-on that would let us use shared pins. A 3D printed platform was made to hold the electronics assembly and a cardboard enclosure was created to house the wires. The clock was then decorated with office decor to make more appropriate for a domestic setting. </mark>
+<mark> We utilized both the MiniPiTFT to display a short 10 second count down followed by a "WAKE UP!!!" message on the screen, and a small Stepper Motor that would hold a cup of water and pour it at the end of the countdown. This required a careful consideration of we might use multi-threading functions so as to not overlap protocols with one another, but still alow the user to have various controls. We also needed to change our initial pin setup, eventually using a pin extender add-on that would let us use shared pins. A 3D printed platform was made to hold the electronics assembly and a cardboard enclosure was created to house the wires. The clock was then decorated with office decor to make more appropriate for a domestic setting. </mark>
 
 <p align="center">
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Assembly_1.jpg" alt="Assembly 1" width="333"/>
@@ -303,10 +303,13 @@ Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www
 
 <mark> _**Cons:** Often times, ChatGPT can often get stuck in a suggestion loop (i.e., suggesting code changes that already have been proposed but have no effect). The biggest limitation was the fact that it is very myopic when it comes to hardware issues. After deugging the code extensivley, we found the main issue to be hardware related (e.g., a change in wire setup) which was something that ChatGPT could not pick up on._ </mark>
 
+### <mark> Clock Demonstration Videos </mark>
 
-- <mark> Watch the Clock View 1 here: [Clock 1 Video Link](https://drive.google.com/file/d/10chgjFNB8tFSNr2_Ddpjtch2ASdxsr6L/view?usp=sharing) </mark>
+- <mark> Watch the Edited Clock Demo here: [Clock Demo Video Link](https://drive.google.com/file/d/1GaLF-cMeAsRe4Ozz_S4jAlc_2EeO_2xp/view?usp=sharing) </mark>
 
-- <mark> Watch the Clock View 2 here: [Clock 2 Video Link](https://drive.google.com/file/d/14ocHxTv_eLegoDM1LgB9Ggoroa1MLGL-/view?usp=sharing) </mark>
+- <mark> Watch the Unedited Clock Video 1 here: [Clock Unedited 1 Video Link](https://drive.google.com/file/d/10chgjFNB8tFSNr2_Ddpjtch2ASdxsr6L/view?usp=sharing) </mark>
+
+- <mark> Watch the Unedited Clock Video 2 here: [Clock Unedited 2 Video Link](https://drive.google.com/file/d/14ocHxTv_eLegoDM1LgB9Ggoroa1MLGL-/view?usp=sharing) </mark>
 
 After you edit and work on the scripts for Lab 2, the files should be upload back to your own GitHub repo! You can push to your personal github repo by adding the files here, commiting and pushing.
 

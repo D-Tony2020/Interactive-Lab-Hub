@@ -135,6 +135,8 @@ while True:
 Individual Work (Dean Xu)
 <img width="1079" height="1527" alt="image" src="https://github.com/user-attachments/assets/f54b7821-8697-464c-9edb-e37d32bde717" />
 
+Wenzhuo Ma: The 3D effect is very creative and makes the idea stand out. I personally really like how it turns the passing of time into something you can almost touch and see. It’s a simple but striking reminder to value every hour, and the image grows more powerful as the wall slowly empties.
+
 # Lab 2 Part 2
 
 **Group Work (Dean Xu, Thomas Knoepffler, Carrie Wang, Xiaocheng Li Julia Chen)**

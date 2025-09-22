@@ -77,7 +77,7 @@ def draw_text_rotated(text, angle=90, wait_time=1, use_small=False, y_offset=0):
     text_width = bbox[2] - bbox[0]
     text_height = bbox[3] - bbox[1]
     x = (width - text_width) // 2
-    y = (height - text_height) // 2 + y_offset   # 👈 shifted downward
+    y = (height - text_height) // 2 + y_offset
 
     temp_draw.text((x, y), str(text), font=font, fill="white")
 
@@ -100,7 +100,7 @@ def clear_screen():
 # --- Stepper functions ---
 def step_motor(steps, delay=0.001, reverse=False):
     """Step motor forward or reverse."""
-    seq = halfstep_seq[::-1] if reverse else halfstep_seq  # 👈 reverse direction
+    seq = halfstep_seq[::-1] if reverse else halfstep_seq
     for _ in range(steps):
         for halfstep in seq:
             for i, pin in enumerate(control_pins):

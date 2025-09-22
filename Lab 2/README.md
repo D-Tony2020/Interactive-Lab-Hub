@@ -1,6 +1,6 @@
 # Interactive Prototyping: The Clock of Pi
 
-\*\***Thomas Knoepffler, Carrie Wang, Xiaocheng Li Julia Chen, DFD**\*\*
+\*\***Thomas Knoepffler, Carrie Wang, Xiaocheng Li Julia Chen, Dean Xu**\*\*
 
 Does it feel like time is moving strangely during this semester?
 
@@ -230,7 +230,7 @@ Pro Tip: Using tools like [code-server](https://coder.com/docs/code-server/lates
 
 # Lab 2 Part 2
 
-**Group Work (Thomas Knoepffler, Carrie Wang, Xiaocheng Li Julia Chen)**
+**Group Work (Thomas Knoepffler, Carrie Wang, Xiaocheng Li Julia Chen, Dean Xu)**
 
 ## Assignment that was formerly Lab 2 Part E.
 
@@ -249,8 +249,18 @@ Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www
 <mark> For the next part of this lab, our team came together to conceptualize a kind of clock that we could collectively work on. We came together with our initial ideas and deliberated on common themes that resonated with eachother. We decided to go with an idea we were ideating upon in last semester's Design for Phsyical Interaction class in Ithaca, an alarm clock that pours water on the user's head when it is time to wake up. The device would be a playful frustration for user's morning routine, adding a comedic schadenfreude to begrudgingness that is present in most traditional alarm clocks.  </mark> 
 
 ![Storyboard 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Storyboard_1.jpg)
+![Storyboard 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Storyboard_2.jpg)
+
+<mark> _**AI Usage:** Storyboard 7 generated using Google (Gemini). All original artifacts preserved._ </mark>
+
+<mark> _**Original Prompt:** "Please design product renderings for a water-based alarm clock. The alarm clock's base should be a clear water tank with a digital time display. The robotic arm of the alarm clock should have a nozzle at its end, capable of extending over the bed to aim at a sleeping person's face. Ensure the bedside table is flush with the bed, and a plant is placed on the bedside table. For the second consecutive story image, please show the alarm clock display reading 'Wake Up' with a water droplet icon, while the nozzle gently mists a small amount of water onto a naturally waking person with slightly opened eyes."_ </mark>
+
 
 <mark> We utilized both the MiniPiTFTF to display a short 10 second count down followed by a "WAKE UP!!!" message on the screen, and a small Stepper Motor that would hold a cup of water and pour it at the end of the countdown. This required a careful consideration of we might use multi-threading functions so as to not overlap protocols with one another, but still alow the user to have various controls. We also needed to change our initial pin setup, eventually using a pin extender add-on that would let us use shared pins. A 3D printed platform was made to hold the electronics assembly and a cardboard enclosure was created to house the wires. The clock was then decorated with office decor to make more appropriate for a domestic setting. </mark>
+
+
+| ![Assembly 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Assembly_1.jpg) | ![Assembly 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Assembly_2.jpg) | ![Assembly 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Assembly_3.jpg) |
+
 
 ![Assembly 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Assembly_1.jpg)
 ![Assembly 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Assembly_2.jpg)
@@ -259,7 +269,7 @@ Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www
 ![Assembly 5](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Assembly_5.jpg)
 ![Assembly 6](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Assembly_6.jpg)
 
-<mark> The device was situated to hang over a shelf or other elevation above a bed. The deomstration showed that the device worked in concept, although considering the anticipation and depending on the sleeping position, the moment of waterfall can be...unexpected. </mark>
+<mark> The device was situated to hang over a shelf or other elevation above a bed. The display showcasing the moment of waterfall. A secondary function had to be incorporated onto the other button on the MiniPiTFTF to adjust the Stepper Motor to be in the correct position. In hindsight, this is a limitation of the Stepper Motor where it cannot be precise in the angle positioning, rather it can only to take a set of steps towards a particular direction. In a future implementation, it would be ideal to use a Servo Motor instead. The demostration showed that the device worked in concept, although considering the anticipation and depending on the sleeping position, the moment of waterfall can be a little...unexpected. </mark>
 
 ![Internals 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Internals_1.jpg)
 ![Internals 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Internals_2.jpg)
@@ -306,8 +316,9 @@ As always, make sure you document contributions and ideas from others explicitly
 <mark> One other work that inspired us for this lab was the wearable art of Kathleen McDermott. Specifically Urban Armor #9, a harness that slaps the wearers face at 5:00pm to signal the end of the work day. Our work hopes to explore a similar design space, namley a satirical play on human interfacing objects and their relationship to ourselves and time. </mark>
 
 ![Inspiration 4](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Proccess/Inspiration_4.jpg)
+
 <mark> _**Image Source:** Kathleen McDermott, Urban Armor #9 (2019)._ </mark>
 
-<mark> Collaborators: Thomas Knoepffler (Hardware & Assembly), Carrie Wang (Storyboards & Editor), Xiaocheng Li (3D Modeling), Julia Chen (Developer & Debugger) </mark>
+<mark> Collaborators: Thomas Knoepffler (Hardware & Assembly), Carrie Wang (Storyboards & Editor), Xiaocheng Li (3D Modeling), Julia Chen (Developer & Debugger), Dean Xu (AI Artist) </mark>
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page.

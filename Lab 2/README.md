@@ -248,9 +248,6 @@ Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www
 
 <mark> For the next part of this lab, our team came together to conceptualize a kind of clock that we could collectively work on. We came together with our initial ideas and deliberated on common themes that resonated with eachother. We decided to go with an idea we were ideating upon in last semester's Design for Phsyical Interaction class in Ithaca, an alarm clock that pours water on the user's head when it is time to wake up. The device would be a playful frustration for user's morning routine, adding a comedic schadenfreude to begrudgingness that is present in most traditional alarm clocks.  </mark> 
 
-![Storyboard 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Storyboard_1.jpg)
-![Storyboard 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Storyboard_2.jpg)
-
 <p align="center">
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Storyboard_2.jpg" alt="Storyboard 2" width="500"/>
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Storyboard_3.jpg" alt="Storyboard 3" width="500"/>
@@ -270,18 +267,22 @@ Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Assembly_3.jpg" alt="Assembly 3" width="333"/>
 </p>
 
-![Assembly 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Assembly_1.jpg)
-![Assembly 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Assembly_2.jpg)
-![Assembly 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Assembly_3.jpg)
-![Assembly 4](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Assembly_4.jpg)
-![Assembly 5](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Assembly_5.jpg)
-![Assembly 6](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Assembly_6.jpg)
+<p align="center">
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Assembly_4.jpg" alt="Assembly 1" width="333"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Assembly_5.jpg" alt="Assembly 2" width="333"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Assembly_6.jpg" alt="Assembly 3" width="333"/>
+</p>
+
 
 <mark> The device was situated to hang over a shelf or other elevation above a bed. The display showcasing the moment of waterfall. A secondary function had to be incorporated onto the other button on the MiniPiTFTF to adjust the Stepper Motor to be in the correct position. In hindsight, this is a limitation of the Stepper Motor where it cannot be precise in the angle positioning, rather it can only to take a set of steps towards a particular direction. In a future implementation, it would be ideal to use a Servo Motor instead. The demostration showed that the device worked in concept, although considering the anticipation and depending on the sleeping position, the moment of waterfall can be a little...unexpected. </mark>
 
-![Internals 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Internals_1.jpg)
-![Internals 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Internals_2.jpg)
-![Internals 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Internals_3.jpg)
+
+<p align="center">
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Internals_1.jpg" alt="Internals 1" width="333"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Internals_2.jpg" alt="Internals 2" width="333"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Internals_3.jpg" alt="Internals 3" width="333"/>
+</p>
+
 ![View 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/View_1.jpg)
 ![View 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/View_2.jpg)
 ![View 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/View_3.jpg)

@@ -252,8 +252,8 @@ Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www
 ![Storyboard 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Storyboard_2.jpg)
 
 <p align="center">
-  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Storyboard_2.jpg" alt="Storyboard 2" width="300"/>
-  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Storyboard_3.jpg" alt="Storyboard 3" width="300"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Storyboard_2.jpg" alt="Storyboard 2" width="500"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Storyboard_3.jpg" alt="Storyboard 3" width="500"/>
 </p>
 
 
@@ -263,6 +263,12 @@ Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www
 
 
 <mark> We utilized both the MiniPiTFTF to display a short 10 second count down followed by a "WAKE UP!!!" message on the screen, and a small Stepper Motor that would hold a cup of water and pour it at the end of the countdown. This required a careful consideration of we might use multi-threading functions so as to not overlap protocols with one another, but still alow the user to have various controls. We also needed to change our initial pin setup, eventually using a pin extender add-on that would let us use shared pins. A 3D printed platform was made to hold the electronics assembly and a cardboard enclosure was created to house the wires. The clock was then decorated with office decor to make more appropriate for a domestic setting. </mark>
+
+<p align="center">
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Assembly_1.jpg" alt="Assembly 1" width="333"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Assembly_2.jpg" alt="Assembly 2" width="333"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Assembly_3.jpg" alt="Assembly 3" width="333"/>
+</p>
 
 ![Assembly 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Assembly_1.jpg)
 ![Assembly 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Assembly_2.jpg)

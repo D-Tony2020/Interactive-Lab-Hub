@@ -4,7 +4,7 @@ from PIL import Image, ImageDraw, ImageFont
 from adafruit_rgb_display import st7789
 
 # ==== 显示屏硬件配置 (你要确认 CS/DC 脚位是否一致) ====
-cs_pin = digitalio.DigitalInOut(board.CE0)   # 推荐屏幕 CS 接 CE0 (GPIO8, Pin24)
+cs_pin = None   # 推荐屏幕 CS 接 CE0 (GPIO8, Pin24)
 dc_pin = digitalio.DigitalInOut(board.D25)   # DC 脚请按接线调整
 reset_pin = None
 BAUDRATE = 64000000
@@ -36,10 +36,17 @@ draw.rectangle((0, 0, width, height), outline=0, fill=(0, 0, 0))
 font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 32)
 
 # ==== 写字 ====
-text = "LOVE YOU"
-text_x = 10
-text_y = height // 3
-draw.text((text_x, text_y), text, font=font, fill="#FF69B4")  # 粉色
-
+text1 = "LOVE YOU"
+text2 = "MOM"
+bbox1 = draw.textbbox((0, 0), text1, font=font)
+w1, h1 = bbox1[2] - bbox1[0], bbox1[3] - bbox1[1]
+bbox2 = draw.textbbox((0, 0), text2, font=font)
+w2, h2 = bbox2[2] - bbox2[0], bbox2[3] - bbox2[1]
+x1 = (width - w1) // 2
+y1 = height // 3
+draw.text((x1, y1), text1, font=font, fill="#FF69B4")
+x2 = (width - w2) // 2
+y2 = y1 + h1 + 10
+draw.text((x2, y2), text2, font=font, fill="#00BFFF")
 # ==== 显示到屏幕 ====
 disp.image(image, 90)

@@ -259,11 +259,11 @@ Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www
 
 <mark> _**Original Prompt:** "Please design product renderings for a water-based alarm clock. The alarm clock's base should be a clear water tank with a digital time display. The robotic arm of the alarm clock should have a nozzle at its end, capable of extending over the bed to aim at a sleeping person's face. Ensure the bedside table is flush with the bed, and a plant is placed on the bedside table. For the second consecutive story image, please show the alarm clock display reading 'Wake Up' with a water droplet icon, while the nozzle gently mists a small amount of water onto a naturally waking person with slightly opened eyes."_ </mark>
 
-![Process 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Proccess/Process_1.jpg)
-
-![Process 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Proccess/Process_2.jpg)
-
-![Process 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Proccess/Process_3.jpg)
+<p align="center">
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Proccess/Process_1.jpg" alt="Process 1" width="333"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Proccess/Process_2.jpg" alt="Process 2" width="333"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Proccess/Process_3.jpg" alt="Process 3" width="333"/>
+</p>
 
 <mark> We utilized both the MiniPiTFT to display a short 10 second count down followed by a "WAKE UP!!!" message on the screen, and a small Stepper Motor that would hold a cup of water and pour it at the end of the countdown. This required a careful use of the multi-threading functions so as to not overlap protocols with one another, but still allow the user to have various controls. We also needed to change our initial pin setup, eventually using a pin extender add-on that would let us use shared pins. A 3D printed platform was made to hold the electronics assembly and a cardboard enclosure was created to house the wires. The clock was then decorated with office decor to make more appropriate for a domestic setting. </mark>
 

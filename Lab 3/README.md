@@ -133,8 +133,6 @@ echo 'This sentence is spoken first. This sentence is synthesized while the firs
 \*\***Write your own shell file to use your favorite of these TTS engines to have your Pi greet you by name.**\*\*
 (This shell file should be saved to your own repo for this lab.)
 
-<mark> \*\*_your documentation here_\*\* </mark>
-
 <details>
   <summary><strong>Speech to Text</strong></summary>
 
@@ -191,8 +189,6 @@ python faster_whisper_try.py
 </details>
 
 \*\***Write your own shell file that verbally asks for a numerical based input (such as a phone number, zipcode, number of pets, etc) and records the answer the respondent provides.**\*\*
-
-<mark> \*\*_your documentation here_\*\* </mark>
 
 <details>
   <summary><strong>NEW: AI-Powered Conversations with Ollama</strong></summary>
@@ -271,8 +267,6 @@ answer = ask_ai("How should I greet users?")
 </details>
 
 \*\***Try creating a simple voice interaction that combines speech recognition, Ollama processing, and text-to-speech output. Document what you built and how users responded to it.**\*\*
-
-<mark> \*\*_your documentation here_\*\* </mark>
 
 <details>
   <summary><strong>Serving Pages</strong></summary>

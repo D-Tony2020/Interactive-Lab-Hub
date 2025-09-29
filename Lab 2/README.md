@@ -1,6 +1,6 @@
 # Interactive Prototyping: The Clock of Pi
 
-\*\***Thomas Knoepffler, Carrie Wang, Xiaocheng Li Julia Chen, Dean Xu**\*\*
+<mark> **Collaborators: Thomas Knoepffler, Carrie Wang, Xiaocheng Li Julia Chen, Dean Xu** </mark>
 
 Does it feel like time is moving strangely during this semester?
 

@@ -133,6 +133,9 @@ echo 'This sentence is spoken first. This sentence is synthesized while the firs
 \*\***Write your own shell file to use your favorite of these TTS engines to have your Pi greet you by name.**\*\*
 (This shell file should be saved to your own repo for this lab.)
 
+<mark> Code can be found here [hello_thomas.sh](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/speech-scripts/hello_thomas.sh) </mark>
+
+
 <details>
   <summary><strong>Speech to Text</strong></summary>
 
@@ -189,6 +192,10 @@ python faster_whisper_try.py
 </details>
 
 \*\***Write your own shell file that verbally asks for a numerical based input (such as a phone number, zipcode, number of pets, etc) and records the answer the respondent provides.**\*\*
+
+<mark> Code can be found here [siblings.py](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/speech-scripts/siblings.py) </mark>
+
+<mark> **Discalimer:** The interaction is unpolished. The standard TTS model misrecognizes some numbers and confuses them with other words. There’s a pause between the model asking the question and retrieving the TTS model for the user, causing a delay between the computer asking “how many siblings do you have?” and the user’s response. </mark>
 
 <details>
   <summary><strong>NEW: AI-Powered Conversations with Ollama</strong></summary>

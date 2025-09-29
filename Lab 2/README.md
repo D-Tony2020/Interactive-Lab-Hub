@@ -308,8 +308,8 @@ Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www
 ![Storyboard 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Storyboard_1.jpg)
 
 <p align="center">
-  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Storyboard_2.jpg" alt="Storyboard 2" width="50%"/>
-  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Storyboard_3.jpg" alt="Storyboard 3" width="50%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Storyboard_2.jpg" alt="Storyboard 2" width="49.5%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Storyboard_3.jpg" alt="Storyboard 3" width="49.5%"/>
 </p>
 
 <mark> _**AI Usage:** Realistic storyboard set generated using Google (Gemini). All original artifacts preserved._ </mark>

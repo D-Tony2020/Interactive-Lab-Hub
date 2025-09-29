@@ -299,8 +299,6 @@ Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www
 
 </details>
 
-\*\***A copy of your code should be in your Lab 2 Github repo.**\*\*
-
 <mark> **Group Work (Thomas Knoepffler, Carrie Wang, Xiaocheng Li Julia Chen, Dean Xu)** </mark>
 
 <mark> For the next part of this lab, our team came together to conceptualize a kind of clock that we could collectively work on. We came together with our initial ideas and deliberated on common themes that resonated with eachother. We decided to go with an idea we were ideating upon in last semester's Design for Physical Interaction class in Ithaca, an alarm clock that pours water on the user's head when it is time to wake up. The device would be a playful frustration for user's morning routine, adding a comedic schadenfreude to begrudgingness that is present in most traditional alarm clocks. </mark>
@@ -348,6 +346,8 @@ Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www
 ## Make a short video of your modified barebones PiClock
 
 </details>
+
+\*\***A copy of your code should be in your Lab 2 Github repo.**\*\*
 
 <mark> Our code can be found at [water_alarm_clock.py](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/water_alarm_clock.py) </mark>
 

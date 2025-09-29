@@ -2,6 +2,9 @@
 
 <mark> **Collaborators: Thomas Knoepffler, Carrie Wang, Xiaocheng Li Julia Chen, Dean Xu** </mark>
 
+<details>
+  <summary><strong>Lab Description</strong></summary>
+
 Does it feel like time is moving strangely during this semester?
 
 For our first Pi project, we will pay homage to the [timekeeping devices of old](https://en.wikipedia.org/wiki/History_of_timekeeping_devices) by making simple clocks.
@@ -10,6 +13,11 @@ It is worth spending a little time thinking about how you mark time, and what wo
 
 **Please indicate anyone you collaborated with on this Lab here.**
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design.
+
+</details>
+
+<details>
+  <summary><strong>Prep</strong></summary>
 
 ## Prep
 
@@ -31,6 +39,11 @@ This guide covers how to pull updates without overwriting your completed work, h
 3. ### Prepare your Pi for lab this week
    [Follow these instructions](prep.md) to download and burn the image for your Raspberry Pi before lab Thursday.
 
+</details>
+
+<details>
+  <summary><strong>Overview</strong></summary>
+
 ## Overview
 
 For this assignment, you are going to
@@ -49,11 +62,21 @@ F) [Make a short video of your modified barebones PiClock](#part-f)
 
 G) [Sketch and brainstorm further interactions and features you would like for your clock for Part 2.](#part-g)
 
+</details>
+
+<details>
+  <summary><strong>The Report</strong></summary>
+
 ## The Report
 
 This readme.md page in your own repository should be edited to include the work you have done. You can delete everything but the headers and the sections between the \*\*\***stars**\*\*\*. Write the answers to the questions under the starred sentences. Include any material that explains what you did in this lab hub folder, and link it in the readme.
 
 Labs are due on Mondays. Make sure this page is linked to on your main class hub page.
+
+</details>
+
+<details>
+  <summary><strong>Part A.</strong></summary>
 
 ## Part A.
 
@@ -82,6 +105,11 @@ git config --global user.email "yourNetID@cornell.edu"
 The support for password authentication of GitHub was removed on August 13, 2021. That is, in order to link and sync your own lab-hub repo with your Pi, you will have to set up a "Personal Access Tokens" to act as the password for your GitHub account on your Pi when using git command, such as `git clone` and `git push`.
 
 Following the steps listed [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) from GitHub to set up a token. Depends on your preference, you can set up and select the scopes, or permissions, you would like to grant the token. This token will act as your GitHub password later when you use the terminal on your Pi to sync files with your lab-hub repo.
+
+</details>
+
+<details>
+  <summary><strong>Part B.</strong></summary>
 
 ## Part B.
 
@@ -116,6 +144,11 @@ Install the packages from the requirements.txt and run the example script `cli_c
 
 The terminal should show the time, you can press `ctrl-c` to exit the script.
 If you are unfamiliar with the Python code in `cli_clock.py`, have a look at [this Python refresher](https://hackernoon.com/intermediate-python-refresher-tutorial-project-ideas-and-tips-i28s320p). If you are still concerned, please reach out to the teaching staff!
+
+</details>
+
+<details>
+  <summary><strong>Part C.</strong></summary>
 
 ## Part C.
 
@@ -168,6 +201,11 @@ You can look in `screen_boot_script.py` for how to display text on the screen!
 
 You can look in `image.py` for an example of how to display an image on the screen. Can you make it switch to another image when you push one of the buttons?
 
+</details>
+
+<details>
+  <summary><strong>Part D.</strong></summary>
+
 ## Part D.
 
 ### Set up the Display Clock Demo
@@ -197,6 +235,11 @@ Option 3. A nowadays often preferred method is to use Microsoft [VS code to remo
 
 Pro Tip: Using tools like [code-server](https://coder.com/docs/code-server/latest) you can even setup a VS Code coding environment hosted on your raspberry pi and code through a web browser on your tablet or smartphone!
 
+</details>
+
+<details>
+  <summary><strong>Sketch and brainstorm further interactions and features you would like for your clock for Part 2</strong></summary>
+
 ## Part E. Now moved to Lab2 Part 2.
 
 ## Part F. Now moved to Lab2 Part 2.
@@ -205,7 +248,9 @@ Pro Tip: Using tools like [code-server](https://coder.com/docs/code-server/lates
 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
-**Individual Work (Thomas Knoepffler)**
+<mark> **Individual Work (Thomas Knoepffler)** </mark>
+
+</details>
 
 <mark> For this project, I was inspired by the artwork of Tega Brain, a creative technologist and professor at NYU. Her work deals with topics concerning temporal logic in relation to nature, and finding a way to frustrate modern infrastructures in order to propose a kind of provocation she calls "eclectic engineering," which is a type of design that subverts anthropocentric and capitalistic paradigms and directs us to new ontologies and radical ecologies. Her particular series _Being Radiotropic (2016)_ and piece _Ecological Time_ both showcase this speculative interpretation of time being interfaced by other organisms or entities otuside of ourselves, and both ecapsulated in object form. </mark>
 
@@ -222,11 +267,16 @@ Pro Tip: Using tools like [code-server](https://coder.com/docs/code-server/lates
 ![Brainstorm 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Brainstorm_1.jpg)
 ![Brainstorm 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Brainstorm_2.jpg)
 
+<details>
+  <summary><strong>Prep for Part 2</strong></summary>
+
 # Prep for Part 2
 
 1. Pick up remaining parts for kit on Thursday lab class. Check the updated [parts list inventory](partslist.md) and let the TA know if there is any part missing.
 
 2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
+
+</details>
 
 # Lab 2 Part 2
 

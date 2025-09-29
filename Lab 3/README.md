@@ -292,9 +292,14 @@ From a remote browser on the same network, check to make sure your webserver is 
 
 </details>
 
+<details>
+  <summary><strong>Storyboard</strong></summary>
+
 ### Storyboard
 
 Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stuck? Make a device that talks for dogs. If that is too stupid, find an application that is better than that.)
+
+</details>
 
 \*\***Post your storyboard and diagram here.**\*\*
 
@@ -320,13 +325,18 @@ Write out what you imagine the dialogue to be. Use cards, post-its, or whatever 
 
 <mark> _**Original Prompt:** "Please render the following design sketch into a modern, technologically advanced doorbell device. Create a rendering of the device in a realistic scenario: mounted on a simple wooden or metal doorframe. Below or next to the doorbell, a small camera and microphone indicator should be located. It should include an LED indicator or touch panel. A virtual "venomous AI response" represented by a speech waveform or text bubble may be included to hint at its functionality. The overall design should be clear, modern, and representative of the product."_ </mark>
 
+<details>
+  <summary><strong>Acting out the dialogue</strong></summary>
+
 ### Acting out the dialogue
 
 Find a partner, and _without sharing the script with your partner_ try out the dialogue you've designed, where you (as the device designer) act as the device you are designing. Please record this interaction (for example, using Zoom's record feature).
 
+</details>
+
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
 
-- <mark> Watch Acting Out Dialogue (CRINGE WARNING): [Acting Dialogue Video Link](https://drive.google.com/file/d/1iuCn_zKxMuMryWU6V35-9RvXqLwkYUdT/view?usp=sharing) </mark>
+- <mark> Watch Acting Out Dialogue (CRINGE WARNING!!!): [Acting Dialogue Video Link](https://drive.google.com/file/d/1iuCn_zKxMuMryWU6V35-9RvXqLwkYUdT/view?usp=sharing) </mark>
 
 <mark>The acted-out dialogue was a perfect example of learning by failure. I originally thought that the dialogue would feel a little bit funny or absurd, having a doorbell talk back to the user after it has been rung. However, as demonstrated by this dramatized reenactment of the tests, the interaction turned out to be rather awkward and clumsy. The users had no idea how to react to a belligerent doorbell, and trying to come up with quippy dialogue for the doorbell without having any context or any computer vision would be very difficult, without making any assumptions. So, considering these insights, it would be best to refactor the doorbell and implement other techniques to make the interaction slightly smoother while still maintaining the absurdity of the situation. Maybe incorporating a more robotic voice and changing the cadence to be more procedural rather than expressive so as to put the user in a different kind of context (i.e., knowing they are interacting with a machine rather than a human).</mark>
 

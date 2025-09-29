@@ -349,8 +349,6 @@ Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www
 
 </details>
 
-\*\***Take a video of your PiClock.**\*\*
-
 <mark> Our code can be found at [water_alarm_clock.py](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/water_alarm_clock.py) </mark>
 
 <mark> _**AI Usage:** Utilized assistance from ChatGPT for the writing of code._ </mark>
@@ -358,6 +356,8 @@ Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www
 <mark> _**Pros:** The code was very quick to generate and was pretty adaptive to the broader context of the task. ChatGPT is very adept at remembering context for extended converations and can call-back to various instances to revise earleir versions of the genrerated code, which was ideal for building upon both the Stepper Motor and the MiniPiTFT functionality._ </mark>
 
 <mark> _**Cons:** Often times, ChatGPT can often get stuck in a suggestion loop (i.e., suggesting code changes that already have been proposed but have no effect). The biggest limitation was the fact that it is very myopic when it comes to hardware issues. After deugging the code extensivley, we found the main issue to be hardware related (e.g., a change in wire setup) which was something that ChatGPT could not pick up on._ </mark>
+
+\*\***Take a video of your PiClock.**\*\*
 
 ### <mark> Clock Demonstration Videos </mark>
 

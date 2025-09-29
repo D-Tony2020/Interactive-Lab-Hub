@@ -113,7 +113,6 @@ The interactive device can be anything _except_ a computer, a tablet computer or
 - <mark> **Players:** Cafe customers </mark>
 - <mark> **Activity:** Miscellaneous / Consuming cafe food </mark>
 - <mark> **Goals:** To match people having same food likings. </mark>
-  ***
 
 ### <mark> Interaction Scenario 3 </mark>
 
@@ -134,7 +133,7 @@ Storyboards are a tool for visually exploring a users interaction with a device.
 ![Storyboard 6](https://github.com/thomknoe/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Storyboards/Storyboard_6.jpg)
 ![Storyboard 7](https://github.com/thomknoe/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Storyboards/Storyboard_7.jpg)
 
-<mark> _**AI Usage:** Storyboard 7 generated using ChatGPT (Dall-E). All original artifacts preserved._ </mark>
+<mark> _**AI Usage:** Storyboard seven generated using ChatGPT (Dall-E). All original artifacts preserved._ </mark>
 
 <mark> _**Original Prompt:** "My team and I are creating a wearable prototype that lights up whenever it detects someone nearby that has something in common with you...Give me a storyboard of this happening at a music festival and necklace for form of prototype."_ </mark>
 
@@ -315,7 +314,7 @@ Do last week’s assignment again, but this time:
 ![Updated Storyboard 2](https://github.com/thomknoe/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Storyboards/Updated_Storyboard_2.jpg)
 ![Updated Storyboard 3](https://github.com/thomknoe/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Storyboards/Updated_Storyboard_3.jpg)
 
-<mark> _**AI Usage:** AI Storyboards generated using Google Gemini. All original artifacts preserved._ </mark>
+<mark> _**AI Usage:** AI Storyboards refactored and generated using Google Gemini. All original artifacts preserved._ </mark>
 
 ### <mark> Updated Prototyped Interaction Series (Haptic Overlay) </mark>
 

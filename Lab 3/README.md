@@ -340,9 +340,14 @@ Find a partner, and _without sharing the script with your partner_ try out the d
 
 <mark>The acted-out dialogue was a perfect example of learning by failure. I originally thought that the dialogue would feel a little bit funny or absurd, having a doorbell talk back to the user after it has been rung. However, as demonstrated by this dramatized reenactment of the tests, the interaction turned out to be rather awkward and clumsy. The users had no idea how to react to a belligerent doorbell, and trying to come up with quippy dialogue for the doorbell without having any context or any computer vision would be very difficult, without making any assumptions. So, considering these insights, it would be best to refactor the doorbell and implement other techniques to make the interaction slightly smoother while still maintaining the absurdity of the situation. Maybe incorporating a more robotic voice and changing the cadence to be more procedural rather than expressive so as to put the user in a different kind of context (i.e., knowing they are interacting with a machine rather than a human).</mark>
 
+<details>
+  <summary><strong>Wizarding with the Pi (optional)</strong></summary>
+
 ### Wizarding with the Pi (optional)
 
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser. You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
+
+</details>
 
 \*\***Describe if the dialogue seemed different than what you imagined, or when acted out, when it was wizarded, and how.**\*\*
 
@@ -350,11 +355,19 @@ In the [demo directory](./demo), you will find an example Wizard of Oz project. 
 
 For Part 2, you will redesign the interaction with the speech-enabled device using the data collected, as well as feedback from part 1.
 
+<details>
+  <summary><strong>Prep for Part 2</strong></summary>
+
 ## Prep for Part 2
 
 1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
 3. Make a new storyboard, diagram and/or script based on these reflections.
+
+</details>
+
+<details>
+  <summary><strong>Prototype your system</strong></summary>
 
 ## Prototype your system
 
@@ -368,6 +381,8 @@ _Document how the system works_
 
 _Include videos or screencaptures of both the system and the controller._
 
+</details>
+
 <details>
   <summary><strong>Submission Cleanup Reminder (Click to Expand)</strong></summary>
   
@@ -380,13 +395,16 @@ _Include videos or screencaptures of both the system and the controller._
   This helps ensure your README.md is clear professional and uniquely yours!
 </details>
 
+<details>
+  <summary><strong>Test the system</strong></summary>
+
 ## Test the system
 
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 
-Answer the following:
+</details>
 
-### What worked well about the system and what didn't?
+### \*\*What worked well about the system and what didn't?\*\*
 
 \*\*_your answer here_\*\*
 

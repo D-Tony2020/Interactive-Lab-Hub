@@ -103,9 +103,6 @@ Typically, a `.sh` file is a shell script which you can execute in a terminal. T
 
 You can also play audio files directly with `aplay filename`. Try typing `aplay lookdave.wav`.
 
-\*\***Write your own shell file to use your favorite of these TTS engines to have your Pi greet you by name.**\*\*
-(This shell file should be saved to your own repo for this lab.)
-
 ---
 
 Bonus:
@@ -132,6 +129,9 @@ echo 'This sentence is spoken first. This sentence is synthesized while the firs
 ```
 
 </details>
+
+\*\***Write your own shell file to use your favorite of these TTS engines to have your Pi greet you by name.**\*\*
+(This shell file should be saved to your own repo for this lab.)
 
 <details>
   <summary><strong>Speech to Text</strong></summary>

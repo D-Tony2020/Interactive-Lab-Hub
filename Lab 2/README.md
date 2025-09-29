@@ -252,7 +252,7 @@ Pro Tip: Using tools like [code-server](https://coder.com/docs/code-server/lates
 
 </details>
 
-\*\*\***Sketch and brainstorm further interactions and features you would like for your clock for Part 2.**\*\*\*
+\*\***Sketch and brainstorm further interactions and features you would like for your clock for Part 2.**\*\*
 
 <mark> For this project, I was inspired by the artwork of Tega Brain, a creative technologist and professor at NYU. Her work deals with topics concerning temporal logic in relation to nature, and finding a way to frustrate modern infrastructures in order to propose a kind of provocation she calls "eclectic engineering," which is a type of design that subverts anthropocentric and capitalistic paradigms and directs us to new ontologies and radical ecologies. Her particular series _Being Radiotropic (2016)_ and piece _Ecological Time_ both showcase this speculative interpretation of time being interfaced by other organisms or entities otuside of ourselves, and both ecapsulated in object form. </mark>
 
@@ -299,7 +299,7 @@ Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www
 
 </details>
 
-\*\*\***A copy of your code should be in your Lab 2 Github repo.**\*\*\*
+\*\***A copy of your code should be in your Lab 2 Github repo.**\*\*
 
 <mark> **Group Work (Thomas Knoepffler, Carrie Wang, Xiaocheng Li Julia Chen, Dean Xu)** </mark>
 
@@ -308,8 +308,8 @@ Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www
 ![Storyboard 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Storyboard_1.jpg)
 
 <p align="center">
-  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Storyboard_2.jpg" alt="Storyboard 2" width="500"/>
-  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Storyboard_3.jpg" alt="Storyboard 3" width="500"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Storyboard_2.jpg" alt="Storyboard 2" width="50%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Storyboard_3.jpg" alt="Storyboard 3" width="50%"/>
 </p>
 
 <mark> _**AI Usage:** Realistic storyboard set generated using Google (Gemini). All original artifacts preserved._ </mark>
@@ -323,15 +323,15 @@ Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www
 ![Process 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Proccess/Process_3.jpg)
 
 <p align="center">
-  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Assembly_1.jpg" alt="Assembly 1" width="333"/>
-  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Assembly_2.jpg" alt="Assembly 2" width="333"/>
-  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Assembly_3.jpg" alt="Assembly 3" width="333"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Assembly_1.jpg" alt="Assembly 1" width="33%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Assembly_2.jpg" alt="Assembly 2" width="33%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Assembly_3.jpg" alt="Assembly 3" width="33%"/>
 </p>
 
 <p align="center">
-  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Assembly_4.jpg" alt="Assembly 1" width="333"/>
-  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Assembly_5.jpg" alt="Assembly 2" width="333"/>
-  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Assembly_6.jpg" alt="Assembly 3" width="333"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Assembly_4.jpg" alt="Assembly 1" width="33%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Assembly_5.jpg" alt="Assembly 2" width="33%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Assembly_6.jpg" alt="Assembly 3" width="33%"/>
 </p>
 
 <mark> The device was situated to hang over a shelf or other elevation above a bed. A secondary function had to be incorporated onto the other button on the MiniPiTFTF to adjust the Stepper Motor to be in the correct position at the beginning of teh countdown. In hindsight, this is a limitation of the Stepper Motor where it cannot be precise in the angle positioning, rather it can only to take a set of steps towards a particular direction. In a future implementation, it would be ideal to use a Servo Motor instead. The demostration showed that the device worked in concept, although considering the anticipation and depending on the sleeping position, the moment of waterfall can be a little...unexpected. </mark>
@@ -349,7 +349,7 @@ Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www
 
 </details>
 
-\*\*\***Take a video of your PiClock.**\*\*\*
+\*\***Take a video of your PiClock.**\*\*
 
 <mark> Our code can be found at [water_alarm_clock.py](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/water_alarm_clock.py) </mark>
 
@@ -399,9 +399,9 @@ You are permitted (but not required) to work in groups and share a turn in; you 
 <mark> Collaborators: Thomas Knoepffler (Hardware & Assembly), Carrie Wang (Storyboards & Editor), Xiaocheng Li (3D Modeling), Julia Chen (Developer & Debugger), Dean Xu (AI Artist) </mark>
 
 <p align="center">
-  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Internals_1.jpg" alt="Internals 1" width="333"/>
-  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Internals_2.jpg" alt="Internals 2" width="333"/>
-  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Internals_3.jpg" alt="Internals 3" width="333"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Internals_1.jpg" alt="Internals 1" width="33%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Internals_2.jpg" alt="Internals 2" width="33%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Internals_3.jpg" alt="Internals 3" width="33%"/>
 </p>
 
 - <mark> Watch the Behind the Scenes Video 1 here: [Behind the Scenes 1 Video Link](https://drive.google.com/file/d/1b21GkXEWpixatx5N_U9vCuk-lmLI_eCU/view?usp=sharing) </mark>

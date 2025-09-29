@@ -133,6 +133,8 @@ echo 'This sentence is spoken first. This sentence is synthesized while the firs
 \*\***Write your own shell file to use your favorite of these TTS engines to have your Pi greet you by name.**\*\*
 (This shell file should be saved to your own repo for this lab.)
 
+<mark> \*\*_your documentation here_\*\* </mark>
+
 <details>
   <summary><strong>Speech to Text</strong></summary>
 
@@ -189,6 +191,8 @@ python faster_whisper_try.py
 </details>
 
 \*\***Write your own shell file that verbally asks for a numerical based input (such as a phone number, zipcode, number of pets, etc) and records the answer the respondent provides.**\*\*
+
+<mark> \*\*_your documentation here_\*\* </mark>
 
 <details>
   <summary><strong>NEW: AI-Powered Conversations with Ollama</strong></summary>
@@ -267,6 +271,8 @@ answer = ask_ai("How should I greet users?")
 </details>
 
 \*\***Try creating a simple voice interaction that combines speech recognition, Ollama processing, and text-to-speech output. Document what you built and how users responded to it.**\*\*
+
+<mark> \*\*_your documentation here_\*\* </mark>
 
 <details>
   <summary><strong>Serving Pages</strong></summary>
@@ -353,7 +359,12 @@ In the [demo directory](./demo), you will find an example Wizard of Oz project. 
 
 # Lab 3 Part 2
 
+<details>
+  <summary><strong>Description</strong></summary>
+
 For Part 2, you will redesign the interaction with the speech-enabled device using the data collected, as well as feedback from part 1.
+
+</details>
 
 <details>
   <summary><strong>Prep for Part 2</strong></summary>
@@ -384,7 +395,7 @@ _Include videos or screencaptures of both the system and the controller._
 </details>
 
 <details>
-  <summary><strong>Submission Cleanup Reminder (Click to Expand)</strong></summary>
+  <summary><strong>Submission Cleanup Reminder</strong></summary>
   
   **Before submitting your README.md:**
   - This readme.md file has a lot of extra text for guidance.
@@ -406,16 +417,16 @@ Try to get at least two people to interact with your system. (Ideally, you would
 
 ### What worked well about the system and what didn't?
 
-\*\*_your answer here_\*\*
+<mark> \*\*_your answer here_\*\* </mark>
 
 ### What worked well about the controller and what didn't?
 
-\*\*_your answer here_\*\*
+<mark> \*\*_your answer here_\*\* </mark>
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
-\*\*_your answer here_\*\*
+<mark> \*\*_your answer here_\*\* </mark>
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-\*\*_your answer here_\*\*
+<mark> \*\*_your answer here_\*\* </mark>

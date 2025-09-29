@@ -151,9 +151,14 @@ Present your ideas to the other people in your breakout room (or in small groups
 ![Proccess 3](https://github.com/thomknoe/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Process/Process_3.jpg)
 ![Proccess 4](https://github.com/thomknoe/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Process/Process_4.jpg)
 
+<details>
+  <summary><strong>Act out the Interaction</strong></summary>
+
 ## Part B. Act out the Interaction
 
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it.
+
+</details>
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
 
@@ -191,7 +196,7 @@ If you run into technical issues with this tool, you can also use a light switch
 
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record.
 
-<details>
+</details>
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 

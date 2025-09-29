@@ -1,6 +1,9 @@
 # Staging Interaction
 
-<mark> **Thomas Knoepffler, Rajvi Ranjit Patil, Om Kamath, Laura Moreno** </mark>
+<mark> **Collaborators: Thomas Knoepffler, Rajvi Ranjit Patil, Om Kamath, Laura Moren** </mark>
+
+<details>
+  <summary><strong>Lab Description</strong></summary>
 
 In the original stage production of Peter Pan, Tinker Bell was represented by a darting light created by a small handheld mirror off-stage, reflecting a little circle of light from a powerful lamp. Tinkerbell communicates her presence through this light to the other characters. See more info [here](https://en.wikipedia.org/wiki/Tinker_Bell).
 
@@ -9,6 +12,11 @@ There is no actor that plays Tinkerbell--her existence in the play comes from th
 For lab this week, we draw on this and other inspirations from theatre to stage interactions with a device where the main mode of display/output for the interactive device you are designing is lighting. You will plot the interaction with a storyboard, and use your computer and a smartphone to experiment with what the interactions will look and feel like.
 
 _Make sure you read all the instructions and understand the whole of the laboratory activity before starting!_
+
+</details>
+
+<details>
+  <summary><strong>Prep</strong></summary>
 
 ## Prep
 
@@ -40,6 +48,11 @@ _Make sure you read all the instructions and understand the whole of the laborat
 
 This README.md page in your own repository should be edited to include the work you have done (the deliverables mentioned above). Following the format below, you can delete everything but the headers and the sections between the **stars**. Write the answers to the questions under the starred sentences. Include any material that explains what you did in this lab hub folder, and link it in your README.md for the lab.
 
+</details>
+
+<details>
+  <summary><strong>Lab Overview</strong></summary>
+
 ## Lab Overview
 
 For this assignment, you are going to:
@@ -58,6 +71,11 @@ F) [Record the interaction](#part-f-record)
 
 Labs are due on Mondays. Make sure this page is linked to on your main class hub page.
 
+</details>
+
+<details>
+  <summary><strong>Part A. Plan</strong></summary>
+
 ## Part A. Plan
 
 To stage an interaction with your interactive device, think about:
@@ -71,6 +89,8 @@ _Activity:_ What is happening between the actors?
 _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge).
 
 The interactive device can be anything _except_ a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
+
+</details>
 
 \*\***Describe your setting, players, activity and goals here.**\*\*
 
@@ -86,7 +106,6 @@ The interactive device can be anything _except_ a computer, a tablet computer or
 - <mark> **Players:** Runners / Running Enthusiasts </mark>
 - <mark> **Activity:** Marathon Training / Hobby Running </mark>
 - <mark> **Goals:** To match runners training for the same marathon or following the same route </mark>
-  ***
 
 ### <mark> Interaction Scenario 2 </mark>
 
@@ -144,6 +163,9 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 <mark> Perhaps allowing for other forms of feedback so that a user doesn't always have to be looking at the light in order to understand whether or not there is a person nearby that shares similarities. Perhaps also considering different parameters that can be placed within such a device to allow only for a more refined selection of associations rather than whatever it can infer from situational context. </mark>
 
+<details>
+  <summary><strong>Prototype the device</strong></summary>
+
 ## Part C. Prototype the device
 
 You will be using your smartphone as a stand-in for the device you are prototyping. You will use the browser of your smart phone to act as a “light” and use a remote control interface to remotely change the light on that device.
@@ -154,15 +176,22 @@ We invented this tool for this lab!
 
 If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
 
+</details>
+
 \*\***Give us feedback on Tinkerbelle.**\*\*
 
 <mark> The app worked very well for the purposes of this lab. We appreciated the fact that it was able to be hosted on multiple devices from a single server, which means that we could have multiple Tinkerbells at once, which is very useful for our use case since we were having a complementary interactive system (i.e. two wearable devices that were supposedly communicating with one another synchronously). </mark>
 
 <mark> One limitation that somewhat changed our design was the fact that it is difficult to change the hue and the contrast of a color at the same time. This makes it difficult to cycle through different shades of colors, and thus means that we would be limited primarily to either changing the hue continuously or the contrast continuously. Thankfully, for our testing purposes, we only needed to change the contrast of a color as we decided that each color corresponded to one particular connective interaction. </mark>
 
+<details>
+  <summary><strong>Wizard the device</strong></summary>
+
 ## Part D. Wizard the device
 
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record.
+
+<details>
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 
@@ -176,11 +205,16 @@ Now, hange the goal within the same setting, and update the interaction with the
 ![Proccess 6](https://github.com/thomknoe/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Process/Process_6.jpg)
 ![Proccess 7](https://github.com/thomknoe/Interactive-Lab-Hub/blob/Fall2025/Lab%201/Process/Process_7.jpg)
 
+<details>
+  <summary><strong>Costume the device</strong></summary>
+
 ## Part E. Costume the device
 
 Only now should you start worrying about what the device should look like. Develop three costumes so that you can use your phone as this device.
 
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
+
+<details>
 
 \*\***Include sketches of what your devices might look like here.**\*\*
 
@@ -225,15 +259,20 @@ Think about the setting of the device: is the environment a place where the devi
 \*\***Please indicate who you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design.
 
-<mark> Collaborators: Thomas Knoepffler, Rajvi Ranjit Patil, Om Kamath, Laura Moreno </mark>
+<mark> Collaborators: Thomas Knoepffler (Storyboards & Sketches), Rajvi Ranjit Patil (Storyboards & Wizard), Om Kamath (AI Artist & Videographer), Laura Moreno (Sketches) </mark>
 
 # Staging Interaction, Part 2
 
 This describes the second week's work for this lab activity.
 
+<details>
+  <summary><strong>(to be done before Lab on Wednesday)</strong></summary>
+
 ## Prep (to be done before Lab on Wednesday)
 
 You will be assigned three partners from other groups. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear.
+
+</details>
 
 \*\***Summarize feedback from your partners here.**\*\*
 
@@ -250,6 +289,9 @@ You will be assigned three partners from other groups. Go to their github pages,
 
 <mark> _**Original Prompt:** "Take this feedback about a haptic wearable device that lights up when you’re close to someone who shares a characteristic with you, almost like a social device. Clean up these notes and feedback and make them very concise for a summary of feedback [Input Raw Notes]"_ </mark>
 
+<details>
+  <summary><strong>Make it your own</strong></summary>
+
 ## Make it your own
 
 Do last week’s assignment again, but this time:
@@ -257,6 +299,8 @@ Do last week’s assignment again, but this time:
 1. It doesn’t have to (just) use light,
 2. You can use any modality (e.g., vibration, sound) to prototype the behaviors! Again, be creative! Feel free to fork and modify the tinkerbell code!
 3. We will be grading with an emphasis on creativity.
+
+</details>
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
 

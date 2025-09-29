@@ -1,6 +1,6 @@
 # Chatterboxes
 
-\*\***Dean Xu, Thomas Knoepffler, Carrie Wang, Xiaocheng Li Julia Chen**\*\*
+\*\***Dean Xu, Thomas Knoepffler, Carrie Wang, Xiaocheng, Li Julia Chen**\*\*
 
 <details>
   <summary><strong>Lab Description</strong></summary>
@@ -391,4 +391,5 @@ Answer the following:
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
 \*\*_your answer here_\*\*
+
 

@@ -310,6 +310,8 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses.
 
+![Diagram 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Sketches/Diagram.jpg)
+
 \*\***Please describe and document your process.**\*\*
 
 <mark>For this project, we had decided to create a expressive and funny doorbell. The scenario being the user would approach the doorbell, ring it, and by ringing it, would induce the doorbell to a mean, spiteful dialogue against the user, subverting, the assumption that objects associated with an entrance should be welcoming or inviting.</mark>

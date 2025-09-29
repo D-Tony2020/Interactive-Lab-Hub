@@ -1,11 +1,17 @@
 # Chatterboxes
 
-**NAMES OF COLLABORATORS HERE**
+\*\***Thomas Knoepffler, Carrie Wang, Xiaocheng Li Julia Chen, Dean Xu**\*\*
+
+<details>
 [![Watch the video](https://user-images.githubusercontent.com/1128669/135009222-111fe522-e6ba-46ad-b6dc-d1633d21129c.png)](https://www.youtube.com/embed/Q8FWzLMobx0?start=19)
 
 In this lab, we want you to design interaction with a speech-enabled device--something that listens and talks to you. This device can do anything _but_ control lights (since we already did that in Lab 1). First, we want you first to storyboard what you imagine the conversational interaction to be like. Then, you will use wizarding techniques to elicit examples of what people might say, ask, or respond. We then want you to use the examples collected from at least two other people to inform the redesign of the device.
 
 We will focus on **audio** as the main modality for interaction to start; these general techniques can be extended to **video**, **haptics** or other interactive mechanisms in the second part of the Lab.
+
+</details>
+
+<details>
 
 ## Prep for Part 1: Get the Latest Content and Pick up Additional Parts
 
@@ -30,6 +36,8 @@ pi@ixe00:~/Interactive-Lab-Hub $ git push
 ```
 
 Option 2: On your your own GitHub repo, [create pull request](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2022Fall/readings/Submitting%20Labs.md) to get updates from the class Interactive-Lab-Hub. After you have latest updates online, go on your Pi, `cd` to your `Interactive-Lab-Hub` and use `git pull` to get updates from your own GitHub repo.
+
+</details>
 
 ## Part 1.
 
@@ -292,7 +300,7 @@ Find a partner, and _without sharing the script with your partner_ try out the d
 
 - <mark> Watch Acting Out Dialogue (CRINGE WARNING): [Acting Dialogue Video Link](https://drive.google.com/file/d/1iuCn_zKxMuMryWU6V35-9RvXqLwkYUdT/view?usp=sharing) </mark>
 
-<mark>The acted-out dialogue was a perfect example of learning by failure. I originally thought that the dialogue would feel a little bit funny or absurd, having a doorbell talk back to the user after it has been rung. However, as demonstrated by this dramatized reenactment of the tests, the interaction turned out to be rather awkward and clumsy. The users had no idea how to react to a belligerent doorbell, and trying to come up with quippy dialogue for the doorbell without having any context or any computer vision would be very difficult, without making any assumptions. So, considering these insights, it would be best to refactor the doorbell and implement other techniques to make the interaction slightly smoother while still maintaining the absurdity of the situation. Maybe incorporating a more robotic voice and changing the cadence to be more procedural rather than expressive so as to put the user in a different kind of context (i.e., knowing they are interacting with a machine rather than a mediated human).</mark>
+<mark>The acted-out dialogue was a perfect example of learning by failure. I originally thought that the dialogue would feel a little bit funny or absurd, having a doorbell talk back to the user after it has been rung. However, as demonstrated by this dramatized reenactment of the tests, the interaction turned out to be rather awkward and clumsy. The users had no idea how to react to a belligerent doorbell, and trying to come up with quippy dialogue for the doorbell without having any context or any computer vision would be very difficult, without making any assumptions. So, considering these insights, it would be best to refactor the doorbell and implement other techniques to make the interaction slightly smoother while still maintaining the absurdity of the situation. Maybe incorporating a more robotic voice and changing the cadence to be more procedural rather than expressive so as to put the user in a different kind of context (i.e., knowing they are interacting with a machine rather than a human).</mark>
 
 ### Wizarding with the Pi (optional)
 

@@ -133,6 +133,9 @@ echo 'This sentence is spoken first. This sentence is synthesized while the firs
 \*\***Write your own shell file to use your favorite of these TTS engines to have your Pi greet you by name.**\*\*
 (This shell file should be saved to your own repo for this lab.)
 
+<mark> Code can be found here [hello_thomas.py](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/speech-scripts/hello_thomas.sh) </mark>
+
+
 <details>
   <summary><strong>Speech to Text</strong></summary>
 

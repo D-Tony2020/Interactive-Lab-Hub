@@ -248,7 +248,12 @@ Think about the setting of the device: is the environment a place where the devi
 
 <mark> _**Image Source:** Miranda July, Somebody (2014)._ </mark>
 
+<details>
+  <summary><strong>(to be done before Lab on Wednesday)</strong></summary>
+
 ## Part F. Record
+
+</details>
 
 \*\***Take a video of your prototyped interaction.**\*\*
 

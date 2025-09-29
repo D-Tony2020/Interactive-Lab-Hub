@@ -238,7 +238,7 @@ Pro Tip: Using tools like [code-server](https://coder.com/docs/code-server/lates
 </details>
 
 <details>
-  <summary><strong>Sketch and brainstorm further interactions and features you would like for your clock for Part 2</strong></summary>
+  <summary><strong>Part E-G.</strong></summary>
 
 ## Part E. Now moved to Lab2 Part 2.
 
@@ -251,6 +251,8 @@ Pro Tip: Using tools like [code-server](https://coder.com/docs/code-server/lates
 <mark> **Individual Work (Thomas Knoepffler)** </mark>
 
 </details>
+
+\*\*\***Sketch and brainstorm further interactions and features you would like for your clock for Part 2.**\*\*\*
 
 <mark> For this project, I was inspired by the artwork of Tega Brain, a creative technologist and professor at NYU. Her work deals with topics concerning temporal logic in relation to nature, and finding a way to frustrate modern infrastructures in order to propose a kind of provocation she calls "eclectic engineering," which is a type of design that subverts anthropocentric and capitalistic paradigms and directs us to new ontologies and radical ecologies. Her particular series _Being Radiotropic (2016)_ and piece _Ecological Time_ both showcase this speculative interpretation of time being interfaced by other organisms or entities otuside of ourselves, and both ecapsulated in object form. </mark>
 
@@ -280,6 +282,9 @@ Pro Tip: Using tools like [code-server](https://coder.com/docs/code-server/lates
 
 # Lab 2 Part 2
 
+<details>
+  <summary><strong>Assignment that was formerly Lab 2 Part E.</strong></summary>
+
 ## Assignment that was formerly Lab 2 Part E.
 
 ### Modify the barebones clock to make it your own
@@ -292,9 +297,11 @@ Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www
 
 **We strongly discourage and will reject the results of literal digital or analog clock display.**
 
+</details>
+
 \*\*\***A copy of your code should be in your Lab 2 Github repo.**\*\*\*
 
-**Group Work (Thomas Knoepffler, Carrie Wang, Xiaocheng Li Julia Chen, Dean Xu)**
+<mark> **Group Work (Thomas Knoepffler, Carrie Wang, Xiaocheng Li Julia Chen, Dean Xu)** </mark>
 
 <mark> For the next part of this lab, our team came together to conceptualize a kind of clock that we could collectively work on. We came together with our initial ideas and deliberated on common themes that resonated with eachother. We decided to go with an idea we were ideating upon in last semester's Design for Physical Interaction class in Ithaca, an alarm clock that pours water on the user's head when it is time to wake up. The device would be a playful frustration for user's morning routine, adding a comedic schadenfreude to begrudgingness that is present in most traditional alarm clocks. </mark>
 
@@ -333,9 +340,14 @@ Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www
 ![View 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/View_2.jpg)
 ![View 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/View_3.jpg)
 
+<details>
+  <summary><strong>Assignment that was formerly Part F.</strong></summary>
+
 ## Assignment that was formerly Part F.
 
 ## Make a short video of your modified barebones PiClock
+
+</details>
 
 \*\*\***Take a video of your PiClock.**\*\*\*
 
@@ -355,6 +367,9 @@ Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www
 
 - <mark> Watch the Unedited Clock Video 2 here: [Clock Unedited 2 Video Link](https://drive.google.com/file/d/14ocHxTv_eLegoDM1LgB9Ggoroa1MLGL-/view?usp=sharing) </mark>
 
+<details>
+  <summary><strong>Assignment that was formerly Part F. (continued)</strong></summary>
+
 After you edit and work on the scripts for Lab 2, the files should be upload back to your own GitHub repo! You can push to your personal github repo by adding the files here, commiting and pushing.
 
 ```
@@ -371,6 +386,10 @@ Modify the code from last week's lab to make a new visual interface for your new
 
 As always, make sure you document contributions and ideas from others explicitly in your writeup.
 
+You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page.
+
+</details>
+
 <mark> One other work that inspired us for this lab was the wearable art of Kathleen McDermott. Specifically Urban Armor #9, a harness that slaps the wearers face at 5:00pm to signal the end of the work day. Our work hopes to explore a similar design space, namley a satirical play on human interfacing objects and their relationship to ourselves and time. </mark>
 
 ![Inspiration 4](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Proccess/Inspiration_4.jpg)
@@ -378,8 +397,6 @@ As always, make sure you document contributions and ideas from others explicitly
 <mark> _**Image Source:** Kathleen McDermott, Urban Armor #9 (2019)._ </mark>
 
 <mark> Collaborators: Thomas Knoepffler (Hardware & Assembly), Carrie Wang (Storyboards & Editor), Xiaocheng Li (3D Modeling), Julia Chen (Developer & Debugger), Dean Xu (AI Artist) </mark>
-
-You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page.
 
 <p align="center">
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%202/Images/Internals_1.jpg" alt="Internals 1" width="333"/>

@@ -117,9 +117,9 @@ The interactive device can be anything _except_ a computer, a tablet computer or
 
 ### <mark> Interaction Scenario 3 </mark>
 
-- <mark> **Setting:** At the station </mark>
+- <mark> **Setting:** Station </mark>
 - <mark> **Players:** Commuters </mark>
-- <mark> **Activity:** Waiting for the bus/tram/train/metro </mark>
+- <mark> **Activity:** Waiting for the Bus / Tram / Train / Metro </mark>
 - <mark> **Goals:** To match people traveling to the same destination and are from the same organization. </mark>
 
 Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene.

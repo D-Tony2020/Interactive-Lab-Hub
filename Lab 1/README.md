@@ -268,10 +268,10 @@ Be generous in acknowledging their contributions! And also recognizing any other
 
 # Staging Interaction, Part 2
 
-This describes the second week's work for this lab activity.
-
 <details>
   <summary><strong>(to be done before Lab on Wednesday)</strong></summary>
+
+This describes the second week's work for this lab activity.
 
 ## Prep (to be done before Lab on Wednesday)
 

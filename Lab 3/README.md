@@ -1,6 +1,6 @@
 # Chatterboxes
 
-\*\***Thomas Knoepffler, Carrie Wang, Xiaocheng Li Julia Chen, Dean Xu**\*\*
+<mark> **Thomas Knoepffler, Carrie Wang, Xiaocheng Li Julia Chen, Dean Xu** </mark>
 
 <details>
   <summary><strong>Lab Description</strong></summary>

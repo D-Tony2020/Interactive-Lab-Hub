@@ -265,6 +265,8 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 ![Storyboard 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Storyboards/Storyboard_1.jpg)
 ![Storyboard 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Storyboards/Storyboard_2.jpg)
 
+<mark> _**AI Usage:** Second storyboard generated using Google (Gemini). All original artifacts preserved._ </mark>
+
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses.
 
 \*\***Please describe and document your process.**\*\*
@@ -288,9 +290,9 @@ Find a partner, and _without sharing the script with your partner_ try out the d
 
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
 
-- <mark> Watch Acting Out Dialouge (CRINGE WARNING): [Acting Dialouge Video Link](https://drive.google.com/file/d/1iuCn_zKxMuMryWU6V35-9RvXqLwkYUdT/view?usp=sharing) </mark>
+- <mark> Watch Acting Out Dialogue (CRINGE WARNING): [Acting Dialogue Video Link](https://drive.google.com/file/d/1iuCn_zKxMuMryWU6V35-9RvXqLwkYUdT/view?usp=sharing) </mark>
 
-<mark>The acted-out dialogue was a perfect example of learning by failure. I originally thought that the dialogue would feel a little bit funny or absurd, having a doorbell talk back to the user after it has been rung. However, as demonstrated by this dramatized reenactment of the tests, the interaction turned out to be rather awkward and clumsy. The users had no idea how to react to a belligerent doorbell, and trying to come up with quippy dialogue for the doorbell without having any context or any computer vision would be very difficult, without making any assumptions. So, considering these insights, it would be best to refactor the doorbell and implement other techniques to make the interaction slightly smoother while still maintaining the absurdity of the situation. Maybe incorporating a more robotic voice and changing the cadence to be more procedural rather than expressive would be ideal.</mark>
+<mark>The acted-out dialogue was a perfect example of learning by failure. I originally thought that the dialogue would feel a little bit funny or absurd, having a doorbell talk back to the user after it has been rung. However, as demonstrated by this dramatized reenactment of the tests, the interaction turned out to be rather awkward and clumsy. The users had no idea how to react to a belligerent doorbell, and trying to come up with quippy dialogue for the doorbell without having any context or any computer vision would be very difficult, without making any assumptions. So, considering these insights, it would be best to refactor the doorbell and implement other techniques to make the interaction slightly smoother while still maintaining the absurdity of the situation. Maybe incorporating a more robotic voice and changing the cadence to be more procedural rather than expressive so as to put the user in a different kind of context (i.e., knowing they are interacting with a machine rather than a mediated human).</mark>
 
 ### Wizarding with the Pi (optional)
 

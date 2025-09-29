@@ -135,7 +135,6 @@ echo 'This sentence is spoken first. This sentence is synthesized while the firs
 
 <mark> Code can be found here [hello_thomas.sh](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/speech-scripts/hello_thomas.sh) </mark>
 
-
 <details>
   <summary><strong>Speech to Text</strong></summary>
 
@@ -317,7 +316,7 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses.
 
-![Diagram 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Sketches/Diagram.jpg)
+![Diagram 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Sketches/Diagram_1.jpg)
 
 \*\***Please describe and document your process.**\*\*
 

@@ -195,7 +195,7 @@ python faster_whisper_try.py
 
 <mark> Code can be found here [siblings.py](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/speech-scripts/siblings.py) </mark>
 
-<mark> Discalimer: the interaction is a little unpolished, the standard TTS model is not good at recognizing some numbers and confuses them for other words. There is also a bit of a pause between when the model asks the question and retrieving the TTS model so that it could be used by the user so there is a bit of a delay between when the computer asked the question "how many siblings do you have?" and when the user can start speaking. </mark>
+<mark> **Discalimer:** The interaction is unpolished. The standard TTS model misrecognizes some numbers and confuses them with other words. There’s a pause between the model asking the question and retrieving the TTS model for the user, causing a delay between the computer asking “how many siblings do you have?” and the user’s response. </mark>
 
 <details>
   <summary><strong>NEW: AI-Powered Conversations with Ollama</strong></summary>

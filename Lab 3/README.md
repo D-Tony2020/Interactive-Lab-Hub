@@ -133,6 +133,8 @@ echo 'This sentence is spoken first. This sentence is synthesized while the firs
 \*\***Write your own shell file to use your favorite of these TTS engines to have your Pi greet you by name.**\*\*
 (This shell file should be saved to your own repo for this lab.)
 
+Code can be found here: [hi-dean.sh](https://github.com/D-Tony2020/Interactive-Lab-Hub/blob/Fall2025/Lab%203/hi-dean.sh)
+
 <details>
   <summary><strong>Speech to Text</strong></summary>
 
@@ -189,6 +191,8 @@ python faster_whisper_try.py
 </details>
 
 \*\***Write your own shell file that verbally asks for a numerical based input (such as a phone number, zipcode, number of pets, etc) and records the answer the respondent provides.**\*\*
+
+Code can be found here: [pets-survey](https://github.com/D-Tony2020/Interactive-Lab-Hub/blob/Fall2025/Lab%203/pets-survey.sh)
 
 <details>
   <summary><strong>NEW: AI-Powered Conversations with Ollama</strong></summary>
@@ -391,5 +395,6 @@ Answer the following:
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
 \*\*_your answer here_\*\*
+
 
 

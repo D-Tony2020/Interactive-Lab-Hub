@@ -404,7 +404,7 @@ Try to get at least two people to interact with your system. (Ideally, you would
 
 </details>
 
-### \*\*What worked well about the system and what didn't?\*\*
+### What worked well about the system and what didn't?
 
 \*\*_your answer here_\*\*
 

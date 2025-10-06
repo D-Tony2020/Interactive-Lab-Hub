@@ -364,6 +364,8 @@ Find a partner, and _without sharing the script with your partner_ try out the d
 
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
 
+<video src="https://drive.google.com/file/d/1iuCn_zKxMuMryWU6V35-9RvXqLwkYUdT/view?usp=sharing" width="320" height="240" controls></video>
+
 - <mark> Watch Acting Out Dialogue (CRINGE WARNING!!!): [Acting Dialogue Video Link](https://drive.google.com/file/d/1iuCn_zKxMuMryWU6V35-9RvXqLwkYUdT/view?usp=sharing) </mark>
 
 <mark>The acted-out dialogue was a perfect example of learning by failure. We originally thought that the dialogue would feel a little bit funny or absurd, having a doorbell talk back to the user after it has been rung. However, as demonstrated by this dramatized reenactment of the tests, the interaction turned out to be rather awkward and clumsy. The users had no idea how to react to a belligerent doorbell, and trying to come up with quippy dialogue for the doorbell without having any context or any computer vision would be very difficult, without making any assumptions. So, considering these insights, it would be best to refactor the doorbell and implement other techniques to make the interaction slightly smoother while still maintaining the absurdity of the situation. Maybe incorporating a more robotic voice and changing the cadence to be more procedural rather than expressive so as to put the user in a different kind of context (i.e., knowing they are interacting with a machine rather than a human).</mark>

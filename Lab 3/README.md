@@ -421,6 +421,26 @@ Try to get at least two people to interact with your system. (Ideally, you would
 
 </details>
 
+<p align="center">
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Process/Process_1.jpg" alt="Process 1" width="49.5%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Process/Process_2.jpg" alt="Process 2" width="49.5%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Process/Process_3.jpg" alt="Process 3" width="49.5%"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Process/Process_4.jpg" alt="Process 4" width="49.5%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Process/Process_5.jpg" alt="Process 5" width="49.5%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Process/Process_6.jpg" alt="Process 6" width="49.5%"/>
+</p>
+
+### <mark> Test Dialogue </mark>
+
+- <mark> Watch Test Dialogue #1: [Doorbell #1 Video Link](https://drive.google.com/file/d/1Y69Cxp0skwV55OnjJOGuuaDrJjPpXC_Y/view?usp=sharing) </mark>
+
+- <mark> Watch Test Dialogue #2: [Doorbell #2 Video Link](https://drive.google.com/file/d/15nI-p92rAE_d4e8osTV2ABTQFLTecTOJ/view?usp=sharing) </mark>
+
+### <mark> Final Dialogue </mark>
+
 - <mark> Watch Final Doorbell Dialogue: [Final Doorbell Video Link](https://drive.google.com/file/d/1En8NHS5hbooRlVKAHFeSg6Yi1Cz-Yzh2/view?usp=sharing) </mark>
 
 ### What worked well about the system and what didn't?

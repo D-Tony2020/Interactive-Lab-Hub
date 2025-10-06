@@ -523,7 +523,7 @@ Try to get at least two people to interact with your system. (Ideally, you would
 
 ### What worked well about the controller and what didn't?
 
-<mark> </mark>
+<mark> In our case, the controller was OpenAIs ChatGPT. It worked well for our particular use case, but could be expanded upon further, and be prompted to have more detailed instructions as well as more fine tuned hyper parameters. The expressive nature of the responses needed to be adjusted for overtime as some of the initial responses were somewhat convoluted or cliché. It was also important to balance the amount of sarcasm within their responses to too much, and the user would sense a pattern too little and it would not be funny. </mark>
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 

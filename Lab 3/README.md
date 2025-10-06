@@ -340,7 +340,13 @@ Write out what you imagine the dialogue to be. Use cards, post-its, or whatever 
 
 <mark> _**AI Usage:** Realistic renderings generated using Google (Gemini). All original artifacts preserved._ </mark>
 
-<mark> _**Original Prompt:** "Please render the following design sketch into a modern, technologically advanced doorbell device. Create a rendering of the device in a realistic scenario: mounted on a simple wooden or metal doorframe. Below or next to the doorbell, a small camera and microphone indicator should be located. It should include an LED indicator or touch panel. A virtual "venomous AI response" represented by a speech waveform or text bubble may be included to hint at its functionality. The overall design should be clear, modern, and representative of the product."_ </mark>
+<details>
+
+  <summary><mark><strong>Original Prompt(s)</strong></mark></summary>
+
+<mark> _"Please render the following design sketch into a modern, technologically advanced doorbell device. Create a rendering of the device in a realistic scenario: mounted on a simple wooden or metal doorframe. Below or next to the doorbell, a small camera and microphone indicator should be located. It should include an LED indicator or touch panel. A virtual "venomous AI response" represented by a speech waveform or text bubble may be included to hint at its functionality. The overall design should be clear, modern, and representative of the product."_ </mark>
+
+</details>
 
 <details>
   <summary><strong>Acting out the dialogue</strong></summary>
@@ -491,6 +497,8 @@ Try to get at least two people to interact with your system. (Ideally, you would
 ![Image 4](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Images/Image_4.jpg)
 ![Image 5](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Images/Image_5.jpg)
 
+### <mark> Python Code </mark>
+
 <mark> Our code can be found at [mean-doorbell.py](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/speech-scripts/mean-doorbell.py) </mark>
 
 <mark> _**AI Usage:** Utilized assistance from ChatGPT for the writing of code._ </mark>
@@ -511,23 +519,23 @@ Try to get at least two people to interact with your system. (Ideally, you would
 
 ### What worked well about the system and what didn't?
 
-<mark> \*\*_your answer here_\*\* </mark>
+<mark> The system produced dynamic outputs and was able to expressively showcase at least one emotion. However, the system was not able to scale across the subjective emotions and responses, and therefore needed to be explicitly prompted to do so. There was also trouble in creating dynamic conversations as there seem to have been latency in some of the responses and and the conversation seemed to stay surface level in general rather than probing the user. </mark>
 
 ### What worked well about the controller and what didn't?
 
-<mark> \*\*_your answer here_\*\* </mark>
+<mark> </mark>
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
-<mark> \*\*_your answer here_\*\* </mark>
+<mark> well, we spent very little time using Wizard of Oz techniques to prototype in the initial phases, we did try to envision how users might react based off of our acting demo. Even so perhaps it gave us too much of a bias towards seeing the negative of the system, and instead prevented us from engaging with the ideas that we initially had from the ground running. We immediately wanted to try to utilize more autonomous systems, and therefore turn to ChatGPT and open AI as a sort of expressive robot in the loop. Still using an autonomous system requires just as much iteration and fine-tuning to ensure that the interactions that you're hoping to achieve run smoothly. So there isn't really an "end" to the evaluation or design. </mark>
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-<mark> \*\*_your answer here_\*\* </mark>
+<mark> we hope to incorporate some amount of computer vision so that the system can recognize the user in front of them. While the immediate response would be that of reservation, considering that we wouldn't want a aggressivley mean doorbell to be actively hostile to a user and their appearance, our intention is not to explicitly target appearance qualifiers from the user. Rather, we want to be able to investigate facial reactions and other nonverbal cues that might point towards more sophisticated responses from the AI. In this setting, the responses can also be more humorous as they're playing on other faces. The user may not necessarily be privy to. Similar to how a stand-up comedian might also bring up crowd members in a playful way, not in a mocking way. We don't intend on creating a data set from any response data. It's more about seeing where the interaction will go and the qualitative experience that the user has on their end. </mark>
 
 ### <mark> Inspiration </mark>
 
-<mark> Our project was inspired by a long line of art and media projects that seeks to personify and animate inanimate objects. All the numbers examples are numerous the example that we definitely found the most compelling for our used case where the Personality Cores from Portal 2. In the game, they are essentially NPC characters and objects to interact with. They are esentially robotic, spherical gimbals with eyeballs attached to them, and each one is program to exhibit a particular personality and speaks to the play in their own cadence, playing into the game's themes of absurdity and humor. </mark>
+<mark> Our project was inspired by a long line of art and media projects that seeks to personify and animate inanimate objects. All the numbers examples are numerous the example that we found the most compelling were the Personality Cores from Portal 2. They are both NPC characters and objects to interacted with in the game. They are esentially robotic, spherical gimbals with eyeballs attached to them, and each one is program to exhibit a particular personality that speaks to the play in their own cadence, playing into the game's themes of absurdity and humor. </mark>
 
 <mark> Another example that we found very fascinating, was the Apple lamp or ELEGNT (Expressive and Functional Movement Design for Non-Anthropomorphic Robot) which was a recent project that wanted to animate a desktop lamp and incorporate various smart features into it. (Thank you Hauke for this example) </mark>
 

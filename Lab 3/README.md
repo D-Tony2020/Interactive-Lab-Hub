@@ -379,7 +379,7 @@ In the [demo directory](./demo), you will find an example Wizard of Oz project. 
 
 \*\***Describe if the dialogue seemed different than what you imagined, or when acted out, when it was wizarded, and how.**\*\*
 
-- <mark> Watch Prototyped OpenAI Interaction: [OpenAI Interaction Video Link](https://drive.google.com/file/d/1pVRkpdU1npdhJN_5IxCguOnDIQZaxEN1/view?usp=sharing) </mark>
+- <mark> Watch Prototyped OpenAI Interaction: [OpenAI Interaction Video Link](https://drive.google.com/file/d/1MXSPVRNbYrpW-593Qn537qPxQZrCGaUN/view?usp=sharing) </mark>
 
 <mark> The prototyped interaction ran much smoother compared to the acted-out interaction. We managed to run OpenAI models through an API onto the Pi and made use of its extensive library of voices, cadences, and prompts. We decided to shift the tone of the device to mimic the individual who is interacting with it, instead of having an angry machine all the time. The initial instruction parameter was, "You are an emotion-responsive system that listens to transcribed speech from people (text converted from audio), detects emotion, and generates a short, friendly response." We also included various different adjectives so that it could qualify the cadence and speech, including a vector containing the strings ["Enthusiastic", "Indifferent", "Playful", "Sarcastic", "Caring", "Melancholic", "Grumpy", "Mysterious"]. While the interaction ran smoother, it still felt too contrived. The responses also seemed too short, giving the impression that the device was not animated, but rather a responsive chatbot.</mark>
 

@@ -517,11 +517,13 @@ Try to get at least two people to interact with your system. (Ideally, you would
 
 ### <mark> Inspiration </mark>
 
-Our project was inspired by a long line of art and media that seeks to personify and animate inanimate objects. All the numbers examples are numerous the example that we definitely found the most compelling for our used case where the Personality Cores from Portal 2. In the game, they are essentially NPC characters and objects to interact with their robotic gimbals with eyeballs attached to them, and each one program to exhibit, a particular personality playing into the games, theme of absurdity and humor. Another example that we found very fascinating, was the Apple lamp, which was a recent project that saw to animate a desktop lamp and incorporate various smart features into it. (Thank you Hauke for the example!)
+Our project was inspired by a long line of art and media projects that seeks to personify and animate inanimate objects. All the numbers examples are numerous the example that we definitely found the most compelling for our used case where the Personality Cores from Portal 2. In the game, they are essentially NPC characters and objects to interact with. They are esentially robotic, spherical gimbals with eyeballs attached to them, and each one is program to exhibit a particular personality and speaks to the play in their own cadence, playing into the game's themes of absurdity and humor. Another example that we found very fascinating, was the Apple lamp or ELEGNT (Expressive and Functional Movement Design for Non-Anthropomorphic Robot) which was a recent project that wanted to animate a desktop lamp and incorporate various smart features into it. (Thank you Hauke for this example)
 
 ![Inspiration 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Inspiration/Inspiration_1.jpg)
+<mark> _**Image Source:** Valve, Portal 2 (2011)._ </mark>
 
 ![Inspiration 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Inspiration/Inspiration_2.jpg)
+<mark> _**Image Source:** Apple, ELEGNT (2025)._ </mark>
 
 <mark> Collaborators: Thomas Knoepffler (Assembly & Developer), Carrie Wang (Drafter & Diagram Maker), Xiaocheng Li (3D Modeling), Julia Chen (Hardware & Developer), Dean Xu (AI Artist) </mark>
 

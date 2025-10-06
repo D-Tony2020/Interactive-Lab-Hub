@@ -327,7 +327,7 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses.
 
-<mark> We imagine the dialogue happening between a doorway, so we envision the initial actuation pressing a door valve button. But we want to take it further and envision a device that's on the button being reactive and displaying some form of emotion or response to the user, which can be funny as well. If the user continues to engage us with the doorbell object, then they will continue to get a reaction from it, thus entering into a feedback loop of reaction, response, and engagement. </mark>
+<mark> We imagine the dialogue happening between a doorway, so we envision the initial activation being pressing a doorbell button. But we want to take it further and envision a device that is also reactive and displaying some form of emotion or response to the user, which can be funny as well. If the user continues to engage us with the doorbell object, then they will continue to get a reaction from it, thus entering into a feedback loop of reaction, response, and engagement. </mark>
 
 ![Diagram 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Sketches/Diagram_1.jpg)
 

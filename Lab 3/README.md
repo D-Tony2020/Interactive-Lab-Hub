@@ -526,7 +526,7 @@ Try to get at least two people to interact with your system. (Ideally, you would
 
 ### What worked well about the system and what didn't?
 
-<mark> The system produced dynamic outputs and was able to expressively showcase at least one emotion (anger). However, the system was not able to scale across the subjective emotions and responses, and therefore needed to be explicitly prompted to do so. There was also trouble in creating dynamic conversations as there seemed to have been latency in some of the responses, and the conversation seemed to stay surface level in general rather than probing the user. </mark>
+<mark> The system produced dynamic outputs and was able to expressively showcase at least one emotion (i.e., anger). However, the system was not able to scale across the subjective emotions and responses, and therefore needed to be explicitly prompted to do so. There was also trouble in creating dynamic conversations as there seemed to have been latency in some of the responses, and the conversation seemed to stay surface level in general rather than probing the user. </mark>
 
 ### What worked well about the controller and what didn't?
 

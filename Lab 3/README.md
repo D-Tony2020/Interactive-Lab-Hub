@@ -274,8 +274,6 @@ answer = ask_ai("How should I greet users?")
 
 \*\***Try creating a simple voice interaction that combines speech recognition, Ollama processing, and text-to-speech output. Document what you built and how users responded to it.**\*\*
 
-![Test](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Test.jpg)
-
 <details>
   <summary><strong>Serving Pages</strong></summary>
 

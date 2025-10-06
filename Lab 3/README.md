@@ -479,7 +479,7 @@ Try to get at least two people to interact with your system. (Ideally, you would
 <p align="center">
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Process/Process_1.jpg" alt="Process 1" width="33%"/>
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Process/Process_2.jpg" alt="Process 2" width="33%"/>
-  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Process/Process_3.jpg" alt="Process 3" width="33%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Process/Process_7.jpg" alt="Process 7" width="33%"/>
 </p>
 
 <p align="center">

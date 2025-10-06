@@ -424,11 +424,11 @@ Try to get at least two people to interact with your system. (Ideally, you would
 ### <mark> Updated Storyboards </mark>
 
 <p align="center">
-  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Storyboards/Storyboard_3.jpg" alt="Storyboard 3" width="19.8%"/>
-  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Storyboards/Storyboard_4.jpg" alt="Storyboard 4" width="19.8%"/>
-  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Storyboards/Storyboard_5.jpg" alt="Storyboard 5" width="19.8%"/>
-  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Storyboards/Storyboard_6.jpg" alt="Storyboard 6" width="19.8%"/>
-  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Storyboards/Storyboard_7.jpg" alt="Storyboard 7" width="19.8%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Storyboards/Storyboard_3.jpg" alt="Storyboard 3" width="19"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Storyboards/Storyboard_4.jpg" alt="Storyboard 4" width="19"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Storyboards/Storyboard_5.jpg" alt="Storyboard 5" width="19%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Storyboards/Storyboard_6.jpg" alt="Storyboard 6" width="19%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Storyboards/Storyboard_7.jpg" alt="Storyboard 7" width="19%"/>
 </p>
 
 ### <mark> Electronics Assembly </mark>

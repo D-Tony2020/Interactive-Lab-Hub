@@ -455,6 +455,14 @@ Try to get at least two people to interact with your system. (Ideally, you would
 ![Image 4](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Images/Image_4.jpg)
 ![Image 5](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Images/Image_5.jpg)
 
+<mark> Our code can be found at [mean-doorbell.py](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/speech-scripts/mean-doorbell.py) </mark>
+
+<mark> _**AI Usage:** Utilized assistance from ChatGPT for the writing of code._ </mark>
+
+<mark> _**Pros:** We were working together through pair programming for this assignment and began one set of code for one use case and then refactored it for another. ChatGPT was very helpful in summarizing the code from one developer to the other, and was able to refactor and make changes to it very easily without having to understand the finer details of the API implementation or the dependencies used throughout._ </mark>
+
+<mark> _**Cons:** This, however, can also be a con whereby if code is passed on from one developer to the next and there can be multiple layers of abstraction being created when working within a new code base. It could then become highly difficult to determine what code is becoming refactored and which code might also be vital to preserve for updates. It could also lead to more dependencies than need be._ </mark>
+
 ### <mark> Test Dialogue </mark>
 
 - <mark> Watch Test Dialogue #1: [Doorbell #1 Video Link](https://drive.google.com/file/d/1Y69Cxp0skwV55OnjJOGuuaDrJjPpXC_Y/view?usp=sharing) </mark>

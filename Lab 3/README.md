@@ -319,19 +319,21 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 
   <summary><mark><strong>Original Prompt(s)</strong></mark></summary>
 
+  <br>
+
 <mark> _"A minimalist stick figure storyboard, black and white line drawing, comic style: Panel 1 shows a smiling stick figure pressing a doorbell button on a wall with the speaker visible. Panel 2 shows the speaker saying “You brought nothing” as the surprised visitor stands empty-handed. Panel 3 shows the visitor replying “I came with true feelings,” and the doorbell responding “Feelings are cheap, a bottle of wine is better,” with the visitor looking nervous. Panel 4 shows the visitor pleading “Please let me in,” and the doorbell saying “I’ll tell them: someone came with nothing,” as the visitor appears embarrassed. Panel 5 shows the visitor walking away sadly, slumped, while the doorbell says “Finally understood.” Panel 6 shows the visitor walking away in the distance, the lonely doorbell on the wall, with the caption below: “When AI sets cold rules, can humans insist?”"_ </mark>
 
 </details>
 
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses.
 
-<mark> We imagine the dialogue happening between a doorway, so we envision the initial actuation pressing a door valve button. But we want to take it further and envision a device that's on the button being reactive and displaying some form of emotion or response to the user, which can be funny as well. If the user continues to engage us with the doorbell object, then they will continue to get a reaction from it, thus entering into a feedback loop of reaction, response, engagement. </mark>
+<mark> We imagine the dialogue happening between a doorway, so we envision the initial actuation pressing a door valve button. But we want to take it further and envision a device that's on the button being reactive and displaying some form of emotion or response to the user, which can be funny as well. If the user continues to engage us with the doorbell object, then they will continue to get a reaction from it, thus entering into a feedback loop of reaction, response, and engagement. </mark>
 
 ![Diagram 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Sketches/Diagram_1.jpg)
 
 \*\***Please describe and document your process.**\*\*
 
-<mark>For this project, we had decided to create a expressive and funny doorbell. The scenario being the user would approach the doorbell, ring it, and by ringing it, would induce the doorbell to a mean, spiteful dialogue against the user, subverting, the assumption that objects associated with an entrance should be welcoming or inviting.</mark>
+<mark>For this project, we had decided to create an expressive and funny doorbell. The scenario being the user would approach the doorbell, ring it, and by ringing it, would induce the doorbell to have a mean, angry dialogue against the user, subverting the assumption that objects associated with an entrance should be welcoming or inviting.</mark>
 
 <mark>The project is a speculative, experimental piece, more for entertainment purposes but also exploring how AI and LLMs don’t always have to be “user friendly” too, so to speak.</mark>
 
@@ -343,6 +345,8 @@ Write out what you imagine the dialogue to be. Use cards, post-its, or whatever 
 <details>
 
   <summary><mark><strong>Original Prompt(s)</strong></mark></summary>
+
+  <br>
 
 <mark> _"Please render the following design sketch into a modern, technologically advanced doorbell device. Create a rendering of the device in a realistic scenario: mounted on a simple wooden or metal doorframe. Below or next to the doorbell, a small camera and microphone indicator should be located. It should include an LED indicator or touch panel. A virtual "venomous AI response" represented by a speech waveform or text bubble may be included to hint at its functionality. The overall design should be clear, modern, and representative of the product."_ </mark>
 
@@ -376,7 +380,7 @@ In the [demo directory](./demo), you will find an example Wizard of Oz project. 
 
 - <mark> Watch Prototyped OpenAI Interaction: [OpenAI Interaction Video Link](https://drive.google.com/file/d/1pVRkpdU1npdhJN_5IxCguOnDIQZaxEN1/view?usp=sharing) </mark>
 
-<mark> The prototyped interaction ran much smoother compared to the actiacted out interaction. We manage to run open AI models through an API onto the Pi and made use of its extensive library of voices, cadences, and prompts. We decided to shift the tone of the a device to mimic the individual who is interacting with it, instead of havign an angry machien all the time. The initial instruction parameter was, "You are an emotion-responsive system that listens to transcribed speech from people (text converted from audio), detects emotion, and generates a short, friendly response." We also included various different adjectives so that it could qualify the cadence and speech, including a vector containing the strings ["Enthusiastic", "Indifferent", "Playful", "Sarcastic", "Caring", "Melancholic", "Grumpy", "Mysterious"]. While the interaction ran smoother, it still felt too contrived. The responses also seemed too short, giving the impression that the device was not animated, but rather a responsive chatbot.</mark>
+<mark> The prototyped interaction ran much smoother compared to the acted-out interaction. We managed to run OpenAI models through an API onto the Pi and made use of its extensive library of voices, cadences, and prompts. We decided to shift the tone of the device to mimic the individual who is interacting with it, instead of having an angry machine all the time. The initial instruction parameter was, "You are an emotion-responsive system that listens to transcribed speech from people (text converted from audio), detects emotion, and generates a short, friendly response." We also included various different adjectives so that it could qualify the cadence and speech, including a vector containing the strings ["Enthusiastic", "Indifferent", "Playful", "Sarcastic", "Caring", "Melancholic", "Grumpy", "Mysterious"]. While the interaction ran smoother, it still felt too contrived. The responses also seemed too short, giving the impression that the device was not animated, but rather a responsive chatbot.</mark>
 
 # Lab 3 Part 2
 
@@ -453,6 +457,8 @@ Try to get at least two people to interact with your system. (Ideally, you would
 
   <summary><mark><strong>Original Prompt(s)</strong></mark></summary>
 
+  <br>
+
 <mark> _"A humorous and friendly black-and-white line-art comic storyboard with a 1:1 aspect ratio. Scene 1: An enthusiastic doorbell rings. Panel 1: A cheerful stick-figure visitor stands in front of a simple door with small steps, smiling and pressing the doorbell button. Panel 2: The doorbell speaker bursts out an enormous speech bubble, startling the visitor. Panel 3: The visitor scratches their head awkwardly, sweat drops show nervous amusement, while the doorbell says, “Come in, come in! You’re the star of the day!”. Panel 4: The visitor shrugs and rolls their eyes, a small grin on their face. The doorbell sits still on the wall. The scene closes with a warm, witty, and playfully comedic tone."_ </mark>
 
 <mark> _"A minimalist black-and-white line-art comic storyboard with a 1:1 aspect ratio and a dry, deadpan tone. Scene 2 depicts an indifferent doorbell. Panel 1 shows a cheerful stick-figure visitor pressing the doorbell and asking, “Hi, anyone home?” The rectangular doorbell has one half-open, disinterested eye. The composition is clean and balanced, with humor arising from contrast. Panel 2 repeats the scene: the visitor stiffens in surprise as the doorbell’s eye droops, and it replies with a tiny, dull speech bubble, “Yeah.” The visitor’s awkward face amplifies the emotional mismatch. Panel 3 keeps the same layout: the visitor leans forward with polite hope, hands clasped, asking, “Can I come in?” The doorbell’s eye drifts away wordlessly, uninterested. Panel 4 concludes with the visitor giving a helpless laugh, shoulders raised, and palms open toward the viewer. The unmoved doorbell mutters, “Whatever.” The closing beat is minimalist, witty, and effortlessly deadpan."_ </mark>
@@ -481,7 +487,7 @@ Try to get at least two people to interact with your system. (Ideally, you would
 
 ### <mark> Drafting & Modeling </mark>
 
-<mark> We modeled our enclosure in Rhino 3D. This time we made sure to accommodate all the internal electronics within the device. The doorbell was modeled with a modern aesthetic in mind, with beveled edges and a perforated speaker in the front, with a central button in the middle to ring the doorbell. Design was base off traditional injection molding processes and translated to 3D printing to preserve materiality. </mark>
+<mark> We modeled our enclosure in Rhino 3D. This time we made sure to accommodate all the internal electronics within the device. The doorbell was modeled with a modern aesthetic in mind, with beveled edges and a perforated speaker in the front, with a central button in the middle to ring the doorbell. The design was based on traditional injection molding processes and translated to 3D printing to preserve materiality. </mark>
 
 ![Draft 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Sketches/Draft_1.png)
 ![Draft 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Sketches/Draft_2.png)
@@ -505,7 +511,7 @@ Try to get at least two people to interact with your system. (Ideally, you would
 
 <mark> _**Pros:** We were working together through pair programming for this assignment and began one set of code for one use case and then refactored it for another. ChatGPT was very helpful in summarizing the code from one developer to the other, and was able to refactor and make changes to it very easily without having to understand the finer details of the API implementation or the dependencies used._ </mark>
 
-<mark> _**Cons:** This, however, can also be a con whereby if code is passed on from one developer to the next and there can be multiple layers of abstraction being created when working within a new code base. It could then become highly difficult to determine what code is becoming refactored and which code might also be vital to preserve for updates. It could also lead to more dependencies than need be._ </mark>
+<mark> _**Cons:** This, however, can also be a con whereby if code is passed on from one developer to the next, there can be multiple layers of abstraction being created when working within a new code base. It could then become highly difficult to determine what code is becoming refactored and which code might also be vital to preserve for updates. It could also lead to more dependencies than need be._ </mark>
 
 ### <mark> Test Dialogue </mark>
 

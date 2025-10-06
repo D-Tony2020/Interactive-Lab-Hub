@@ -463,7 +463,7 @@ Try to get at least two people to interact with your system. (Ideally, you would
 
 ### <mark> Drafting & Modeling </mark>
 
-<mark> We modeled our enclosure in Rhino 3D. This time we made sure to accommodate all the internal electronics within the device. The doorbell was modeled with a modern aesthetic in mind, with beveled edges and a perforated speaker in the front, with a central button in the middle to ring the doorbell. </mark>
+<mark> We modeled our enclosure in Rhino 3D. This time we made sure to accommodate all the internal electronics within the device. The doorbell was modeled with a modern aesthetic in mind, with beveled edges and a perforated speaker in the front, with a central button in the middle to ring the doorbell. Design was base of traditional injection, molding processes, but trasnalted to 3D printing to preserve materiality. </mark>
 
 <p align="center">
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Sketches/Draft_1.png" alt="Draft 1" width="33%"/>
@@ -517,7 +517,7 @@ Try to get at least two people to interact with your system. (Ideally, you would
 
 ### <mark> Inspiration </mark>
 
-Our project was inspired by a long line of art and media projects that seeks to personify and animate inanimate objects. All the numbers examples are numerous the example that we definitely found the most compelling for our used case where the Personality Cores from Portal 2. In the game, they are essentially NPC characters and objects to interact with. They are esentially robotic, spherical gimbals with eyeballs attached to them, and each one is program to exhibit a particular personality and speaks to the play in their own cadence, playing into the game's themes of absurdity and humor. Another example that we found very fascinating, was the Apple lamp or ELEGNT (Expressive and Functional Movement Design for Non-Anthropomorphic Robot) which was a recent project that wanted to animate a desktop lamp and incorporate various smart features into it. (Thank you Hauke for this example)
+<mark> Our project was inspired by a long line of art and media projects that seeks to personify and animate inanimate objects. All the numbers examples are numerous the example that we definitely found the most compelling for our used case where the Personality Cores from Portal 2. In the game, they are essentially NPC characters and objects to interact with. They are esentially robotic, spherical gimbals with eyeballs attached to them, and each one is program to exhibit a particular personality and speaks to the play in their own cadence, playing into the game's themes of absurdity and humor. Another example that we found very fascinating, was the Apple lamp or ELEGNT (Expressive and Functional Movement Design for Non-Anthropomorphic Robot) which was a recent project that wanted to animate a desktop lamp and incorporate various smart features into it. (Thank you Hauke for this example) </mark>
 
 ![Inspiration 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Inspiration/Inspiration_1.jpg)
 <mark> _**Image Source:** Valve, Portal 2 (2011)._ </mark>

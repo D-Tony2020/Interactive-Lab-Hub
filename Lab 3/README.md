@@ -525,7 +525,7 @@ Try to get at least two people to interact with your system. (Ideally, you would
 
 ### What worked well about the system and what didn't?
 
-<mark> The system produced dynamic outputs and was able to expressively showcase at least one emotion. However, the system was not able to scale across the subjective emotions and responses, and therefore needed to be explicitly prompted to do so. There was also trouble in creating dynamic conversations as there seemed to have been latency in some of the responses, and the conversation seemed to stay surface level in general rather than probing the user. </mark>
+<mark> The system produced dynamic outputs and was able to expressively showcase at least one emotion (anger). However, the system was not able to scale across the subjective emotions and responses, and therefore needed to be explicitly prompted to do so. There was also trouble in creating dynamic conversations as there seemed to have been latency in some of the responses, and the conversation seemed to stay surface level in general rather than probing the user. </mark>
 
 ### What worked well about the controller and what didn't?
 
@@ -558,3 +558,7 @@ Try to get at least two people to interact with your system. (Ideally, you would
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Images/Image_7.jpg" alt="Image 7" width="33%"/>
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Images/Image_8.jpg" alt="Image 8" width="33%"/>
 </p>
+
+### <mark> Note </mark>
+
+- <mark> When asking ChatGPT to refactor some of the code and to create a more angry, hostile-sounding AI voice, ChatGPT immediately told me that it would not be able to do that for me as it went against its morals. We had to prompt it further and give it context about the project, what we were doing, and told it that it was going to be a comedic application, not for any insidious motive against user-friendliness. I guess even LLMs have moral principles after all :)</mark>

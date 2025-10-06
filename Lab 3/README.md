@@ -361,6 +361,8 @@ In the [demo directory](./demo), you will find an example Wizard of Oz project. 
 
 \*\***Describe if the dialogue seemed different than what you imagined, or when acted out, when it was wizarded, and how.**\*\*
 
+- <mark> Watch Prototyped OpenAI Interaction: [OpenAI Interaction Video Link](https://drive.google.com/file/d/1pVRkpdU1npdhJN_5IxCguOnDIQZaxEN1/view?usp=sharing) </mark>
+
 # Lab 3 Part 2
 
 <details>
@@ -418,6 +420,8 @@ _Include videos or screencaptures of both the system and the controller._
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 
 </details>
+
+- <mark> Watch Final Doorbell Dialogue: [Final Doorbell Video Link](https://drive.google.com/file/d/1En8NHS5hbooRlVKAHFeSg6Yi1Cz-Yzh2/view?usp=sharing) </mark>
 
 ### What worked well about the system and what didn't?
 

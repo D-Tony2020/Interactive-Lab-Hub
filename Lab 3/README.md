@@ -478,4 +478,10 @@ Try to get at least two people to interact with your system. (Ideally, you would
 
 <mark> \*\*_your answer here_\*\* </mark>
 
+### <mark> Inspiration </mark>
+
+![Inspiration 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Inspiration/Inspiration_1.jpg)
+
+![Inspiration 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Inspiration/Inspiration_2.jpg)
+
 ![Image 6](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Images/Image_6.jpg)

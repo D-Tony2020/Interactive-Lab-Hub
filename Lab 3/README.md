@@ -465,11 +465,9 @@ Try to get at least two people to interact with your system. (Ideally, you would
 
 <mark> We modeled our enclosure in Rhino 3D. This time we made sure to accommodate all the internal electronics within the device. The doorbell was modeled with a modern aesthetic in mind, with beveled edges and a perforated speaker in the front, with a central button in the middle to ring the doorbell. Design was base of traditional injection, molding processes, but trasnalted to 3D printing to preserve materiality. </mark>
 
-<p align="center">
-  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Sketches/Draft_1.png" alt="Draft 1" width="33%"/>
-  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Sketches/Draft_2.png" alt="Draft 2" width="33%"/>
-  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Sketches/Draft_3.png" alt="Draft 3" width="33%"/>
-</p>
+![Draft 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Sketches/Draft_1.png)
+![Draft 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Sketches/Draft_2.png)
+![Draft 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Sketches/Draft_3.png)
 
 ### <mark> Device Enclosure </mark>
 

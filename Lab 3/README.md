@@ -439,7 +439,7 @@ Try to get at least two people to interact with your system. (Ideally, you would
 
 <mark> <details>
 
-  <summary><strong>riginal Prompt</strong></summary>
+  <summary><mark><strong>Original Prompt</strong></mark></summary>
 
 <mark> _**Original Prompt:** "A humorous and friendly black-and-white line-art comic storyboard with a 1:1 aspect ratio. Scene 1: An enthusiastic doorbell rings. Panel 1: A cheerful stick-figure visitor stands in front of a simple door with small steps, smiling and pressing the doorbell button. Panel 2: The doorbell speaker bursts out an enormous speech bubble, startling the visitor. Panel 3: The visitor scratches their head awkwardly, sweat drops show nervous amusement, while the doorbell says, “Come in, come in! You’re the star of the day!”. Panel 4: The visitor shrugs and rolls their eyes, a small grin on their face. The doorbell sits still on the wall. The scene closes with a warm, witty, and playfully comedic tone."_ </mark>
 

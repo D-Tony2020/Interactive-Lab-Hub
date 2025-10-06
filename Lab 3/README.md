@@ -426,6 +426,8 @@ Try to get at least two people to interact with your system. (Ideally, you would
 
 ### <mark> Updated Storyboards </mark>
 
+<mark> We continued to iterate upon our idea of creating a multi-variable emotional doorbell by generating many more storyboards. While they became entertaining and allowed for a larger possibility space, the sheer volume of different emotional categories and specific instances where each emotional response can take place became overwhelming. OpenAI's ChatGPT also is not very good at changing its cadence and being dramatic; it would have to be hard-prompted to be able to maintain a highly dramatized emotional response. This made us reconsider our initial proposition for a mean doorbell and potentially see if we can revitalize the original vision by embodying it in an enclosure and making it into an interactive device. Perhaps then, it could be a little bit more absurd and play on the sort of dramatized comedic element of a disgruntled inanimate object.</mark>
+
 <p align="center">
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Storyboards/Storyboard_3.jpg" alt="Storyboard 3" width="49.5%"/>
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Storyboards/Storyboard_4.jpg" alt="Storyboard 4" width="49.5%"/>
@@ -434,6 +436,8 @@ Try to get at least two people to interact with your system. (Ideally, you would
 </p>
 
 ### <mark> Electronics Assembly </mark>
+
+<mark> Our electronics assembly made use of the Pi, a breadboard, multiple jumper wires, a red LED, a 220 Ohm resistor, a tactile button switch, a mini speaker, and a WebCam for microphone use. The electronics were tested separately before being assembled.</mark>
 
 <p align="center">
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Process/Process_1.jpg" alt="Process 1" width="33%"/>
@@ -445,6 +449,14 @@ Try to get at least two people to interact with your system. (Ideally, you would
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Process/Process_4.jpg" alt="Process 4" width="33%"/>
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Process/Process_5.jpg" alt="Process 5" width="33%"/>
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Process/Process_6.jpg" alt="Process 6" width="33%"/>
+</p>
+
+### <mark> Drafting & Modeling </mark>
+
+<p align="center">
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Sketches/Draft_1.jpg" alt="Draft 1" width="33%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Sketches/Draft_2.jpg" alt="Draft 2" width="33%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Sketches/Draft_3.jpg" alt="Draft 3" width="33%"/>
 </p>
 
 ### <mark> Device Enclosure </mark>

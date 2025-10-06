@@ -422,15 +422,15 @@ Try to get at least two people to interact with your system. (Ideally, you would
 </details>
 
 <p align="center">
-  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Process/Process_1.jpg" alt="Process 1" width="49.5%"/>
-  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Process/Process_2.jpg" alt="Process 2" width="49.5%"/>
-  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Process/Process_3.jpg" alt="Process 3" width="49.5%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Process/Process_1.jpg" alt="Process 1" width="33%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Process/Process_2.jpg" alt="Process 2" width="33%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Process/Process_3.jpg" alt="Process 3" width="33%"/>
 </p>
 
 <p align="center">
-  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Process/Process_4.jpg" alt="Process 4" width="49.5%"/>
-  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Process/Process_5.jpg" alt="Process 5" width="49.5%"/>
-  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Process/Process_6.jpg" alt="Process 6" width="49.5%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Process/Process_4.jpg" alt="Process 4" width="33%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Process/Process_5.jpg" alt="Process 5" width="33%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Process/Process_6.jpg" alt="Process 6" width="33%"/>
 </p>
 
 ### <mark> Test Dialogue </mark>

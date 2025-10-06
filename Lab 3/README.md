@@ -467,31 +467,39 @@ Try to get at least two people to interact with your system. (Ideally, you would
 
 - <mark> Watch Test Dialogue #2: [Doorbell #2 Video Link](https://drive.google.com/file/d/15nI-p92rAE_d4e8osTV2ABTQFLTecTOJ/view?usp=sharing) </mark>
 
+- <mark> Watch Test Dialogue #3: [Doorbell #3 Video Link](https://drive.google.com/file/d/1j2vnOPrFmgPWBDjEgYEVDZGm-Hjmz2gu/view?usp=sharing) </mark>
+
 ### <mark> Final Dialogue </mark>
 
 - <mark> Watch Final Doorbell Dialogue: [Final Doorbell Video Link](https://drive.google.com/file/d/1En8NHS5hbooRlVKAHFeSg6Yi1Cz-Yzh2/view?usp=sharing) </mark>
 
 ### What worked well about the system and what didn't?
 
-<mark> \*\*_your answer here_\*\* </mark>
+<mark> The system produced dynamic outputs and was able to expressively showcase at least one emotion (i.e., anger). However, the system was not able to scale across the subjective emotions and responses, and therefore needed to be explicitly prompted to do so. There was also trouble in creating dynamic conversations as there seemed to have been latency in some of the responses, and the conversation seemed to stay surface level in general rather than probing the user. </mark>
 
 ### What worked well about the controller and what didn't?
 
-<mark> \*\*_your answer here_\*\* </mark>
+<mark> In our case, the controller was OpenAI’s ChatGPT. It worked well for our particular use case, but could be expanded upon further, and be prompted to have more detailed instructions as well as more fine-tuned hyperparameters. The expressive nature of the responses needed to be adjusted over time as some of the initial responses were somewhat convoluted or cliché. It was also important to balance the amount of sarcasm within their responses; too much, and the user would sense a pattern; too little, and it would not be funny. </mark>
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
-<mark> \*\*_your answer here_\*\* </mark>
+<mark> Well, we spent very little time using Wizard of Oz techniques to prototype in the initial phases. We did try to envision how users might react based off of our acting interaction demo. Even so, perhaps it gave us too much of a bias towards seeing the negatives of the system and prevented us from engaging with the ideas that we initially had from the ground running. We immediately wanted to try to utilize more autonomous systems and therefore turned to ChatGPT and OpenAI as a sort of expressive contorller in the loop. Still, using an autonomous system requires just as much iteration and fine-tuning to ensure that the interactions that you're hoping to achieve run smoothly. So there isn't really an "end" to the evaluation or design. </mark>
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-<mark> \*\*_your answer here_\*\* </mark>
+<mark> We later hope to incorporate some amount of computer vision so that the system can recognize the user in front of them. While the immediate response would be that of reservation, considering that we wouldn't want a mean doorbell to be actively hostile to a user and their appearance, our intention is not to explicitly target appearance qualifiers from the user. Rather, we want to be able to investigate facial reactions and other nonverbal cues that might point towards more sophisticated responses from the AI. In this setting, the responses can also be more humorous as they're playing on other aspects the user may not necessarily be privy to. Similar to how a stand-up comedian might also bring up crowd members and their reactions in a playful way, not in a mocking way. We don't intend on creating a data set from any responses. It's more about seeing where the interaction will go and the qualitative experience that the user has on their end.</mark>
 
 ### <mark> Inspiration </mark>
 
+<mark> Our project was inspired by a long line of art and media projects that seek to personify and animate inanimate objects. The number of examples are numerous, but the example that we found the most compelling were the Personality Cores from Portal 2. They are both NPC characters and objects to interact with in the game. They are essentially robotic, spherical gimbals with eyeballs attached to them, and each one is programmed to exhibit a personality, playing into the game's themes of absurdity and humor.</mark>
+
+<mark> Another example that we found very fascinating was the Apple lamp or ELEGNT (Expressive and Functional Movement Design for Non-Anthropomorphic Robot), which was a recent project that wanted to animate a desktop lamp and incorporate smart features into it.</mark>
+
 ![Inspiration 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Inspiration/Inspiration_1.jpg)
+<mark> _**Image Source:** Valve, Portal 2 (2011)._ </mark>
 
 ![Inspiration 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Inspiration/Inspiration_2.jpg)
+<mark> _**Image Source:** Apple, ELEGNT (2025)._ </mark>
 
 <mark> Collaborators: Thomas Knoepffler (Assembly & Developer), Carrie Wang (Drafter & Diagram Maker), Xiaocheng Li (3D Modeling), Julia Chen (Hardware & Developer), Dean Xu (AI Artist) </mark>
 
@@ -500,4 +508,8 @@ Try to get at least two people to interact with your system. (Ideally, you would
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Images/Image_7.jpg" alt="Image 7" width="33%"/>
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Images/Image_8.jpg" alt="Image 8" width="33%"/>
 </p>
+
+### <mark> Interesting Note </mark>
+
+- <mark> When asking ChatGPT to refactor some of the code and to create a more angry, hostile-sounding AI voice, ChatGPT immediately told us that it would not be able to do that for us as it went against its morals. We had to prompt it further and give it context about the project, what we were doing, and told it that it was going to be a comedic application, not for any insidious motive against user-friendliness. I guess LLMs have moral principles after all :)</mark>
 

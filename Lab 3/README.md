@@ -421,6 +421,16 @@ Try to get at least two people to interact with your system. (Ideally, you would
 
 </details>
 
+### <mark> Updated Storyboards </mark>
+
+![Storyboard 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Storyboards/Storyboard_3.jpg)
+![Storyboard 4](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Storyboards/Storyboard_4.jpg)
+![Storyboard 5](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Storyboards/Storyboard_5.jpg)
+![Storyboard 6](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Storyboards/Storyboard_6.jpg)
+![Storyboard 7](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Storyboards/Storyboard_7.jpg)
+
+### <mark> Electronics Assembly </mark>
+
 <p align="center">
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Process/Process_1.jpg" alt="Process 1" width="33%"/>
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Process/Process_2.jpg" alt="Process 2" width="33%"/>
@@ -432,6 +442,8 @@ Try to get at least two people to interact with your system. (Ideally, you would
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Process/Process_5.jpg" alt="Process 5" width="33%"/>
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Process/Process_6.jpg" alt="Process 6" width="33%"/>
 </p>
+
+### <mark> Device Enclosure </mark>
 
 ![Image 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Images/Image_1.jpg)
 ![Image 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Images/Image_2.jpg)

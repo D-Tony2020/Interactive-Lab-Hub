@@ -339,6 +339,7 @@ Write out what you imagine the dialogue to be. Use cards, post-its, or whatever 
 
 ![Sketch 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Sketches/Sketch_1.jpg)
 ![Rendering 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Sketches/Rendering_1.jpg)
+![Rendering 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Sketches/Rendering_2.jpg)
 
 <mark> _**AI Usage:** Realistic renderings generated using Google (Gemini). All original artifacts preserved._ </mark>
 

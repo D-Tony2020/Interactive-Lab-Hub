@@ -474,7 +474,7 @@ Try to get at least two people to interact with your system. (Ideally, you would
 
 <mark> Our electronics assembly made use of the Pi, a breadboard, multiple jumper wires, a red LED, a 220 Ohm resistor, a tactile button switch, a mini speaker, and a WebCam for microphone use. The electronics were tested separately before being assembled.</mark>
 
-![Image 9](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Images/Image_9.jpg)
+![Process 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Process/Process_3.jpg)
 
 <p align="center">
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Process/Process_1.jpg" alt="Process 1" width="33%"/>

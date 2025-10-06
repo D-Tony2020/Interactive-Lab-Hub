@@ -435,7 +435,6 @@ Try to get at least two people to interact with your system. (Ideally, you would
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Storyboards/Storyboard_7.jpg" alt="Storyboard 7" width="49.5%"/>
 </p>
 
-<font size="1">
 <mark> _**AI Usage:** Storyboard generated using Google (Gemini) and OpenAI. All original artifacts preserved._ </mark>
 
 <mark> _**Original Prompt:** "Minimalist black-and-white line-art comic storyboard, 1:1 aspect ratio, humorous and friendly tone: Scene 1 — an enthusiastic doorbell. Panel 1 shows a cheerful stick-figure visitor standing in front of a simple door with small steps, smiling as they press the doorbell button and saying “Hello?” in a speech bubble. Panel 2 keeps the same doorway setting but now the doorbell speaker bursts out an enormous speech bubble filling half the frame: “Wow! Finally! Someone is here! I’ve been waiting forever!”, startling the visitor who leans back with wide eyes and open mouth, motion lines emphasizing the loudness. Panel 3 keeps the same composition — the visitor scratches their head awkwardly, sweat drops showing nervous amusement, while the doorbell says “Come in, come in! You’re the star of the day!”. Panel 4 ends with the visitor shrugging and rolling their eyes upward with a small grin, a side bubble reading “This bell is more excited than my friend…”, while the doorbell sits still on the wall; the scene closes with a warm, witty, and playfully comedic tone."_ </mark>
@@ -445,7 +444,6 @@ Try to get at least two people to interact with your system. (Ideally, you would
 <mark> _**Original Prompt:** "Minimalist black-and-white line-art comic storyboard, 1:1 aspect ratio, lighthearted and comical tone: Scene 3 — a playful, funny doorbell. Panel 1 shows a stick-figure visitor standing by a simple door, looking down at their phone while a coffee cup in their hand tilts, a single drop falling onto the doorbell button; the doorbell’s expressive eye pops open in shock, exclaiming “Whoa! Watch it! I’m ticklish!”, as the visitor remains oblivious. Panel 2 repeats the setup, but now the doorbell squints dramatically, eye squeezed shut, yelling “Ouch! That’s hot coffee!”, while the startled visitor jerks back with wide eyes — bold lines emphasize the slapstick energy. Panel 3 keeps the same framing as the visitor smiles awkwardly, scratching their head and saying “Oh sorry! Didn’t mean to spill on you.”; the doorbell’s eye softens into a sly, amused smirk, creating a friendly and humorous tension. Panel 4 closes the scene with the doorbell’s eye wide and grinning, a cheerful bubble reading “No worries! Just brew me another one next time.”; the visitor bends forward laughing, hand over mouth — a goofy, humanizing ending that turns a small accident into a moment of playful camaraderie between person and machine."_ </mark>
 
 <mark> _**Original Prompt:** "Minimalist black-and-white line-art comic storyboard, 1:1 aspect ratio, comically inquisitive tone: Scene 4 — a curious doorbell. Panel 1 shows a simple doorway and steps consistent with the earlier scenes. A rectangular doorbell with one large, expressive eye looks puzzled while a stick-figure delivery person in a plain uniform holds a large, oddly shaped package with both hands. The courier’s speech bubble reads, “Your delivery, please sign here.”; the mood is professional but humorously tense. Panel 2 keeps the same framing as the courier sets the strange package on the step. The doorbell squints suspiciously, one eye straining downward as it asks, “Wait… what’s in that package? It looks weird.”, while the courier stands neutrally — the comedy coming from the doorbell’s nosy personality. Panel 3 maintains the identical doorway as the courier, now seen from behind, walks away mid-step. The doorbell’s eye darts left and right in frantic motion, brow furrowed, blur lines suggesting restlessness; its speech bubble shouts, “Hey! Don’t go! Tell me! Is it… an alien pet?!”. The scene ends with exaggerated, cinematic humor — a curious AI desperate for gossip, ignored by an indifferent human."_ </mark>
-</font>
 
 ### <mark> Electronics Assembly </mark>
 
@@ -465,6 +463,8 @@ Try to get at least two people to interact with your system. (Ideally, you would
 
 ### <mark> Drafting & Modeling </mark>
 
+<mark> We modeled our enclosure in Rhino 3D. This time we made sure to accommodate all the internal electronics within the device. The doorbell was modeled with a modern aesthetic in mind, with beveled edges and a perforated speaker in the front, with a central button in the middle to ring the doorbell. </mark>
+
 <p align="center">
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Sketches/Draft_1.png" alt="Draft 1" width="33%"/>
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Sketches/Draft_2.png" alt="Draft 2" width="33%"/>
@@ -472,6 +472,8 @@ Try to get at least two people to interact with your system. (Ideally, you would
 </p>
 
 ### <mark> Device Enclosure </mark>
+
+<mark> The enclosure was 3D printed using the BambooLab 3D printer, using standard white PLA. </mark>
 
 ![Image 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Images/Image_1.jpg)
 ![Image 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Images/Image_2.jpg)
@@ -514,6 +516,8 @@ Try to get at least two people to interact with your system. (Ideally, you would
 <mark> \*\*_your answer here_\*\* </mark>
 
 ### <mark> Inspiration </mark>
+
+Our project was inspired by a long line of art and media that seeks to personify and animate inanimate objects. All the numbers examples are numerous the example that we definitely found the most compelling for our used case where the Personality Cores from Portal 2. In the game, they are essentially NPC characters and objects to interact with their robotic gimbals with eyeballs attached to them, and each one program to exhibit, a particular personality playing into the games, theme of absurdity and humor. Another example that we found very fascinating, was the Apple lamp, which was a recent project that saw to animate a desktop lamp and incorporate various smart features into it. (Thank you Hauke for the example!)
 
 ![Inspiration 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Inspiration/Inspiration_1.jpg)
 

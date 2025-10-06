@@ -542,7 +542,7 @@ Try to get at least two people to interact with your system. (Ideally, you would
 
 ### <mark> Inspiration </mark>
 
-<mark> Our project was inspired by a long line of art and media projects that seek to personify and animate inanimate objects. All the numbers examples are numerous; the example that we found the most compelling were the Personality Cores from Portal 2. They are both NPC characters and objects to interact with in the game. They are essentially robotic, spherical gimbals with eyeballs attached to them, and each one is programmed to exhibit a particular personality that speaks to the play in their own cadence, playing into the game's themes of absurdity and humor.</mark>
+<mark> Our project was inspired by a long line of art and media projects that seek to personify and animate inanimate objects. All the numbers examples are numerous; the example that we found the most compelling were the Personality Cores from Portal 2. They are both NPC characters and objects to interact with in the game. They are essentially robotic, spherical gimbals with eyeballs attached to them, and each one is programmed to exhibit a personality, playing into the game's themes of absurdity and humor.</mark>
 
 <mark> Another example that we found very fascinating was the Apple lamp or ELEGNT (Expressive and Functional Movement Design for Non-Anthropomorphic Robot), which was a recent project that wanted to animate a desktop lamp and incorporate various smart features into it. (Thank you, Hauke, for this example.) </mark>
 

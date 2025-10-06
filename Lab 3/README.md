@@ -315,6 +315,8 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 
 <mark> _**AI Usage:** Second storyboard generated using Google (Gemini). All original artifacts preserved._ </mark>
 
+<mark> _**Original Prompt:** "Minimalist stick figure storyboard, black and white line drawing, comic style: Panel 1 shows a smiling stick figure pressing a doorbell button on a wall with the speaker visible; Panel 2 shows the doorbell speaker saying “You brought nothing” as the surprised visitor stands empty-handed; Panel 3 shows the visitor replying “I came with true feelings,” and the doorbell responding “Feelings are cheap, a bottle of wine is better,” with the visitor looking nervous; Panel 4 shows the visitor pleading “Please just let me in,” and the doorbell saying “I’ll tell them: someone came with nothing,” as the visitor appears embarrassed; Panel 5 shows the visitor walking away sadly, slumped, while the doorbell says “Finally understood”; Panel 6 shows the visitor walking away in the distance, the lonely doorbell on the wall, with the caption below: “When AI sets cold rules, can humans insist?”"_ </mark>
+
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses.
 
 <mark> We imagine the dialogue happening between a doorway, so we envision the initial actuation pressing a door valve button. But we want to take it further and envision a device that's on the button being reactive and displaying some form of emotion or response to the user, which can be funny as well. If the user continues to engage us with the doorbell object, then they will continue to get a reaction from it, thus entering into a feedback loop of reaction, response, engagement. </mark>
@@ -361,6 +363,8 @@ In the [demo directory](./demo), you will find an example Wizard of Oz project. 
 \*\***Describe if the dialogue seemed different than what you imagined, or when acted out, when it was wizarded, and how.**\*\*
 
 - <mark> Watch Prototyped OpenAI Interaction: [OpenAI Interaction Video Link](https://drive.google.com/file/d/1pVRkpdU1npdhJN_5IxCguOnDIQZaxEN1/view?usp=sharing) </mark>
+
+<mark> The prototyped interaction ran much smoother compared to the actiacted out interaction. We manage to run open AI models through an API onto the Pi and made use of its extensive library of voices, cadences, and prompts. We decided to shift the tone of the a device to mimic the individual who is interacting with it. The initial instruction parameter was, "You are an emotion-responsive system that listens to transcribed speech from people (text converted from audio), detects emotion, and generates a short, friendly response." we also included various different adjectives so that it could qualify the cadence and speech, including a vector of strings containing ["Enthusiastic","Indifferent","Playful","Sarcastic","Caring","Melancholic","Grumpy","Mysterious"]. While the interaction ran smoother, it still felt too contrived. The responses also seemed too short, giving the impression that the device was not animated, but rather a responsive chatbot.</mark>
 
 # Lab 3 Part 2
 

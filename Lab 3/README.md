@@ -484,4 +484,8 @@ Try to get at least two people to interact with your system. (Ideally, you would
 
 ![Inspiration 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Inspiration/Inspiration_2.jpg)
 
-![Image 6](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Images/Image_6.jpg)
+<p align="center">
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Images/Image_6.jpg" alt="Image 6" width="33%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Images/Image_7.jpg" alt="Image 7" width="33%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Images/Image_8.jpg" alt="Image 8" width="33%"/>
+</p>

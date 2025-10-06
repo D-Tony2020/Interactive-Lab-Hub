@@ -309,6 +309,7 @@ Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stu
 
 \*\***Post your storyboard and diagram here.**\*\*
 
+![Sketch 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Sketches/Sketch_2.jpg)
 ![Storyboard 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Storyboards/Storyboard_1.jpg)
 ![Storyboard 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Storyboards/Storyboard_2.jpg)
 
@@ -327,9 +328,7 @@ Write out what you imagine the dialogue to be. Use cards, post-its, or whatever 
 <mark>The project is a speculative, experimental piece, more for entertainment purposes but also exploring how AI and LLMs don’t always have to be “user friendly” too, so to speak.</mark>
 
 ![Sketch 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Sketches/Sketch_1.jpg)
-![Sketch 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Sketches/Sketch_2.jpg)
 ![Rendering 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Sketches/Rendering_1.jpg)
-![Rendering 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Sketches/Rendering_2.jpg)
 
 <mark> _**AI Usage:** Realistic renderings generated using Google (Gemini). All original artifacts preserved._ </mark>
 
@@ -484,7 +483,7 @@ Try to get at least two people to interact with your system. (Ideally, you would
 
 ![Inspiration 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Inspiration/Inspiration_2.jpg)
 
-<mark> Collaborators: Thomas Knoepffler (Assembly & Developer), Carrie Wang (Drafter & Diagram Maker), Xiaocheng Li (3D Modeling), Julia Chen (Developer & Hardware), Dean Xu (AI Artist) </mark>
+<mark> Collaborators: Thomas Knoepffler (Assembly & Developer), Carrie Wang (Drafter & Diagram Maker), Xiaocheng Li (3D Modeling), Julia Chen (Hardware & Developer), Dean Xu (AI Artist) </mark>
 
 <p align="center">
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Images/Image_6.jpg" alt="Image 6" width="33%"/>

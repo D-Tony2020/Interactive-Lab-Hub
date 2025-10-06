@@ -342,13 +342,26 @@ In the [demo directory](./demo), you will find an example Wizard of Oz project. 
 
 # Lab 3 Part 2
 
+<details>
+  <summary><strong>Description</strong></summary>
+
 For Part 2, you will redesign the interaction with the speech-enabled device using the data collected, as well as feedback from part 1.
+
+</details>
+
+<details>
+  <summary><strong>Prep for Part 2</strong></summary>
 
 ## Prep for Part 2
 
 1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
 3. Make a new storyboard, diagram and/or script based on these reflections.
+
+</details>
+
+<details>
+  <summary><strong>Prototype your system</strong></summary>
 
 ## Prototype your system
 
@@ -362,8 +375,10 @@ _Document how the system works_
 
 _Include videos or screencaptures of both the system and the controller._
 
+</details>
+
 <details>
-  <summary><strong>Submission Cleanup Reminder (Click to Expand)</strong></summary>
+  <summary><strong>Submission Cleanup Reminder</strong></summary>
   
   **Before submitting your README.md:**
   - This readme.md file has a lot of extra text for guidance.
@@ -374,27 +389,115 @@ _Include videos or screencaptures of both the system and the controller._
   This helps ensure your README.md is clear professional and uniquely yours!
 </details>
 
+<details>
+  <summary><strong>Test the system</strong></summary>
+
 ## Test the system
 
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 
-Answer the following:
+</details>
+
+### <mark> Updated Storyboards </mark>
+
+<mark> We continued to iterate upon our idea of creating a multi-variable emotional doorbell by generating many more storyboards. While they became entertaining and allowed for a larger possibility space, the sheer volume of different emotional categories and specific instances where each emotional response can take place became overwhelming. OpenAI's ChatGPT also is not very good at changing its cadence and being dramatic; it would have to be hard-prompted to be able to maintain a highly dramatized emotional response. This made us reconsider our initial proposition for a mean doorbell and potentially see if we can revitalize the original vision by embodying it in an enclosure and making it into an interactive device. Perhaps then, it could be a little bit more absurd and play on the sort of dramatized comedic element of a disgruntled inanimate object.</mark>
+
+<p align="center">
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Storyboards/Storyboard_3.jpg" alt="Storyboard 3" width="49.5%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Storyboards/Storyboard_4.jpg" alt="Storyboard 4" width="49.5%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Storyboards/Storyboard_6.jpg" alt="Storyboard 6" width="49.5%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Storyboards/Storyboard_7.jpg" alt="Storyboard 7" width="49.5%"/>
+</p>
+
+<font size="1">
+<mark> _**AI Usage:** Storyboard generated using Google (Gemini) and OpenAI. All original artifacts preserved._ </mark>
+
+<mark> _**Original Prompt:** "Minimalist black-and-white line-art comic storyboard, 1:1 aspect ratio, humorous and friendly tone: Scene 1 — an enthusiastic doorbell. Panel 1 shows a cheerful stick-figure visitor standing in front of a simple door with small steps, smiling as they press the doorbell button and saying “Hello?” in a speech bubble. Panel 2 keeps the same doorway setting but now the doorbell speaker bursts out an enormous speech bubble filling half the frame: “Wow! Finally! Someone is here! I’ve been waiting forever!”, startling the visitor who leans back with wide eyes and open mouth, motion lines emphasizing the loudness. Panel 3 keeps the same composition — the visitor scratches their head awkwardly, sweat drops showing nervous amusement, while the doorbell says “Come in, come in! You’re the star of the day!”. Panel 4 ends with the visitor shrugging and rolling their eyes upward with a small grin, a side bubble reading “This bell is more excited than my friend…”, while the doorbell sits still on the wall; the scene closes with a warm, witty, and playfully comedic tone."_ </mark>
+
+<mark> _**Original Prompt:** "Minimalist black-and-white line-art comic storyboard, 1:1 aspect ratio, dry and deadpan tone: Scene 2 — an indifferent doorbell. Panel 1 shows a cheerful stick-figure visitor pressing a doorbell and saying “Hi, anyone home?”, while the rectangular doorbell on the wall has one half-open, disinterested eye; the composition is clean and balanced, the humor arising from contrast. Panel 2 repeats the same doorway scene: the visitor stiffens slightly in surprise as the doorbell’s eye droops further, replying with a tiny, dull speech bubble saying “Yeah.”; the visitor’s awkward face amplifies the emotional mismatch. Panel 3 keeps the same layout as the visitor leans forward with polite hope, hands clasped, asking “Can I come in?”, while the doorbell’s eye drifts away wordlessly, uninterested — a moment of perfectly dry humor. Panel 4 concludes with the visitor giving a helpless laugh, shoulders raised and palms open toward the viewer as if breaking the fourth wall, while the unmoved doorbell mutters “Whatever.”; the closing beat is minimalist, witty, and effortlessly deadpan."_ </mark>
+
+<mark> _**Original Prompt:** "Minimalist black-and-white line-art comic storyboard, 1:1 aspect ratio, lighthearted and comical tone: Scene 3 — a playful, funny doorbell. Panel 1 shows a stick-figure visitor standing by a simple door, looking down at their phone while a coffee cup in their hand tilts, a single drop falling onto the doorbell button; the doorbell’s expressive eye pops open in shock, exclaiming “Whoa! Watch it! I’m ticklish!”, as the visitor remains oblivious. Panel 2 repeats the setup, but now the doorbell squints dramatically, eye squeezed shut, yelling “Ouch! That’s hot coffee!”, while the startled visitor jerks back with wide eyes — bold lines emphasize the slapstick energy. Panel 3 keeps the same framing as the visitor smiles awkwardly, scratching their head and saying “Oh sorry! Didn’t mean to spill on you.”; the doorbell’s eye softens into a sly, amused smirk, creating a friendly and humorous tension. Panel 4 closes the scene with the doorbell’s eye wide and grinning, a cheerful bubble reading “No worries! Just brew me another one next time.”; the visitor bends forward laughing, hand over mouth — a goofy, humanizing ending that turns a small accident into a moment of playful camaraderie between person and machine."_ </mark>
+
+<mark> _**Original Prompt:** "Minimalist black-and-white line-art comic storyboard, 1:1 aspect ratio, comically inquisitive tone: Scene 4 — a curious doorbell. Panel 1 shows a simple doorway and steps consistent with the earlier scenes. A rectangular doorbell with one large, expressive eye looks puzzled while a stick-figure delivery person in a plain uniform holds a large, oddly shaped package with both hands. The courier’s speech bubble reads, “Your delivery, please sign here.”; the mood is professional but humorously tense. Panel 2 keeps the same framing as the courier sets the strange package on the step. The doorbell squints suspiciously, one eye straining downward as it asks, “Wait… what’s in that package? It looks weird.”, while the courier stands neutrally — the comedy coming from the doorbell’s nosy personality. Panel 3 maintains the identical doorway as the courier, now seen from behind, walks away mid-step. The doorbell’s eye darts left and right in frantic motion, brow furrowed, blur lines suggesting restlessness; its speech bubble shouts, “Hey! Don’t go! Tell me! Is it… an alien pet?!”. The scene ends with exaggerated, cinematic humor — a curious AI desperate for gossip, ignored by an indifferent human."_ </mark>
+</font>
+
+### <mark> Electronics Assembly </mark>
+
+<mark> Our electronics assembly made use of the Pi, a breadboard, multiple jumper wires, a red LED, a 220 Ohm resistor, a tactile button switch, a mini speaker, and a WebCam for microphone use. The electronics were tested separately before being assembled.</mark>
+
+<p align="center">
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Process/Process_1.jpg" alt="Process 1" width="33%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Process/Process_2.jpg" alt="Process 2" width="33%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Process/Process_3.jpg" alt="Process 3" width="33%"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Process/Process_4.jpg" alt="Process 4" width="33%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Process/Process_5.jpg" alt="Process 5" width="33%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Process/Process_6.jpg" alt="Process 6" width="33%"/>
+</p>
+
+### <mark> Drafting & Modeling </mark>
+
+<p align="center">
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Sketches/Draft_1.png" alt="Draft 1" width="33%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Sketches/Draft_2.png" alt="Draft 2" width="33%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Sketches/Draft_3.png" alt="Draft 3" width="33%"/>
+</p>
+
+### <mark> Device Enclosure </mark>
+
+![Image 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Images/Image_1.jpg)
+![Image 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Images/Image_2.jpg)
+![Image 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Images/Image_3.jpg)
+![Image 4](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Images/Image_4.jpg)
+![Image 5](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Images/Image_5.jpg)
+
+<mark> Our code can be found at [mean-doorbell.py](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/speech-scripts/mean-doorbell.py) </mark>
+
+<mark> _**AI Usage:** Utilized assistance from ChatGPT for the writing of code._ </mark>
+
+<mark> _**Pros:** We were working together through pair programming for this assignment and began one set of code for one use case and then refactored it for another. ChatGPT was very helpful in summarizing the code from one developer to the other, and was able to refactor and make changes to it very easily without having to understand the finer details of the API implementation or the dependencies used throughout._ </mark>
+
+<mark> _**Cons:** This, however, can also be a con whereby if code is passed on from one developer to the next and there can be multiple layers of abstraction being created when working within a new code base. It could then become highly difficult to determine what code is becoming refactored and which code might also be vital to preserve for updates. It could also lead to more dependencies than need be._ </mark>
+
+### <mark> Test Dialogue </mark>
+
+- <mark> Watch Test Dialogue #1: [Doorbell #1 Video Link](https://drive.google.com/file/d/1Y69Cxp0skwV55OnjJOGuuaDrJjPpXC_Y/view?usp=sharing) </mark>
+
+- <mark> Watch Test Dialogue #2: [Doorbell #2 Video Link](https://drive.google.com/file/d/15nI-p92rAE_d4e8osTV2ABTQFLTecTOJ/view?usp=sharing) </mark>
+
+### <mark> Final Dialogue </mark>
+
+- <mark> Watch Final Doorbell Dialogue: [Final Doorbell Video Link](https://drive.google.com/file/d/1En8NHS5hbooRlVKAHFeSg6Yi1Cz-Yzh2/view?usp=sharing) </mark>
 
 ### What worked well about the system and what didn't?
 
-\*\*_your answer here_\*\*
+<mark> \*\*_your answer here_\*\* </mark>
 
 ### What worked well about the controller and what didn't?
 
-\*\*_your answer here_\*\*
+<mark> \*\*_your answer here_\*\* </mark>
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
-\*\*_your answer here_\*\*
+<mark> \*\*_your answer here_\*\* </mark>
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-\*\*_your answer here_\*\*
+<mark> \*\*_your answer here_\*\* </mark>
 
+### <mark> Inspiration </mark>
 
+![Inspiration 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Inspiration/Inspiration_1.jpg)
+
+![Inspiration 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Inspiration/Inspiration_2.jpg)
+
+<mark> Collaborators: Thomas Knoepffler (Assembly & Developer), Carrie Wang (Drafter & Diagram Maker), Xiaocheng Li (3D Modeling), Julia Chen (Hardware & Developer), Dean Xu (AI Artist) </mark>
+
+<p align="center">
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Images/Image_6.jpg" alt="Image 6" width="33%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Images/Image_7.jpg" alt="Image 7" width="33%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Images/Image_8.jpg" alt="Image 8" width="33%"/>
+</p>
 

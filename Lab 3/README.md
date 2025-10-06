@@ -561,4 +561,4 @@ Try to get at least two people to interact with your system. (Ideally, you would
 
 ### <mark> Interesting Note </mark>
 
-- <mark> When asking ChatGPT to refactor some of the code and to create a more angry, hostile-sounding AI voice, ChatGPT immediately told me that it would not be able to do that for me as it went against its morals. We had to prompt it further and give it context about the project, what we were doing, and told it that it was going to be a comedic application, not for any insidious motive against user-friendliness. I guess even LLMs have moral principles after all :)</mark>
+- <mark> When asking ChatGPT to refactor some of the code and to create a more angry, hostile-sounding AI voice, ChatGPT immediately told us that it would not be able to do that for us as it went against its morals. We had to prompt it further and give it context about the project, what we were doing, and told it that it was going to be a comedic application, not for any insidious motive against user-friendliness. I guess LLMs have moral principles after all :)</mark>

@@ -437,6 +437,10 @@ Try to get at least two people to interact with your system. (Ideally, you would
 
 <mark> _**AI Usage:** Storyboard generated using Google (Gemini) and OpenAI. All original artifacts preserved._ </mark>
 
+<mark> <details>
+
+  <summary><strong>riginal Prompt</strong></summary>
+
 <mark> _**Original Prompt:** "A humorous and friendly black-and-white line-art comic storyboard with a 1:1 aspect ratio. Scene 1: An enthusiastic doorbell rings. Panel 1: A cheerful stick-figure visitor stands in front of a simple door with small steps, smiling and pressing the doorbell button. Panel 2: The doorbell speaker bursts out an enormous speech bubble, startling the visitor. Panel 3: The visitor scratches their head awkwardly, sweat drops show nervous amusement, while the doorbell says, “Come in, come in! You’re the star of the day!”. Panel 4: The visitor shrugs and rolls their eyes, a small grin on their face. The doorbell sits still on the wall. The scene closes with a warm, witty, and playfully comedic tone."_ </mark>
 
 <mark> _**Original Prompt:** "A minimalist black-and-white line-art comic storyboard with a 1:1 aspect ratio and a dry, deadpan tone. Scene 2 depicts an indifferent doorbell. Panel 1 shows a cheerful stick-figure visitor pressing the doorbell and asking, “Hi, anyone home?” The rectangular doorbell has one half-open, disinterested eye. The composition is clean and balanced, with humor arising from contrast. Panel 2 repeats the scene: the visitor stiffens in surprise as the doorbell’s eye droops, and it replies with a tiny, dull speech bubble, “Yeah.” The visitor’s awkward face amplifies the emotional mismatch. Panel 3 keeps the same layout: the visitor leans forward with polite hope, hands clasped, asking, “Can I come in?” The doorbell’s eye drifts away wordlessly, uninterested. Panel 4 concludes with the visitor giving a helpless laugh, shoulders raised, and palms open toward the viewer. The unmoved doorbell mutters, “Whatever.” The closing beat is minimalist, witty, and effortlessly deadpan."_ </mark>
@@ -444,6 +448,9 @@ Try to get at least two people to interact with your system. (Ideally, you would
 <mark> _**Original Prompt:** "A minimalist black-and-white line-art comic storyboard with a lighthearted and comical tone. Scene 3 features a playful doorbell. Panel 1 shows a stick-figure visitor looking down at their phone while a coffee cup tilts, a drop falls on the doorbell button, and its expressive eye opens in shock. Panel 2 repeats the setup, but the doorbell squints, yells “Ouch! That’s hot coffee!”, and the visitor jerks back. Panel 3 keeps the same framing, with the visitor apologizing and the doorbell’s eye softening into a sly smirk. Panel 4 closes the scene with the doorbell’s eye wide and grinning, a bubble reading “No worries! Just brew me another one next time.” The visitor laughs, hand over mouth, turning a small accident into playful camaraderie."_ </mark>
 
 <mark> _**Original Prompt:** "A minimalist black-and-white line-art comic storyboard with a comically inquisitive tone. Scene 4: A curious doorbell. Panel 1: A simple doorway and steps. A rectangular doorbell with one large, expressive eye looks puzzled. A stick-figure delivery person holds a large, oddly shaped package. The courier’s speech bubble reads, “Your delivery, please sign here.” The mood is professional but humorously tense. Panel 2: The courier sets the strange package on the step. The doorbell squints suspiciously, asking, “Wait… what’s in that package? It looks weird.” The courier stands neutrally. The comedy comes from the doorbell’s nosy personality. Panel 3: The courier walks away mid-step. The doorbell’s eye darts left and right, blur lines suggest restlessness. Its speech bubble shouts, “Hey! Don’t go! Tell me! Is it… an alien pet?!”. The scene ends with exaggerated, cinematic humor—a curious AI desperate for gossip, ignored by an indifferent human."_ </mark>
+
+</details>
+</mark>
 
 ### <mark> Electronics Assembly </mark>
 
@@ -463,7 +470,7 @@ Try to get at least two people to interact with your system. (Ideally, you would
 
 ### <mark> Drafting & Modeling </mark>
 
-<mark> We modeled our enclosure in Rhino 3D. This time we made sure to accommodate all the internal electronics within the device. The doorbell was modeled with a modern aesthetic in mind, with beveled edges and a perforated speaker in the front, with a central button in the middle to ring the doorbell. Design was base of traditional injection, molding processes, but trasnalted to 3D printing to preserve materiality. </mark>
+<mark> We modeled our enclosure in Rhino 3D. This time we made sure to accommodate all the internal electronics within the device. The doorbell was modeled with a modern aesthetic in mind, with beveled edges and a perforated speaker in the front, with a central button in the middle to ring the doorbell. Design was base off traditional injection molding processes and translated to 3D printing to preserve materiality. </mark>
 
 ![Draft 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Sketches/Draft_1.png)
 ![Draft 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Sketches/Draft_2.png)

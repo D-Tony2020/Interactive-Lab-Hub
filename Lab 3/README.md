@@ -433,6 +433,12 @@ Try to get at least two people to interact with your system. (Ideally, you would
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Process/Process_6.jpg" alt="Process 6" width="33%"/>
 </p>
 
+![Image 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Images/Image_1.jpg)
+![Image 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Images/Image_2.jpg)
+![Image 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Images/Image_3.jpg)
+![Image 4](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Images/Image_4.jpg)
+![Image 5](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Images/Image_5.jpg)
+
 ### <mark> Test Dialogue </mark>
 
 - <mark> Watch Test Dialogue #1: [Doorbell #1 Video Link](https://drive.google.com/file/d/1Y69Cxp0skwV55OnjJOGuuaDrJjPpXC_Y/view?usp=sharing) </mark>
@@ -458,3 +464,5 @@ Try to get at least two people to interact with your system. (Ideally, you would
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
 <mark> \*\*_your answer here_\*\* </mark>
+
+![Image 6](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%203/Images/Image_6.jpg)

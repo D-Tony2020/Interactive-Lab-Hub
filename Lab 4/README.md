@@ -30,8 +30,6 @@
 
 \*️⃣ **D. Display & Housing** - 5 sketches for display/button/knob positioning - Written reflection: questions raised, what to prototype - Pick one display design to integrate - Rationale for design - Photos/videos of your cardboard prototype
 
-</details>
-
 ---
 
 ### Part 2 (Week 2)
@@ -43,11 +41,16 @@
 
 ---
 
+</details>
+
 ## Lab Overview
 
 **NAMES OF COLLABORATORS HERE**
 
 For lab this week, we focus both on sensing, to bring in new modes of input into your devices, as well as prototyping the physical look and feel of the device. You will think about the physical form the device needs to perform the sensing as well as present the display or feedback about what was sensed.
+
+<details>
+	<summary><strong>Part 1 Lab Preparation</strong></summary>
 
 ## Part 1 Lab Preparation
 
@@ -103,6 +106,11 @@ For submission, the readme.md page for this lab should be edited to include the 
 - Link your Lab 4 readme.md in your main Interactive-Lab-Hub readme.md.
 - Labs are due on Mondays, make sure to submit your Lab 4 readme.md to Canvas.
 
+</details>
+
+<details>
+	<summary><strong>Lab Overview</strong></summary>
+
 ## Lab Overview
 
 A) [Capacitive Sensing](#part-a)
@@ -137,6 +145,11 @@ F) [Record the interaction](#part-f)
    ```
    If you see "Hello blinka!", your setup is correct. If not, follow the troubleshooting steps in the file or ask for help.
 
+</details>
+
+<details>
+	<summary><strong>Part A</strong></summary>
+
 ### Part A
 
 ### Capacitive Sensing, a.k.a. Human-Twizzler Interaction
@@ -158,6 +171,11 @@ Twizzler 10 touched!
 Twizzler 6 touched!
 ```
 
+</details>
+
+<details>
+	<summary><strong>Part B</strong></summary>
+
 ### Part B
 
 ### More sensors
@@ -167,7 +185,6 @@ Twizzler 6 touched!
 We here want you to get to know this awesome sensor [Adafruit APDS-9960](https://www.adafruit.com/product/3595). It is capable of sensing proximity, light (also RGB), and gesture!
 
 <img src="https://cdn-shop.adafruit.com/970x728/3595-06.jpg" width=200>
-
 
 Connect it to your pi with Qwiic connector and try running the three example scripts individually to see what the sensor is capable of doing!
 
@@ -233,17 +250,27 @@ Connect it to your pi with Qwiic connector and try running the example script to
 
 You can go to the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_Proximity_Py) to learn more about the sensor and see other examples
 
+</details>
+
+<details>
+	<summary><strong>Part C</strong></summary>
+
 ### Part C
 
 ### Physical considerations for sensing
 
 Usually, sensors need to be positioned in specific locations or orientations to make them useful for their application. Now that you've tried a bunch of the sensors, pick one that you would like to use, and an application where you use the output of that sensor for an interaction. For example, you can use a distance sensor to measure someone's height if you position it overhead and get them to stand under it.
 
+</details>
+
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
+
+<details>
+	<summary><strong>Part D</strong></summary>
 
 ### Part D
 
@@ -280,6 +307,8 @@ Here is an example:
 <img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/images/horoscope.png?raw=true"  width="250"/>
 
 Think about how you want to present the information about what your sensor is sensing! Design a paper display for your project that communicates the state of the Pi and a sensor. Ideally you should design it so that you can slide the Pi out to work on the circuit or programming, and then slide it back in and reattach a few wires to be back in operation.
+
+</details>
 
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
 

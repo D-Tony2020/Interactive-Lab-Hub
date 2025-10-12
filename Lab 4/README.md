@@ -266,12 +266,12 @@ Usually, sensors need to be positioned in specific locations or orientations to 
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
 
 <p align="center">
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_1.png" alt="Interaction Image 1" width="33%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_2.png" alt="Interaction Image 2" width="33%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_3.png" alt="Interaction Image 3" width="33%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_4.png" alt="Interaction Image 4" width="33%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_5.png" alt="Interaction Image 5" width="33%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_6.png" alt="Interaction Image 6" width="33%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_1.png" alt="Interaction Image 1" width="49.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_2.png" alt="Interaction Image 2" width="49.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_3.png" alt="Interaction Image 3" width="49.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_4.png" alt="Interaction Image 4" width="49.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_5.png" alt="Interaction Image 5" width="49.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_6.png" alt="Interaction Image 6" width="49.5%"/>
 </p>
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
@@ -328,12 +328,12 @@ Think about how you want to present the information about what your sensor is se
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
 
 <p align="center">
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_1.png" alt="Form Image 1" width="33%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_2.png" alt="Form Image 2" width="33%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_3.png" alt="Form Image 3" width="33%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_4.png" alt="Form Image 4" width="33%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_5.png" alt="Form Image 5" width="33%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_6.png" alt="Form Image 6" width="33%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_1.png" alt="Form Image 1" width="49.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_2.png" alt="Form Image 2" width="49.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_3.png" alt="Form Image 3" width="49.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_4.png" alt="Form Image 4" width="49.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_5.png" alt="Form Image 5" width="49.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_6.png" alt="Form Image 6" width="49.5%"/>
 </p>
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***

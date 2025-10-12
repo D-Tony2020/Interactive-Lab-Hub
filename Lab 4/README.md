@@ -325,11 +325,11 @@ Think about how you want to present the information about what your sensor is se
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
 
 <p align="center">
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_1.jpg" alt="Form Image 1" width="19.8%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_2.jpg" alt="Form Image 2" width="19.8%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_3.jpg" alt="Form Image 3" width="19.8%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_4.jpg" alt="Form Image 4" width="19.8%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_5.jpg" alt="Form Image 5" width="19.8%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_1.jpg" alt="Form Image 1" width="33%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_2.jpg" alt="Form Image 2" width="33%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_3.jpg" alt="Form Image 3" width="33%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_4.jpg" alt="Form Image 4" width="33%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_5.jpg" alt="Form Image 5" width="33%"/>
 </p>
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***

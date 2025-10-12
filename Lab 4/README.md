@@ -265,11 +265,13 @@ Usually, sensors need to be positioned in specific locations or orientations to 
 
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
 
-![Interaction Image 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_1.jpg)
-![Interaction Image 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_2.jpg)
-![Interaction Image 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_3.jpg)
-![Interaction Image 4](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_4.jpg)
-![Interaction Image 5](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_5.jpg)
+<p align="center">
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_1.jpg" alt="Interaction Image 1" width="33%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_2.jpg" alt="Interaction Image 2" width="33%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_3.jpg" alt="Interaction Image 3" width="33%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_4.jpg" alt="Interaction Image 4" width="33%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_5.jpg" alt="Interaction Image 5" width="33%"/>
+</p>
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
@@ -338,12 +340,10 @@ Think about how you want to present the information about what your sensor is se
 
 <p align="center">
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Inspiration/Inspiration_2.jpg" alt="Inspiration 2" width="49.5%"/>
-  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Inspiration/Inspiration_2.jpg" alt="Inspiration 3" width="49.5%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Inspiration/Inspiration_3.jpg" alt="Inspiration 3" width="49.5%"/>
 </p>
 
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
-
-![Spine Unit](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Spine_Unit.png)
 
 <p align="center">
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Cardboard_Assembly_1.jpg" alt="Cardboard Assembly 1" width="33%"/>

@@ -328,6 +328,9 @@ Build a cardboard prototype of your design.
 
 Following exploration and reflection from Part 1, complete the "looks like," "works like" and "acts like" prototypes for your design, reiterated below.
 
+<details>
+	<summary><strong>Part E</strong></summary>
+
 ### Part E
 
 #### Chaining Devices and Exploring Interaction Effects
@@ -503,7 +506,12 @@ python pi_servo_hat_test.py
 For more details and advanced usage, see the [official SparkFun Servo pHAT documentation](https://learn.sparkfun.com/tutorials/pi-servo-phat-v2-hookup-guide/all#resources-and-going-further).
 A servo motor is a rotary actuator that allows for precise control of angular position. The position is set by the width of an electrical pulse (PWM). You can read [this Adafruit guide](https://learn.adafruit.com/adafruit-arduino-lesson-14-servo-motors/servo-motors) to learn more about how servos work.
 
+</details>
+
 ---
+
+<details>
+	<summary><strong>Part F</strong></summary>
 
 ### Part F
 
@@ -514,3 +522,5 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 - "Looks like": shows how the device should look, feel, sit, weigh, etc.
 - "Works like": shows what the device can do
 - "Acts like": shows how a person would interact with the device
+
+</details>

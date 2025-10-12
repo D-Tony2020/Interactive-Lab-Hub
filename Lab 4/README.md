@@ -334,16 +334,20 @@ Think about how you want to present the information about what your sensor is se
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
 
-![Inspiration 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Inspiration/Inspiration_2.jpg)
-![Inspiration 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Inspiration/Inspiration_3.jpg)
+<p align="center">
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Inspiration/Inspiration_2.jpg" alt="Inspiration 2" width="49.5%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Inspiration/Inspiration_2.jpg" alt="Inspiration 3" width="49.5%"/>
+</p>
 
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
 
-![Spine Unit](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Spine_Units.png)
+![Spine Unit](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Spine_Unit.png)
 
-![Cardboard Assembly 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Cardboard_Assembly_1.jpg)
-![Cardboard Assembly 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Cardboard_Assembly_2.jpg)
-![Cardboard Assembly 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Cardboard_Assembly_3.jpg)
+<p align="center">
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Cardboard_Assembly_1.jpg" alt="Cardboard Assembly 1" width="33%"/>
+  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Cardboard_Assembly_2.jpg" alt="Cardboard Assembly 2" width="33%"/>
+    <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Cardboard_Assembly_3.jpg" alt="Cardboard Assembly 3" width="33%"/>
+</p>
 
 Build a cardboard prototype of your design.
 
@@ -354,8 +358,6 @@ Build a cardboard prototype of your design.
 ![Cardbaord Prototype 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Cardbaord_Prototype_1.jpg)
 ![Cardbaord Prototype 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Cardbaord_Prototype_2.jpg)
 ![Cardbaord Prototype 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Cardbaord_Prototype_3.jpg)
-![Cardbaord Prototype 4](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Cardbaord_Prototype_4.jpg)
-![Cardbaord Prototype 5](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Cardbaord_Prototype_5.jpg)
 
 # LAB PART 2
 

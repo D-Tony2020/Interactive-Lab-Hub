@@ -343,8 +343,8 @@ Think about how you want to present the information about what your sensor is se
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
 
-![Inspiration 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Inspiration/Inspiration_2.jpg)
-![Inspiration 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Inspiration/Inspiration_3.jpg)
+![Inspiration 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Inspiration/Inspiration_3.jpg)
+![Inspiration 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Inspiration/Inspiration_4.jpg)
 
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
 

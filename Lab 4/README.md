@@ -265,7 +265,7 @@ Usually, sensors need to be positioned in specific locations or orientations to 
 
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
 
-<p align="center">
+<p align="left">
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_1.jpg" alt="Interaction Image 1" width="33%"/>
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_2.jpg" alt="Interaction Image 2" width="33%"/>
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_3.jpg" alt="Interaction Image 3" width="33%"/>
@@ -279,9 +279,10 @@ Usually, sensors need to be positioned in specific locations or orientations to 
 
 - <mark> Watch Snake Prototype Interaction: [Snake Prototype Video Link](https://drive.google.com/file/d/142wi6-xxkbrqjmAFBEKmk51IIl9u3vvh/view?usp=sharing) </mark>
 
-![Electronics Setup](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Electronics_Setup.png)
-
-![Inspiration 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Inspiration/Inspiration_1.png)
+<p align="center">
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Electronics_Setup.png" alt="Electronics Setup" width="49.5%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Inspiration/Inspiration_1.png" alt="Inspiration 1" width="49.5%"/>
+</p>
 
 <details>
 	<summary><strong>Part D</strong></summary>
@@ -326,7 +327,7 @@ Think about how you want to present the information about what your sensor is se
 
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
 
-<p align="center">
+<p align="left">
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_1.jpg" alt="Form Image 1" width="33%"/>
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_2.jpg" alt="Form Image 2" width="33%"/>
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_3.jpg" alt="Form Image 3" width="33%"/>

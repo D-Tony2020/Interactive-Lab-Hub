@@ -265,24 +265,24 @@ Usually, sensors need to be positioned in specific locations or orientations to 
 
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
 
-<p align="left">
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_1.jpg" alt="Interaction Image 1" width="33%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_2.jpg" alt="Interaction Image 2" width="33%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_3.jpg" alt="Interaction Image 3" width="33%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_4.jpg" alt="Interaction Image 4" width="33%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_5.jpg" alt="Interaction Image 5" width="33%"/>
+<p align="center">
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_1.png" alt="Interaction Image 1" width="33%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_2.png" alt="Interaction Image 2" width="33%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_3.png" alt="Interaction Image 3" width="33%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_4.png" alt="Interaction Image 4" width="33%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_5.png" alt="Interaction Image 5" width="33%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_6.png" alt="Interaction Image 6" width="33%"/>
 </p>
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+
+![Inspiration 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Inspiration/Inspiration_1.png)
 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
 
 - <mark> Watch Snake Prototype Interaction: [Snake Prototype Video Link](https://drive.google.com/file/d/142wi6-xxkbrqjmAFBEKmk51IIl9u3vvh/view?usp=sharing) </mark>
 
-<p align="center">
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Electronics_Setup.png" alt="Electronics Setup" width="49.5%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Inspiration/Inspiration_1.png" alt="Inspiration 1" width="49.5%"/>
-</p>
+![Electronics Setup](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Electronics_Setup.png)
 
 <details>
 	<summary><strong>Part D</strong></summary>
@@ -327,22 +327,21 @@ Think about how you want to present the information about what your sensor is se
 
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
 
-<p align="left">
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_1.jpg" alt="Form Image 1" width="33%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_2.jpg" alt="Form Image 2" width="33%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_3.jpg" alt="Form Image 3" width="33%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_4.jpg" alt="Form Image 4" width="33%"/>
-	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_5.jpg" alt="Form Image 5" width="33%"/>
+<p align="center">
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_1.png" alt="Form Image 1" width="33%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_2.png" alt="Form Image 2" width="33%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_3.png" alt="Form Image 3" width="33%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_4.png" alt="Form Image 4" width="33%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_5.png" alt="Form Image 5" width="33%"/>
+	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_6.png" alt="Form Image 6" width="33%"/>
 </p>
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
 
-<p align="center">
-  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Inspiration/Inspiration_2.jpg" alt="Inspiration 2" width="49.5%"/>
-  <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Inspiration/Inspiration_3.jpg" alt="Inspiration 3" width="49.5%"/>
-</p>
+![Inspiration 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Inspiration/Inspiration_2.jpg)
+![Inspiration 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Inspiration/Inspiration_3.jpg)
 
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
 

@@ -45,7 +45,7 @@
 
 ## Lab Overview
 
-**NAMES OF COLLABORATORS HERE**
+<mark> **Collaborators: Thomas Knoepffler, Carrie Wang, Xiaocheng Li Julia Chen, Dean Xu** </mark>
 
 For lab this week, we focus both on sensing, to bring in new modes of input into your devices, as well as prototyping the physical look and feel of the device. You will think about the physical form the device needs to perform the sensing as well as present the display or feedback about what was sensed.
 
@@ -265,6 +265,12 @@ Usually, sensors need to be positioned in specific locations or orientations to 
 
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
 
+![Interaction Image 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_1.jpg)
+![Interaction Image 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_2.jpg)
+![Interaction Image 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_3.jpg)
+![Interaction Image 4](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_4.jpg)
+![Interaction Image 5](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_5.jpg)
+
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
@@ -311,6 +317,12 @@ Think about how you want to present the information about what your sensor is se
 </details>
 
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
+
+![Form Image 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_1.jpg)
+![Form Image 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_2.jpg)
+![Form Image 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_3.jpg)
+![Form Image 4](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_4.jpg)
+![Form Image 5](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_5.jpg)
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 

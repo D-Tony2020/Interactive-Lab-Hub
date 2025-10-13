@@ -368,7 +368,7 @@ Think about how you want to present the information about what your sensor is se
 - <mark> Spaces and cavities need to be included so that the electronics and wiring could be able to pass through the assembly, in addition to being able to attach buttons onto the sides of each vertebrae section.</mark>
 - <mark> The final assembly needs to be robust enough for it to hold together and be held by a user in both hands, but also flexible enough for it to be able to bend and undulate properly (i.e. press side buttons).</mark>
 
-![Cardboard Unit](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Cardboard_Unit.jpg)
+![Spine Unit](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Spine_Unit.png)
 
 <p align="center">
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Cardboard_Assembly_1.jpg" alt="Cardboard Assembly 1" width="33%"/>

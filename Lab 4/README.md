@@ -364,7 +364,7 @@ Think about how you want to present the information about what your sensor is se
 
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
 
-- <mark> We wanted it to be unit based, so we created a general purpose, laser cut module that we would repeat over and over again across the assembly attached together by a string, similar to beads on a string.</mark>
+- <mark> We wanted it to be unit based, so we created a general purpose, laser cut module in Rhino 3D that we would repeat over and over again across the assembly attached together by a string (i.e., to beads on a string).</mark>
 - <mark> Spaces and cavities need to be included so that the electronics and wiring could be able to pass through the assembly, in addition to being able to attach buttons onto the sides of each vertebrae section.</mark>
 - <mark> The final assembly needs to be robust enough for it to hold together and be held by a user in both hands, but also flexible enough for it to be able to bend and undulate properly (i.e. press side buttons).</mark>
 

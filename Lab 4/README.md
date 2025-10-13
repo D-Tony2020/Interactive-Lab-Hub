@@ -265,6 +265,8 @@ Usually, sensors need to be positioned in specific locations or orientations to 
 
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
 
+<mark> For this lab, we decided to begin our ideation by considering different types of game controllers. We start off with an open design space considering va generalized 2-D game I would be interface with a type of controller. At a minimum, this controller would have up, down, left, and right controls. </mark>
+
 <p align="center">
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_1.png" alt="Interaction Image 1" width="49.5%"/>
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Interaction_Image_2.png" alt="Interaction Image 2" width="49.5%"/>
@@ -276,6 +278,8 @@ Usually, sensors need to be positioned in specific locations or orientations to 
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
+<mark> As we decided to narrow down our ideas, further we found that having a specific kind of game made the design of our interaction far more deliberate, and filled with intention, so we decided to select the game snake as a preliminary game to design our controller off of. The classic snake made use of up, down, left, and right controls. Furthermore, the game relied on timing and precision in order for a player to navigate the winding path that the snake creates. Because of this, we wanted to think about how we might be able to place a directional pad, or some other form of directional movement analog, in a way that is both playful, but also takes into account the avoidance of instant control over the snake character. </mark>
+
 <p align="center">
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Inspiration/Inspiration_1.png" alt="Inspiration 1" width="49.5%"/>
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Inspiration/Inspiration_2.png" alt="Inspiration 2" width="49.5%"/>
@@ -284,6 +288,8 @@ Usually, sensors need to be positioned in specific locations or orientations to 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
 
 - <mark> Watch Snake Prototype Interaction: [Snake Prototype Video Link](https://drive.google.com/file/d/142wi6-xxkbrqjmAFBEKmk51IIl9u3vvh/view?usp=sharing) </mark>
+
+<mark> We created a very simple prototype utilizing a row of four tactile switches to denote each direction and coded a very simple prototype of the Snake game through the Raspberri Pi. Well, this set up was simple. We wanted to expand the control aspect further and started to take inspiration directly from the snake character itself for our physical housing and control enclosure.</mark>
 
 ![Electronics Setup](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Electronics_Setup.png)
 
@@ -330,6 +336,8 @@ Think about how you want to present the information about what your sensor is se
 
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
 
+<mark> We decided to incorporate another theme for this section, creating enclosures and controllers that mimic the characters within classic 2-D games. For example, utilizing an actual racket for the game pong are considering two separate sticks that would represent ours for a rowing game. And considering our main example for this lab, the controller for the classic snake game would be a long, snake-like object that would control the snake character, depending on which direction the player would bend the object. We started to consider how this large form would break down into its simple modular parts.
+
 <p align="center">
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_1.png" alt="Form Image 1" width="49.5%"/>
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Sketches/Form_Image_2.png" alt="Form Image 2" width="49.5%"/>
@@ -341,12 +349,23 @@ Think about how you want to present the information about what your sensor is se
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
+<mark> While these controllers vary significantly in terms of their actuation and use case (i.e. specific game they are designed for) few similarities arise. For one, they all deal with certain objects that are already indicative of human interaction (i.e. rackets, oars, etc.) Or familiar objects that are supposedly mapping onto kind of interaction in game. Therefore, it makes use of the mental model approach for physical interaction where by the appearance of certain signifiers gives the impression of affordances inside the 2D game. The question remains, though, if these mental models will be sufficient enough for people to understand how to play each game utilizing the control controller.</mark>
+
+- <mark> They can be prototyped with a ready-made objects and electronics attached to them. </mark>
+- <mark> They can be prototyped through laser cut cardboard in the form of a linkage system.</mark>
+
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
+
+<mark> We decided to take inspiration from the actual skeleton of a snake and consider it's individual vertebrae as a underlying scaffolding for our controller. In the same way, the vertebrae can bend and undulate in on itself, so to what our controller and through its undulations, the succeeding vertebrae would then click on conveniently placed buttons on the proceeding vertebrae, thus creating a type of controller that is activated through its bending. </mark>
 
 ![Inspiration 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Inspiration/Inspiration_3.jpg)
 ![Inspiration 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Inspiration/Inspiration_4.jpg)
 
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+
+- <mark> we wanted it to be unit based, so we created a general purpose, laser cut module that we would repeat over and over again across the assembly.</mark>
+- <mark> Spaces and cavities need to be included so that the electronics and wiring could be able to pass through in addition to being able to attach buttons onto the size of a vertebrae section.</mark>
+- <mark> The final assembly needs to be robust enough for it too, hold to be held by a user in both hands, but flexible enough for it to be able to bend and undulate properly.</mark>
 
 <p align="center">
   <img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Cardboard_Assembly_1.jpg" alt="Cardboard Assembly 1" width="33%"/>
@@ -359,6 +378,8 @@ Build a cardboard prototype of your design.
 **\*\*\*Document your rough prototype.\*\*\***
 
 - <mark> Watch Snake Cardboard: [Snake Cardboard Video Link](https://drive.google.com/file/d/1WxEIpw7CQwIu8CiWmukowEdy7hOVrlXo/view?usp=sharing) </mark>
+
+<mark> unfortunate our cardboard prototype as it stands, was not sufficient enough to create an undulating motion through movement at the top of the assembly. Our current prototype (similar to beads on a string) needs to provide some tensile strength in between each cardboard vertebrae. This can possibly be achieved by including some crimps or knots in between each vertebrae or by increasing the tension of the rope at each end to create a more tense structure that's able to naturally oriented itself to its original straight position. More electronics integration and iterations on this prototype to come. </mark>
 
 ![Cardbaord Prototype 1](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Cardbaord_Prototype_1.jpg)
 ![Cardbaord Prototype 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Images/Cardbaord_Prototype_2.jpg)

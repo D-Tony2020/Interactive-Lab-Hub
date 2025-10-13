@@ -285,7 +285,7 @@ Usually, sensors need to be positioned in specific locations or orientations to 
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Inspiration/Inspiration_2.png" alt="Inspiration 2" width="49.5%"/>
 </p>
 
-<mark> _**Image Source:** Snake game. Nokia phone. (digitalartsblog)_ </mark>
+<mark> _**Image Source:** Snake game. Nokia phone. (www.digitalartsblog.com)_ </mark>
 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
 

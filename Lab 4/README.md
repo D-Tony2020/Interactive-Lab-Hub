@@ -285,6 +285,8 @@ Usually, sensors need to be positioned in specific locations or orientations to 
 	<img src="https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Inspiration/Inspiration_2.png" alt="Inspiration 2" width="49.5%"/>
 </p>
 
+<mark> _**Image Source:** Snake game. Nokia phone. (digitalartsblog)_ </mark>
+
 **\*\*\*Pick one of these designs to prototype.\*\*\***
 
 - <mark> Watch Snake Prototype Interaction: [Snake Prototype Video Link](https://drive.google.com/file/d/142wi6-xxkbrqjmAFBEKmk51IIl9u3vvh/view?usp=sharing) </mark>
@@ -358,10 +360,12 @@ Think about how you want to present the information about what your sensor is se
 ![Inspiration 2](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Inspiration/Inspiration_3.jpg)
 ![Inspiration 3](https://github.com/thomknoe/INFO-5345/blob/Fall2025/Lab%204/Inspiration/Inspiration_4.jpg)
 
+<mark> _**Image Source:** Close up head and body bones viper on black background. By pumppump. (Adobe Stock Cornell License)_ </mark>
+
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
 
 - <mark> We wanted it to be unit based, so we created a general purpose, laser cut module that we would repeat over and over again across the assembly attached together by a string, similar to beads on a string.</mark>
-- <mark> Spaces and cavities need to be included so that the electronics and wiring could be able to pass through, in addition to being able to attach buttons onto the sides of each vertebrae section.</mark>
+- <mark> Spaces and cavities need to be included so that the electronics and wiring could be able to pass through the assembly, in addition to being able to attach buttons onto the sides of each vertebrae section.</mark>
 - <mark> The final assembly needs to be robust enough for it to hold together and be held by a user in both hands, but also flexible enough for it to be able to bend and undulate properly (i.e. press side buttons).</mark>
 
 <p align="center">

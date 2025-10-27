@@ -168,6 +168,7 @@ You: quit
 
 **Design consideration**: Slower response can help us to catch a photo each minute to check whether people is on the chair and give suggestions to stand up for some time if they have been their for such long time. Just capture the image each minute and give the response to the ollama again to see whether the person is on the chair for such long time. It can also be asynchronous or rotate after the last one is done.
 
+---
 #### Teachable Machines
 ##### Objective
 In this experiment, our goal was to enable the visual recognition model to identify the **drinking action**.  
@@ -176,8 +177,6 @@ After careful analysis, we abstracted the action into two key components:
 2. **Hand holding the cup**
 
 These two visual cues together represent the essential meaning of “drinking.”
-
----
 
 ##### Data Preparation
 We collected a series of short video clips featuring different cups, various interaction states, and empty backgrounds.  

@@ -112,10 +112,10 @@ Each of the installs will take a while, please be patient. After successfully in
 (venv-ml) pi@ixe00:~ Interactive-Lab-Hub/Lab 5 $ python hand_pose.py
 ```
 Test photos:
+<img width="1390" height="880" alt="image" src="https://github.com/user-attachments/assets/14d4f431-0e71-48fb-9b4f-9d8690481266" />
 
-<img src="handpose1.png" alt="hand pose example" width="400"/>
+<img width="812" height="720" alt="image" src="https://github.com/user-attachments/assets/50bbe989-950b-4737-a37b-4cd1d257cbf3" />
 
-<img src="handpose2.png" alt="hand pose example" width="400"/>
 
 
 
@@ -137,7 +137,8 @@ This will capture an image from your webcam and let you ask questions about it i
 
 Test photo:
 
-<img src="captured_image.jpg" alt="hand pose example" width="400"/>
+<img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/9730f837-65b6-4732-8ac2-b13135846fca" />
+
 
 Logs for moondream_simple.py:
 ```
@@ -282,9 +283,11 @@ In an earlier version of this class students experimented with foundational comp
   - **`detection_images/`** — stores every captured image.  
     Example image files:
   <p float="left">
-    <img src="detection_images/detection_20251026_204725.jpg" width="250" />
-    <img src="detection_images/detection_20251026_220819.jpg" width="250" />
-    <img src="detection_images/detection_20251026_221139.jpg" width="250" />
+  <img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/d3d04aa7-862d-48e3-80c6-e0d74955d773" />
+<img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/72144b27-628e-4461-8bbc-4142e26fd241" />
+<img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/06d2fa50-140f-4666-89dd-add1d76dc913" />
+
+
   </p>
   
   - **`detection_log.txt`** — overwritten on each start; one line per detection.  

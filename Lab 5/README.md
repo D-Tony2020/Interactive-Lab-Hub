@@ -1,6 +1,6 @@
 # Observant Systems
 
-**Wenzhuo Ma - wm**
+**Wenzhuo Ma - wm356**
 
 **Yoyo Wang - hw867**
 
@@ -169,26 +169,65 @@ You: quit
 **Design consideration**: Slower response can help us to catch a photo each minute to check whether people is on the chair and give suggestions to stand up for some time if they have been their for such long time. Just capture the image each minute and give the response to the ollama again to see whether the person is on the chair for such long time. It can also be asynchronous or rotate after the last one is done.
 
 #### Teachable Machines
-Google's [TeachableMachines](https://teachablemachine.withgoogle.com/train) is very useful for prototyping with the capabilities of machine learning. We are using [a python package](https://github.com/MeqdadDev/teachable-machine-lite) with tensorflow lite to simplify the deployment process.
+##### Objective
+In this experiment, our goal was to enable the visual recognition model to identify the **drinking action**.  
+After careful analysis, we abstracted the action into two key components:
+1. **Cup leaving the table**
+2. **Hand holding the cup**
 
-![Tachable Machines Pi](Readme_files/tml_pi.gif)
+These two visual cues together represent the essential meaning of “drinking.”
 
-To get started, install dependencies into a virtual environment for this exercise as described in [prep.md](prep.md):
+---
 
-After installation, connect your webcam to your Pi and use **VNC to access to your Pi**, open the terminal, and go to Lab 5 folder and run the example script:
-(***it will not work if you use ssh from your laptop***)
+##### Data Preparation
+We collected a series of short video clips featuring different cups, various interaction states, and empty backgrounds.  
+From these recordings, we extracted image frames to create our dataset.
+
+**Figure** Sample images showing different cup types, actions, and background scenes.  
+<img width="1499" height="1020" alt="数据集" src="https://github.com/user-attachments/assets/dd784c1d-e0ed-497c-ba09-7006f315a360" />
 
 
-```
-(venv-tml) pi@ixe00:~ Interactive-Lab-Hub/Lab 5 $ python tml_example.py
-```
+---
+
+##### Model Training & Results
+We categorized the samples into three main classes:
+
+1. **Cup held in hand**  
+2. **Cup on the desk**  
+3. **No cup in sight**
+
+A Tensorflow Lite model was trained using these labeled samples.  
+We used a standard train-validation split and tuned hyperparameters such as learning rate, batch size, and number of epochs to achieve optimal performance.
+
+**Figure** Training data distribution, parameters, and evaluation metrics.  
+<img width="1840" height="960" alt="training process" src="https://github.com/user-attachments/assets/19cd318a-d30f-4c0c-9c39-2747296aab89" />
+
+Test results showing prediction accuracy. The trained model achieved **nearly perfect accuracy (≈1.0)** on the test dataset.
 
 
-Next train your own model. Visit [TeachableMachines](https://teachablemachine.withgoogle.com/train), select Image Project and Standard model. The raspberry pi 4 is capable to run not just the low resource models. Second, use the webcam on your computer to train a model. *Note: It might be advisable to use the pi webcam in a similar setting you want to deploy it to improve performance.*  For each class try to have over 150 samples, and consider adding a background or default class where you have nothing in view so the model is trained to know that this is the background. Then create classes based on what you want the model to classify. Lastly, preview and iterate. Finally export your model as a 'Tensorflow lite' model. You will find an '.tflite' file and a 'labels.txt' file. Upload these to your pi (through one of the many ways such as [scp](https://www.raspberrypi.com/documentation/computers/remote-access.html#using-secure-copy), sftp, [vnc](https://help.realvnc.com/hc/en-us/articles/360002249917-VNC-Connect-and-Raspberry-Pi#transferring-files-to-and-from-your-raspberry-pi-0-6), or a connected visual studio code remote explorer).
-![Teachable Machines Browser](Readme_files/tml_browser.gif)
-![Tensorflow Lite Download](Readme_files/tml_download-model.png)
+---
 
-Include screenshots of your use of Teachable Machines, and write how you might use this to create your own classifier. Include what different affordances this method brings, compared to the OpenCV or MediaPipe options.
+##### Conclusion
+The experiment demonstrates that our model can accurately distinguish between the three defined states:
+
+- **Cup held in hand**  
+- **Cup on the desk**  
+- **No cup in sight**
+
+This confirms that abstracting the drinking action into its **core visual components**—the *hand–cup interaction*—is an effective approach for robust action recognition using **Teachable Machine** and **TensorFlow Lite**.
+
+Example test predictions demonstrating real-time classification of cup states:
+
+<img width="878" height="946" alt="Hold a cup" src="https://github.com/user-attachments/assets/3f52587c-6827-48e0-9cf7-544aa7388db0" />
+**Figure.** Cup held in hand 
+
+<img width="878" height="946" alt="Cup single" src="https://github.com/user-attachments/assets/6be6ebaa-bc49-4023-a61e-32049cf99449" />
+**Figure.** Cup on the desk
+
+<img width="878" height="946" alt="No cup" src="https://github.com/user-attachments/assets/4473c6f4-135e-4926-845e-26342e4a350c" />
+
+**Figure.** No Cup in sight
+
 
 #### (Optional) Legacy audio and computer vision observation approaches
 In an earlier version of this class students experimented with observing through audio cues. Find the material here:

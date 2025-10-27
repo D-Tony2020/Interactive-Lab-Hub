@@ -186,7 +186,6 @@ From these recordings, we extracted image frames to create our dataset.
 <img width="1499" height="1020" alt="数据集" src="https://github.com/user-attachments/assets/dd784c1d-e0ed-497c-ba09-7006f315a360" />
 
 
----
 
 ##### Model Training & Results
 We categorized the samples into three main classes:
@@ -204,8 +203,6 @@ We used a standard train-validation split and tuned hyperparameters such as lear
 Test results showing prediction accuracy. The trained model achieved **nearly perfect accuracy (≈1.0)** on the test dataset.
 
 
----
-
 ##### Conclusion
 The experiment demonstrates that our model can accurately distinguish between the three defined states:
 
@@ -218,15 +215,18 @@ This confirms that abstracting the drinking action into its **core visual compon
 Example test predictions demonstrating real-time classification of cup states:
 
 <img width="878" height="946" alt="Hold a cup" src="https://github.com/user-attachments/assets/3f52587c-6827-48e0-9cf7-544aa7388db0" />
+
 **Figure.** Cup held in hand 
 
 <img width="878" height="946" alt="Cup single" src="https://github.com/user-attachments/assets/6be6ebaa-bc49-4023-a61e-32049cf99449" />
+
 **Figure.** Cup on the desk
 
 <img width="878" height="946" alt="No cup" src="https://github.com/user-attachments/assets/4473c6f4-135e-4926-845e-26342e4a350c" />
 
 **Figure.** No Cup in sight
 
+---
 
 #### (Optional) Legacy audio and computer vision observation approaches
 In an earlier version of this class students experimented with observing through audio cues. Find the material here:

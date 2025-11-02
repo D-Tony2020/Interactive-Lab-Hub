@@ -426,15 +426,71 @@ During the lecture, we mentioned questions to help characterize a material:
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
 
+<mark> [Human Posture Detection Demo](https://drive.google.com/file/d/1aSC2VUn-aIAdUP2EGUSOeqScTsXTCyj5/view?usp=drive_link): [https://drive.google.com/file/d/1aSC2VUn-aIAdUP2EGUSOeqScTsXTCyj5/view?usp=drive_link](https://drive.google.com/file/d/1aSC2VUn-aIAdUP2EGUSOeqScTsXTCyj5/view?usp=drive_link) <mark>
+
 ### Part 2.
 
-Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
+## Work Health Assistant
 
-**\*\*\*Include a short video demonstrating the finished result.\*\*\***
+### Overview
 
+The Work Health Assistant is a smart desktop companion designed to help users maintain healthy work habits while sitting at their desks. By monitoring posture, sitting duration, and hydration, the device encourages physical activity and self-care throughout the day.
+
+### Core Features
+#### 1. Activity Recognition
+- Detects user presence when sitting on the chair.
+- Records user activity status every 5 minutes (e.g., sitting, standing, away).
+- Updates a daily activity log automatically.
+
+#### 2. Sitting Duration Monitoring
+- Tracks continuous sitting time.
+- If the user remains seated for more than 30 minutes without movement, the device plays a voice alert: “You have been sitting for more than 30 minutes, please get up and move around.”
+
+#### 3. Posture Correction
+- Identifies unhealthy or slouched sitting positions.
+- Provides real-time posture reminders: “Please straighten your back, maintain an upright posture.”
+
+#### 4. Hydration Reminder
+- Monitors the presence of a cup on the desk.
+- If no cup is detected for 10 minutes, the device reminds: “Please grab a cup of water, you have been without hydration for over 10 minutes.”
+- If the cup is present but untouched for 20 minutes, it reminds: “Please take a drink, your water has been sitting untouched for over 20 minutes.”
+
+#### 5. Daily Activity Summary
+- Automatically generates an end-of-day activity summary, including:
+- Sitting, standing, and away times
+- Posture alerts
+- Hydration reminders
+
+### Storyboard
+
+<img width="1642" height="914" alt="image" src="https://github.com/user-attachments/assets/f70e00e7-e1eb-4f59-ad92-f3233a7aad0b" />
+
+
+### How It Works
+- Sensors track user presence, sitting posture, and desk environment.
+
+- AI posture detection identifies ergonomic risks.
+
+- Voice feedback system delivers timely health reminders.
+
+- Activity logger compiles daily health insights.
+
+
+### Benefits
+- Encourages regular movement and stretching.
+
+- Reduces health risks associated with prolonged sitting.
+
+- Promotes proper posture and hydration habits.
+
+- Increases overall productivity and well-being during work hours.
+
+
+### Future Enhancements
+- Integration with smartwatch data for heart rate and step tracking.
+- Customizable alert personalized options. (light, sounds, music)
 
 ---
-
 
 #### 🧩 Quick Start
 

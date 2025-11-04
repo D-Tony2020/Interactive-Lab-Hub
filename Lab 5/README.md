@@ -634,8 +634,6 @@ All threads and camera resources will be released automatically.
 ---
 #### Feedback: 
 
-### Feedback:
-
 "I really like this device. It can help me with my study habit and ensure my healthy. I always will forgot to drink water when learning for a long time while I do believe that health is the most important. I will sue buy one and place it on my table to make sure my study habit is always right and healthy."
 
 —— Jessie Chen

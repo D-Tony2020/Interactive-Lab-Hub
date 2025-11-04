@@ -242,6 +242,7 @@ In an earlier version of this class students experimented with foundational comp
 ### Human Posture Detection (Moondream + Ollama) [`detect_status.py`](./detect_status.py)
 
 #### Storyboard:
+<img width="1624" height="898" alt="image" src="https://github.com/user-attachments/assets/b75b218a-a537-4d59-ad91-4af9f77eb7ae" />
 
 #### Code:
 
@@ -428,7 +429,7 @@ During the lecture, we mentioned questions to help characterize a material:
 
 <mark> [Human Posture Detection Demo](https://drive.google.com/file/d/1aSC2VUn-aIAdUP2EGUSOeqScTsXTCyj5/view?usp=drive_link): [https://drive.google.com/file/d/1aSC2VUn-aIAdUP2EGUSOeqScTsXTCyj5/view?usp=drive_link](https://drive.google.com/file/d/1aSC2VUn-aIAdUP2EGUSOeqScTsXTCyj5/view?usp=drive_link) <mark>
 
-### Part 2.
+## Part 2.
 
 ## Work Health Assistant
 
@@ -463,7 +464,8 @@ The Work Health Assistant is a smart desktop companion designed to help users ma
 
 ### Storyboard
 
-<img width="1642" height="914" alt="image" src="https://github.com/user-attachments/assets/f70e00e7-e1eb-4f59-ad92-f3233a7aad0b" />
+![09df0bc4b3337fb3597f0b11cc9df0c1](https://github.com/user-attachments/assets/7f5353c2-f917-46dd-96e1-9d69465c583d)
+
 
 
 ### How It Works
@@ -492,7 +494,7 @@ The Work Health Assistant is a smart desktop companion designed to help users ma
 
 ---
 
-#### 🧩 Quick Start
+#### Quick Start
 
 Code : [`work_health_assistant.py`](./work_health_assistant.py)  
 Models : `model_sit.tflite`, `model_cup.tflite`  
@@ -630,3 +632,14 @@ Press `Ctrl + C` to exit safely.
 All threads and camera resources will be released automatically.
 
 ---
+#### Feedback: 
+
+### Feedback:
+
+"I really like this device. It can help me with my study habit and ensure my healthy. I always will forgot to drink water when learning for a long time while I do believe that health is the most important. I will sue buy one and place it on my table to make sure my study habit is always right and healthy."
+
+—— Jessie Chen
+
+"Overall, this desktop assistant is very practical. It reminds me about prolonged sitting, posture, and drinking water, helping me maintain a more structured routine. The project goals and functions are clearly defined, and all edge cases have been considered and resolved through technical solutions. The daily summary is clear, giving me the motivation to continue using it. However, the voice reminders are a bit awkward in an open workspace; I would appreciate features like mute and personalized thresholds. The water intake recognition is occasionally inaccurate; ideally, there would be a coaster for weighing or manual recording."
+
+—— Zijie Zhou

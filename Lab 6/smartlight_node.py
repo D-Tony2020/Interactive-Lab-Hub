@@ -15,7 +15,7 @@ TOPIC_EVENT = f"IDD/hall/smartlight/event/{DEVICE_ID}"
 # ===== 参数初始化 =====
 params = {
     "mode": "auto",
-    "sound_thresh": 0.02,
+    "sound_thresh": 300,
     "motion_thresh": 8/255.0,
     "timeout": 120
 }

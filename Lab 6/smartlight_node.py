@@ -46,7 +46,7 @@ def sound_loop():
             rms = np.sqrt(np.mean(data.astype(np.float32)**2))
             if params["mode"] == "auto":
                 if rms > params["sound_thresh"] and time.monotonic() - last_trigger > 3:
-                    print(f"[sound] RMS={rms:.3f} → Trigger")
+                    print(f"[sound] RMS={rms:.3f} -> Trigger")
                     turn_light(True)
                     state["last_trigger"] = "sound"
                     publish(TOPIC_EVENT, {"device_id": DEVICE_ID, "type": "sound_detected", "value": float(rms), "timestamp": int(time.time())})

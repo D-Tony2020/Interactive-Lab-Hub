@@ -15,7 +15,7 @@ TOPIC_EVENT = f"IDD/hall/smartlight/event/{DEVICE_ID}"
 # ===== 参数初始化 =====
 params = {
     "mode": "auto",                # "auto" | "always_on" | "always_off"
-    "sound_thresh": 400,           # 声音阈值（越大越不敏感）
+    "sound_thresh": 300,           # 声音阈值（越大越不敏感）
     "motion_thresh": 8/255.0,      # 视觉帧差阈值
     "timeout": 120                 # 最长亮灯时间（秒）
 }

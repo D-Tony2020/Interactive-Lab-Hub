@@ -33,9 +33,10 @@ def turn_light(on):
     if state["on"] != on:
         state["on"] = on
         state["last_on"] = time.monotonic()
-        action = "💡 ON" if on else "🌑 OFF"
+        action = "ON" if on else "OFF"
         print(f"[{time.strftime('%H:%M:%S')}] Light -> {action}")
         publish(TOPIC_EVENT, {"device_id": DEVICE_ID, "type": "light_change", "on": on, "timestamp": int(time.time())})
+
 
 # ===== 声音检测线程 =====
 def sound_loop():

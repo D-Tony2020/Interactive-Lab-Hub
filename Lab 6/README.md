@@ -36,6 +36,7 @@ MQTT = lightweight messaging for IoT. Publish/subscribe model with central broke
 sudo apt-get update
 sudo apt-get install -y mosquitto-clients
 ```
+<img width="870" height="576" alt="image" src="https://github.com/user-attachments/assets/a21c69e4-17fd-40c1-8a22-1ae1a7ff48a7" />
 
 **Test it:**
 
@@ -55,10 +56,31 @@ mosquitto_pub -h farlab.infosci.cornell.edu -p 1883 -t 'IDD/test/yourname' -m 'H
 
 **🔧 Debug Tool:** View all MQTT messages in real-time at `http://farlab.infosci.cornell.edu:5001`
 
-![MQTT Explorer showing messages](imgs/MQTT-explorer.png)
+<img width="878" height="946" alt="image" src="https://github.com/user-attachments/assets/22ae5e45-5ee6-4c9b-ae5b-4635376f7469" />
 
 **💡 Brainstorm 5 ideas for messaging between devices**
+1. Distributed Classroom Emotion Wall
+Each desk is equipped with a strip of LEDs and a simple input device (such as buttons or touch sensors). Students can press buttons to express their current state (e.g., ✅ “Understood,” ❓ “Confused,” 😴 “Tired”). The device broadcasts these signals via MQTT, and a central server (or display) calculates the real-time emotional heatmap of the class. The system visualizes this using a color spectrum — green for high comprehension, yellow for neutral, and red for widespread confusion.
 
+2. Cloud-Based Ecological Co-Nurturing System
+Each device is connected to a plant or environmental sensors (for light, humidity, temperature, etc.). Devices share their local environmental parameters through MQTT to compute a Collective Ecological Balance Index. When one location becomes too dry or too dark, others automatically adjust their water pumps or lighting to compensate — creating a “mutual-aid ecosystem” that dynamically maintains group equilibrium.
+
+3. Sensory Symphony
+Each device acts as a sensory instrument:
+
+One controls sound (speaker/buzzer)
+
+One controls light (RGB LED ring)
+
+One controls airflow (small fan or motor)
+
+These devices exchange sensory events through MQTT. For example, light intensity may trigger pitch changes; wind speed may control light flicker frequency; the sound spectrum may modulate wind strength. The result is a real-time, interdependent symphony of physical, visual, and auditory interactions.
+
+4. Random Narrative Machine
+Each device continuously generates short “fragmented verses” or “audio snippets” and sends them via MQTT to another randomly selected device. The receiving device remixes or rearranges the fragments into new sentences or noise patterns, then retransmits them. The messages never disappear — they keep transforming, circulating, and regenerating across the network, forming an endless web of evolving narratives.
+
+5. Phantom Swarm
+Each device drives a small mechanical module (e.g., a servo motor + LED) that simulates a “luminous insect.” Through MQTT, these modules sense their neighbors’ motion states and energy levels. When one device flashes, nearby ones react instantly with startled flickers, producing a spatially dynamic electric swarm. In a dark room, dozens of tiny lights will pulse, ripple, and echo in intricate rhythms — like a colony of breathing electronic organisms.
 ---
 
 ## Part B: Collaborative Pixel Grid

@@ -1,168 +1,250 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <title>SmartLight Controller Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- ✅ 使用最新版 socket.io（兼容 Flask-SocketIO 5.x） -->
+  <!-- Socket.IO -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.4/socket.io.min.js"></script>
 
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
   <style>
+    :root {
+      --bg: #f7f8fa;
+      --card: #ffffff;
+      --accent: #0078d7;
+      --accent-hover: #005fa3;
+      --text: #333;
+      --subtext: #666;
+      --border: #e0e0e0;
+      --shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    }
+
     body {
-      font-family: Arial, sans-serif;
-      background: #f5f5f5;
-      margin: 20px;
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
     }
-    h1 {
-      color: #333;
-    }
-    table {
+
+    header {
       width: 100%;
-      border-collapse: collapse;
-      background: white;
+      background: var(--card);
+      box-shadow: var(--shadow);
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
     }
-    th, td {
-      padding: 10px;
-      border: 1px solid #ccc;
-      text-align: center;
+
+    h1 {
+      margin: 0;
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: var(--accent);
     }
-    button {
-      padding: 6px 10px;
-      margin: 2px;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-      background: #4285f4;
+
+    #globalActions button {
+      background: var(--accent);
       color: white;
+      border: none;
+      border-radius: 6px;
+      padding: 10px 18px;
+      margin-left: 10px;
+      font-size: 0.95rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background 0.2s ease;
     }
-    button:hover {
-      background: #3367d6;
+
+    #globalActions button:hover {
+      background: var(--accent-hover);
     }
-    .on {
-      background-color: #ffeb3b;
+
+    #deviceGrid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      width: 90%;
+      max-width: 1100px;
+      margin: 30px 0;
     }
-    .off {
-      background-color: #ddd;
+
+    .deviceCard {
+      background: var(--card);
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: var(--shadow);
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
     }
-    .mode {
-      font-weight: bold;
+
+    .deviceCard:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
     }
+
+    .deviceHeader {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .deviceHeader h2 {
+      font-size: 1.1rem;
+      margin: 0;
+    }
+
+    .statusDot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: #bbb;
+    }
+
+    .statusDot.on { background: #4caf50; }
+    .statusDot.off { background: #d9534f; }
+
+    .deviceBody {
+      font-size: 0.9rem;
+      line-height: 1.6;
+      color: var(--subtext);
+    }
+
+    .actions button {
+      background: var(--accent);
+      border: none;
+      color: white;
+      border-radius: 6px;
+      padding: 6px 10px;
+      margin: 5px 4px 0 0;
+      font-size: 0.85rem;
+      cursor: pointer;
+      transition: background 0.2s ease;
+    }
+
+    .actions button:hover {
+      background: var(--accent-hover);
+    }
+
     #logPanel {
-      margin-top: 25px;
-      background: white;
-      padding: 10px;
-      border-radius: 8px;
-      border: 1px solid #ccc;
+      width: 90%;
+      max-width: 1100px;
+      background: var(--card);
+      border-radius: 12px;
+      box-shadow: var(--shadow);
+      padding: 15px 20px;
+      margin-bottom: 30px;
+      font-family: monospace;
+      font-size: 0.85rem;
+      color: var(--subtext);
       height: 200px;
       overflow-y: auto;
-      font-family: monospace;
-      white-space: pre-line;
+    }
+
+    #logPanel b {
+      color: var(--accent);
     }
   </style>
 </head>
 <body>
-  <h1>SmartLight Controller Dashboard</h1>
+  <header>
+    <h1>SmartLight Controller Dashboard</h1>
+    <div id="globalActions">
+      <button onclick="broadcast('always_on')">ALL ON</button>
+      <button onclick="broadcast('always_off')">ALL OFF</button>
+      <button onclick="broadcast('auto')">ALL AUTO</button>
+    </div>
+  </header>
 
-  <!-- ✅ 群控按钮 -->
-  <button onclick="broadcast('always_on')">ALL ON</button>
-  <button onclick="broadcast('always_off')">ALL OFF</button>
-  <button onclick="broadcast('auto')">ALL AUTO</button>
+  <main id="deviceGrid"></main>
 
-  <!-- ✅ 状态表格 -->
-  <table id="deviceTable">
-    <thead>
-      <tr>
-        <th>Device ID</th>
-        <th>Light</th>
-        <th>Mode</th>
-        <th>Sound Thresh</th>
-        <th>Motion Thresh</th>
-        <th>Actions</th>
-      </tr>
-    </thead>
-    <tbody id="deviceBody"></tbody>
-  </table>
-
-  <!-- ✅ 实时事件日志 -->
-  <div id="logPanel"><b>Event Log:</b></div>
+  <div id="logPanel">
+    <b>Event Log:</b><br>
+  </div>
 
   <script>
-    // 连接 SocketIO 服务器（自动适配当前主机）
-    const socket = io("http://" + window.location.hostname + ":5000");
-    const deviceBody = document.getElementById("deviceBody");
+    const socket = io("http://" + window.location.hostname + ":5000", { transports: ["websocket"] });
+    const deviceGrid = document.getElementById("deviceGrid");
     const logPanel = document.getElementById("logPanel");
     let devices = {};
 
-    // ===== SocketIO 连接状态 =====
     socket.on("connect", () => {
-      console.log("✅ Connected to SocketIO server");
-      appendLog("✅ Connected to SocketIO server");
+      appendLog("Connected to SocketIO server");
     });
 
     socket.on("disconnect", () => {
-      console.warn("⚠️ Disconnected from SocketIO server");
-      appendLog("⚠️ Disconnected from SocketIO server");
+      appendLog("Disconnected from SocketIO server");
     });
 
-    // ===== 更新设备表格 =====
-    function render() {
-      deviceBody.innerHTML = "";
+    socket.on("update_status", data => {
+      devices[data.device_id] = data.data;
+      renderDevices();
+    });
+
+    socket.on("new_event", ev => {
+      appendLog(`[${ev.device_id}] ${JSON.stringify(ev.event)}`);
+    });
+
+    function renderDevices() {
+      deviceGrid.innerHTML = "";
       for (const [id, d] of Object.entries(devices)) {
-        const row = document.createElement("tr");
-        row.innerHTML = `
-          <td>${id}</td>
-          <td class="${d.light_on ? 'on' : 'off'}">${d.light_on ? 'ON' : 'OFF'}</td>
-          <td class="mode">${d.mode}</td>
-          <td>${d.sound_thresh}</td>
-          <td>${d.motion_thresh.toFixed(3)}</td>
-          <td>
+        const card = document.createElement("div");
+        card.className = "deviceCard";
+
+        card.innerHTML = `
+          <div class="deviceHeader">
+            <h2>${id}</h2>
+            <div class="statusDot ${d.light_on ? 'on' : 'off'}"></div>
+          </div>
+          <div class="deviceBody">
+            <div><b>Mode:</b> ${d.mode}</div>
+            <div><b>Sound Thresh:</b> ${d.sound_thresh}</div>
+            <div><b>Motion Thresh:</b> ${d.motion_thresh.toFixed(3)}</div>
+          </div>
+          <div class="actions">
             <button onclick="setMode('${id}','auto')">Auto</button>
             <button onclick="setMode('${id}','always_on')">On</button>
             <button onclick="setMode('${id}','always_off')">Off</button>
-          </td>`;
-        deviceBody.appendChild(row);
+          </div>
+        `;
+        deviceGrid.appendChild(card);
       }
     }
 
-    // ===== 接收设备状态更新 =====
-    socket.on("update_status", data => {
-      console.log("📩 Received update_status:", data);
-      devices[data.device_id] = data.data;
-      render();
-      appendLog(`[STATUS] ${data.device_id}: mode=${data.data.mode}, light=${data.data.light_on}`);
-    });
-
-    // ===== 接收事件日志 =====
-    socket.on("new_event", ev => {
-      console.log("🎯 EVENT:", ev);
-      appendLog(`[EVENT] ${ev.device_id}: ${JSON.stringify(ev.event)}`);
-    });
-
-    // ===== 发送控制命令 =====
-    function setMode(id, mode) {
-      fetch("/set_param", {
-        method: "POST",
-        headers: {"Content-Type": "application/json"},
-        body: JSON.stringify({device_id: id, payload: {mode}})
-      });
-      appendLog(`[CMD] Sent to ${id}: mode=${mode}`);
-    }
-
-    function broadcast(mode) {
-      fetch("/broadcast", {
-        method: "POST",
-        headers: {"Content-Type": "application/json"},
-        body: JSON.stringify({mode})
-      });
-      appendLog(`[BROADCAST] All devices -> mode=${mode}`);
-    }
-
-    // ===== 实时日志显示 =====
     function appendLog(msg) {
       const line = document.createElement("div");
       line.textContent = `[${new Date().toLocaleTimeString()}] ${msg}`;
       logPanel.appendChild(line);
       logPanel.scrollTop = logPanel.scrollHeight;
+    }
+
+    function setMode(id, mode) {
+      fetch("/set_param", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ device_id: id, payload: { mode } })
+      });
+      appendLog(`[CMD] ${id} -> ${mode}`);
+    }
+
+    function broadcast(mode) {
+      fetch("/broadcast", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ mode })
+      });
+      appendLog(`[BROADCAST] -> ${mode}`);
     }
   </script>
 </body>

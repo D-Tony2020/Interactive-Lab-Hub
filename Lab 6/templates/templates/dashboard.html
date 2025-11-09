@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>SmartLight Controller Dashboard</title>
+  <script src="https://cdn.socket.io/4.6.1/socket.io.min.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f5f5f5; margin: 20px; }
+    h1 { color: #333; }
+    table { width: 100%; border-collapse: collapse; background: white; }
+    th, td { padding: 10px; border: 1px solid #ccc; text-align: center; }
+    button { padding: 6px 10px; margin: 2px; border: none; border-radius: 4px; cursor: pointer; }
+    .on { background-color: #ffeb3b; }
+    .off { background-color: #ddd; }
+    .mode { font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h1>SmartLight Controller Dashboard</h1>
+
+  <button onclick="broadcast('always_on')">ALL ON</button>
+  <button onclick="broadcast('always_off')">ALL OFF</button>
+  <button onclick="broadcast('auto')">ALL AUTO</button>
+
+  <table id="deviceTable">
+    <thead>
+      <tr>
+        <th>Device ID</th>
+        <th>Light</th>
+        <th>Mode</th>
+        <th>Sound Thresh</th>
+        <th>Motion Thresh</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody id="deviceBody">
+    </tbody>
+  </table>
+
+  <script>
+    const socket = io();
+    const deviceBody = document.getElementById("deviceBody");
+    let devices = {};
+
+    function render() {
+      deviceBody.innerHTML = "";
+      for (const [id, d] of Object.entries(devices)) {
+        const row = document.createElement("tr");
+        row.innerHTML = `
+          <td>${id}</td>
+          <td class="${d.light_on ? 'on' : 'off'}">${d.light_on ? 'ON' : 'OFF'}</td>
+          <td class="mode">${d.mode}</td>
+          <td>${d.sound_thresh}</td>
+          <td>${d.motion_thresh.toFixed(3)}</td>
+          <td>
+            <button onclick="setMode('${id}','auto')">Auto</button>
+            <button onclick="setMode('${id}','always_on')">On</button>
+            <button onclick="setMode('${id}','always_off')">Off</button>
+          </td>`;
+        deviceBody.appendChild(row);
+      }
+    }
+
+    socket.on("update_status", data => {
+      devices[data.device_id] = data.data;
+      render();
+    });
+
+    socket.on("new_event", ev => {
+      console.log("[EVENT]", ev);
+    });
+
+    function setMode(id, mode) {
+      fetch("/set_param", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({device_id: id, payload: {mode}})
+      });
+    }
+
+    function broadcast(mode) {
+      fetch("/broadcast", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({mode})
+      });
+    }
+  </script>
+</body>
+</html>

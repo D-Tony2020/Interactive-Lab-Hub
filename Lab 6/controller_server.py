@@ -47,14 +47,12 @@ def on_message(client, userdata, msg):
                   f"light={'ON' if data['light_on'] else 'OFF'} | "
                   f"sound={data['sound_thresh']} | motion={data['motion_thresh']:.3f}")
             socketio.emit("update_status",
-                          {"device_id": dev_id, "data": data},
-                          broadcast=True)
+                          {"device_id": dev_id, "data": data})
 
         elif "event" in msg.topic:
             print(f"[EVENT] {dev_id}: {data}")
             socketio.emit("new_event",
-                          {"device_id": dev_id, "event": data},
-                          broadcast=True)
+                          {"device_id": dev_id, "event": data})
 
     except Exception as e:
         print("[ERROR] Failed to parse MQTT message:", e)
@@ -79,8 +77,7 @@ def set_param():
     client.publish(topic, json.dumps(payload), qos=1)
     print(f"[CMD] Sent to {dev_id}: {payload}")
     socketio.emit("new_event",
-                  {"device_id": dev_id, "event": {"type": "cmd_sent", "payload": payload}},
-                  broadcast=True)
+                  {"device_id": dev_id, "event": {"type": "cmd_sent", "payload": payload}})
     return jsonify({"ok": True})
 
 @app.route("/broadcast", methods=["POST"])
@@ -91,8 +88,7 @@ def broadcast():
         client.publish(topic, json.dumps(data), qos=1)
         print(f"[BROADCAST] -> {dev}: {data}")
     socketio.emit("new_event",
-                  {"device_id": "ALL", "event": {"type": "broadcast", "payload": data}},
-                  broadcast=True)
+                  {"device_id": "ALL", "event": {"type": "broadcast", "payload": data}})
     return jsonify({"ok": True, "msg": f"Broadcasted to {len(devices)} devices"})
 
 # ===== 获取本地 IP 函数 =====

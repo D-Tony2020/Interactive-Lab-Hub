@@ -23,25 +23,25 @@ client = mqtt.Client()
 client.username_pw_set(USER, PW)
 
 def on_message(client, userdata, msg):
-    """接收节点消息并广播给前端"""
     topic = msg.topic
     data = json.loads(msg.payload.decode())
     dev_id = data.get("device_id", "unknown")
 
-    # 记录最新状态
     if "status" in topic:
         devices[dev_id] = data
+        print(f"[STATUS] {dev_id}: mode={data['mode']} | light={'ON' if data['light_on'] else 'OFF'}")
         socketio.emit("update_status", {"device_id": dev_id, "data": data})
     elif "event" in topic:
+        print(f"[EVENT] {dev_id}: {data}")
         socketio.emit("new_event", {"device_id": dev_id, "event": data})
 
+# ✅ 连接并启用非阻塞循环
 client.on_message = on_message
+client.connect(BROKER, PORT, 60)
+client.subscribe(TOPIC_STATUS)
+client.subscribe(TOPIC_EVENT)
+client.loop_start()   # ✅ 关键
 
-def mqtt_loop():
-    client.connect(BROKER, PORT, 60)
-    client.subscribe(TOPIC_STATUS)
-    client.subscribe(TOPIC_EVENT)
-    client.loop_forever()
 
 threading.Thread(target=mqtt_loop, daemon=True).start()
 

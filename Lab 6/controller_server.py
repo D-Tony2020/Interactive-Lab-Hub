@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, jsonify
 from flask_socketio import SocketIO
 import paho.mqtt.client as mqtt
-import json, time
+import json, time, socket
 
 # ===== MQTT 配置 =====
 BROKER = "farlab.infosci.cornell.edu"
@@ -17,20 +17,19 @@ devices = {}
 # ===== Flask 初始化 =====
 app = Flask(__name__)
 
-# ✅ 启用稳定模式的 SocketIO（延长心跳、兼容局域网）
+# ===== 启用稳定模式的 SocketIO（延长心跳） =====
 socketio = SocketIO(
     app,
     cors_allowed_origins="*",
     async_mode="threading",
-    ping_timeout=60,      # 等待客户端 pong 的最长时间
-    ping_interval=25      # 心跳间隔，默认5，这里延长
+    ping_timeout=60,
+    ping_interval=25
 )
 
-# ===== MQTT 客户端初始化 =====
+# ===== MQTT 初始化 =====
 client = mqtt.Client()
 client.username_pw_set(USER, PW)
 
-# ===== MQTT 回调函数 =====
 def on_connect(client, userdata, flags, rc):
     print(f"[MQTT] Connected to {BROKER} with result code {rc}")
     client.subscribe(TOPIC_STATUS)
@@ -42,7 +41,6 @@ def on_message(client, userdata, msg):
         data = json.loads(msg.payload.decode())
         dev_id = data.get("device_id", "unknown")
 
-        # 处理状态上报
         if "status" in msg.topic:
             devices[dev_id] = data
             print(f"[STATUS] {dev_id}: mode={data['mode']} | "
@@ -52,7 +50,6 @@ def on_message(client, userdata, msg):
                           {"device_id": dev_id, "data": data},
                           broadcast=True)
 
-        # 处理事件上报
         elif "event" in msg.topic:
             print(f"[EVENT] {dev_id}: {data}")
             socketio.emit("new_event",
@@ -66,14 +63,13 @@ def on_message(client, userdata, msg):
 client.on_connect = on_connect
 client.on_message = on_message
 client.connect(BROKER, PORT, 60)
-client.loop_start()   # ✅ 非阻塞 MQTT 循环（与 Flask 共存）
+client.loop_start()
 
 # ===== Flask 路由 =====
 @app.route("/")
 def index():
     return render_template("dashboard.html", devices=devices)
 
-# 单设备参数设置
 @app.route("/set_param", methods=["POST"])
 def set_param():
     data = request.json
@@ -87,7 +83,6 @@ def set_param():
                   broadcast=True)
     return jsonify({"ok": True})
 
-# 群发命令
 @app.route("/broadcast", methods=["POST"])
 def broadcast():
     data = request.json
@@ -100,7 +95,21 @@ def broadcast():
                   broadcast=True)
     return jsonify({"ok": True, "msg": f"Broadcasted to {len(devices)} devices"})
 
+# ===== 获取本地 IP 函数 =====
+def get_local_ip():
+    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    try:
+        s.connect(("8.8.8.8", 80))
+        ip = s.getsockname()[0]
+    except Exception:
+        ip = "127.0.0.1"
+    finally:
+        s.close()
+    return ip
+
 # ===== 主程序入口 =====
 if __name__ == "__main__":
-    print("🚀 Controller Dashboard running on http://0.0.0.0:5000")
+    ip = get_local_ip()
+    print("\nController Dashboard is running")
+    print(f"Open Dashboard at: http://{ip}:5000\n")
     socketio.run(app, host="0.0.0.0", port=5000)

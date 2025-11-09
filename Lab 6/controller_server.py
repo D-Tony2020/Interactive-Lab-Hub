@@ -43,8 +43,6 @@ client.subscribe(TOPIC_EVENT)
 client.loop_start()   # ✅ 关键
 
 
-threading.Thread(target=mqtt_loop, daemon=True).start()
-
 # ===== MQTT 发送命令 =====
 def send_command(dev_id, payload):
     topic = TOPIC_CMD + dev_id

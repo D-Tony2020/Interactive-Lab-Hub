@@ -73,5 +73,5 @@ def broadcast():
 
 # ===== 启动服务 =====
 if __name__ == "__main__":
-    print("🌐 Controller Dashboard running on http://0.0.0.0:5000")
+    print("Controller Dashboard running on http://0.0.0.0:5000")
     socketio.run(app, host="0.0.0.0", port=5000)

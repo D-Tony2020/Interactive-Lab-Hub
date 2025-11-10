@@ -1,6 +1,14 @@
 import sounddevice as sd
 import numpy as np
 import cv2, time, threading, json, paho.mqtt.client as mqtt
+from gpiozero import RGBLED                     # 🔧 新增
+import atexit                                   # 🔧 新增
+
+# ===== GPIO 灯初始化 =====
+# ⚠️ 根据你前面的接线：GPIO17=红, GPIO16=绿, GPIO26=蓝，为共阳极模块
+led = RGBLED(red=17, green=16, blue=26, active_high=False)
+led.color = (1, 1, 1)                           # 🔧 启动时亮白灯
+atexit.register(lambda: led.off())              # 🔧 程序退出时自动关灯
 
 # ===== MQTT 配置 =====
 BROKER = "farlab.infosci.cornell.edu"
@@ -37,15 +45,20 @@ client.connect(BROKER, PORT, 60)
 def publish(topic, data):
     client.publish(topic, json.dumps(data), qos=1)
 
-# ===== 灯光控制函数（虚拟） =====
+# ===== 灯光控制函数 =====
 def turn_light(on):
     """开关灯，同时清空静止计数和视觉缓存"""
     if state["on"] != on:
         state["on"] = on
         state["last_on"] = time.monotonic()
-        # 每次切换灯态都清零静止计数并要求视觉线程重置 prev
         state["no_motion"] = 0
         state["reset_prev"] = True
+
+        # 🔧 同步控制物理灯光
+        if on:
+            led.color = (1, 1, 1)   # 白灯亮
+        else:
+            led.off()               # 关灯
 
         action = "ON" if on else "OFF"
         print(f"[{time.strftime('%H:%M:%S')}] Light -> {action}")
@@ -58,7 +71,6 @@ def turn_light(on):
 
 # ===== 声音检测线程 =====
 def sound_loop():
-    """连续读取音频流并计算 RMS 触发灯控"""
     with sd.InputStream(samplerate=16000, channels=1, blocksize=3200, dtype='int16') as s:
         last_trigger = 0
         while True:
@@ -67,7 +79,6 @@ def sound_loop():
             if params["mode"] == "auto":
                 if rms > params["sound_thresh"] and time.monotonic() - last_trigger > 3:
                     print(f"[sound] RMS={rms:.3f} -> Trigger")
-                    # 声音触发时清零静止计数
                     state["no_motion"] = 0
                     turn_light(True)
                     state["last_trigger"] = "sound"
@@ -82,7 +93,6 @@ def sound_loop():
 
 # ===== 视觉检测线程 =====
 def vision_loop():
-    """定期采集图像检测画面变化"""
     cap = cv2.VideoCapture(0)
     prev = None
     while True:
@@ -94,14 +104,12 @@ def vision_loop():
         if not ret:
             continue
 
-        # 检测是否需要丢弃旧帧
         if state.get("reset_prev"):
             prev = None
             state["reset_prev"] = False
 
         gray = cv2.cvtColor(cv2.resize(frame, (320,240)), cv2.COLOR_BGR2GRAY)
 
-        # 仅在灯亮时进行视觉检测
         if prev is not None and state["on"]:
             diff = np.mean(np.abs(gray.astype(float) - prev.astype(float))) / 255.0
             print(f"[vision] diff={diff:.4f}")
@@ -116,7 +124,6 @@ def vision_loop():
 
         prev = gray
 
-        # 超时自动关灯
         if state["on"] and time.monotonic() - state["last_on"] > params["timeout"]:
             turn_light(False)
 
@@ -124,7 +131,6 @@ def vision_loop():
 
 # ===== 状态上报线程 =====
 def status_loop():
-    """每 10 秒上传一次状态信息"""
     while True:
         publish(TOPIC_STATUS, {
             "device_id": DEVICE_ID,
@@ -139,7 +145,6 @@ def status_loop():
 
 # ===== 接收主控命令 =====
 def on_msg(client, userdata, msg):
-    """接收主控通过 MQTT 下发的参数调整或模式控制"""
     data = json.loads(msg.payload.decode())
     print(f"[MQTT cmd] {data}")
     params.update({k: v for k, v in data.items() if k in params})
@@ -159,7 +164,7 @@ client.on_message = on_msg
 client.subscribe(TOPIC_CMD, qos=1)
 client.loop_start()
 
-# ===== 启动所有线程 =====
+# ===== 启动线程 =====
 threading.Thread(target=sound_loop, daemon=True).start()
 threading.Thread(target=vision_loop, daemon=True).start()
 threading.Thread(target=status_loop, daemon=True).start()

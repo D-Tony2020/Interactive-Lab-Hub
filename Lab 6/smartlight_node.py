@@ -7,7 +7,7 @@ import atexit                                   # 🔧 新增
 # ===== GPIO 灯初始化 =====
 # ⚠️ 根据你前面的接线：GPIO17=红, GPIO16=绿, GPIO26=蓝，为共阳极模块
 led = RGBLED(red=17, green=16, blue=26, active_high=True)
-led.color = (1, 0, 0)                           # 🔧 启动时亮白灯
+led.color = (1, 1, 1)                           # 🔧 启动时亮白灯
 atexit.register(lambda: led.off())              # 🔧 程序退出时自动关灯
 
 # ===== MQTT 配置 =====

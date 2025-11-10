@@ -119,7 +119,7 @@ def vision_loop():
             else:
                 state["no_motion"] += 1
                 print(f"  no_motion_count = {state['no_motion']}")
-            if state["no_motion"] >= 6:
+            if state["no_motion"] >= 2:
                 turn_light(False)
 
         prev = gray

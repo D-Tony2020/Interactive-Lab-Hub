@@ -58,6 +58,10 @@ def turn_light(on):
         if on:
             led.color = (1, 0, 0)   # 白灯亮
         else:
+            led.color = (0, 1, 0)
+            sleep(1)
+            led.color = (0, 0, 1)
+            sleep(1)
             led.off()               # 关灯
 
         action = "ON" if on else "OFF"

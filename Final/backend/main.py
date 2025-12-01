@@ -50,29 +50,32 @@ def load_model():
         torch.load = _safe_load_wrapper
         
         try:
-            # --- SWITCHING TO YOLO-WORLD MODEL ---
-            # This model allows defining custom classes on the fly.
-            # It is much better at detecting specific items like 'pumpkin' or 'egg' 
-            # that are not in the standard COCO dataset.
-            
-            print("Downloading/Loading YOLO-World (yolov8s-world.pt)...")
-            model = YOLO("yolov8s-world.pt")
-            
-            # Define specific vocabulary for the fridge
-            # This tells the model EXACTLY what to look for
-            target_classes = [
-                "egg", "pumpkin", "milk", "milk carton", "vegetable", "fruit", 
-                "bottle", "can", "meat", "apple", "banana", "orange", 
-                "broccoli", "carrot", "fish", "seafood", "cheese", "yogurt"
-            ]
-            model.set_classes(target_classes)
-            
-            print(f"YOLO-World loaded! Looking for: {', '.join(target_classes)}") 
+            # --- ATTEMPT 1: YOLO-WORLD MODEL (Advanced) ---
+            print("Attempting to load YOLO-World (yolov8s-world.pt)...")
+            try:
+                model = YOLO("yolov8s-world.pt")
+                
+                # Define specific vocabulary for the fridge
+                target_classes = [
+                    "egg", "pumpkin", "milk", "milk carton", "vegetable", "fruit", 
+                    "bottle", "can", "meat", "apple", "banana", "orange", 
+                    "broccoli", "carrot", "fish", "seafood", "cheese", "yogurt"
+                ]
+                model.set_classes(target_classes)
+                print(f"SUCCESS: YOLO-World loaded! Vocabulary: {', '.join(target_classes)}")
+                
+            except Exception as e:
+                # --- ATTEMPT 2: STANDARD YOLOv8 (Fallback) ---
+                print(f"WARNING: YOLO-World failed to load ({e}). Likely due to old ultralytics version.")
+                print("Falling back to standard YOLOv8n (yolov8n.pt)...")
+                model = YOLO("yolov8n.pt")
+                print("SUCCESS: Standard YOLOv8n loaded. (Note: Some items like 'pumpkin' may not be detected)")
+
         finally:
             torch.load = _original_load
             
     except Exception as e:
-        print(f"Warning: AI Model load failed ({e}). Using simulation mode.") 
+        print(f"CRITICAL: All AI Models failed to load ({e}). Using simulation mode.") 
         model = None
 
 # Load model in background thread

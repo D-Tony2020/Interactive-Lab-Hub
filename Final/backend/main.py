@@ -17,7 +17,7 @@ DB_PATH = "fridge_inventory.db"
 
 # ================= MODEL CONFIGURATION =================
 # 选择你的模型类型: "yolo" 或 "teachable_machine"
-MODEL_TYPE = "teachable_machine" 
+MODEL_TYPE = "yolo" 
 
 # [配置 A] YOLO 设置
 YOLO_MODEL_PATH = "yolov8s-world.pt"

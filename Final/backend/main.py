@@ -175,6 +175,9 @@ def get_item_details(label: str):
     if any(x in label for x in ["apple", "banana", "pear", "grape", "mandarin", "peach", "blueberry", "lemon", "lime", "melon", "fruit"]):
         details.update({"category": "Fruit", "days": 7, "icon": "🍎"})
         if "apple" in label: details["name"] = "Apple"
+        elif "orange" in label: 
+            details["icon"] = "🍊"
+            details["name"] = "Orange"
         elif "banana" in label: 
             details["icon"] = "🍌"
             details["name"] = "Banana"

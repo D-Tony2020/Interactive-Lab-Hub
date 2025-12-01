@@ -22,7 +22,7 @@ import {
 } from 'lucide-react';
 
 // --- Configuration ---
-const API_BASE = 'http://100.110.189.158:8000'; 
+const API_BASE = 'http://172.20.10.6:8000'; 
 // NOTE: If testing on a real Pi remotely, replace localhost with the Pi's IP address.
 
 // --- Helper Functions ---

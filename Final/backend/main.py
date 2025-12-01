@@ -19,7 +19,7 @@ DB_PATH = "fridge_inventory.db"
 # 选择你的模型类型: "yolo" 或 "teachable_machine"
 MODEL_TYPE = "yolo" 
 
-# [配置 A] YOLO 设置
+# [配置 A] YOLO 设置 (YOLO-World Open Vocabulary)
 YOLO_MODEL_PATH = "yolov8s-world.pt"
 YOLO_CLASSES = [
     "bright green lettuce leaves",
@@ -69,11 +69,10 @@ YOLO_CLASSES = [
     "blue-white packaged tofu box"
 ]
 
-
 # [配置 B] Teachable Machine 设置
 TM_MODEL_PATH = "model.tflite"   # 你的 .tflite 文件名
 TM_LABELS_PATH = "labels.txt"    # 你的 labels.txt 文件名
-CONFIDENCE_THRESHOLD = 0.7       # Teachable Machine 的置信度通常要设高一点
+CONFIDENCE_THRESHOLD = 0.15      # YOLO-World 对于长描述可能置信度偏低，适当降低阈值
 # =======================================================
 
 app.add_middleware(
@@ -107,6 +106,7 @@ def load_yolo():
     try:
         model = YOLO(YOLO_MODEL_PATH)
         if "world" in YOLO_MODEL_PATH:
+            print(f"Setting custom classes ({len(YOLO_CLASSES)} items)...")
             model.set_classes(YOLO_CLASSES)
         print("✅ YOLO model loaded!")
         return "yolo"
@@ -207,20 +207,47 @@ def get_item_details(label: str):
     today = datetime.date.today()
     label = label.lower().strip()
     
+    # Default fallback
     details = {"name": label, "category": "Other", "days": 7, "icon": "📦", "unit": "pcs"}
 
-    # Keyword matching for robustness
-    if any(x in label for x in ["apple", "banana", "orange", "fruit"]):
+    # Keyword mapping based on your specific YOLO_CLASSES
+    # Fruit
+    if any(x in label for x in ["apple", "banana", "pear", "grape", "mandarin", "peach", "blueberry", "lemon", "lime", "melon", "fruit"]):
         details.update({"category": "Fruit", "days": 7, "icon": "🍎"})
-    elif any(x in label for x in ["broccoli", "carrot", "veg", "pumpkin", "squash"]):
+        if "banana" in label: details["icon"] = "🍌"
+        elif "grape" in label: details["icon"] = "🍇"
+        elif "lemon" in label: details["icon"] = "🍋"
+    
+    # Veg
+    elif any(x in label for x in ["lettuce", "spinach", "carrot", "cucumber", "onion", "mushroom", "celery", "eggplant", "cabbage", "tomato", "pumpkin", "tofu", "pickle"]):
         details.update({"category": "Veg", "days": 5, "icon": "🥦"})
-        if "pumpkin" in label: details["icon"] = "🎃"
-    elif any(x in label for x in ["milk", "yogurt", "cheese", "dairy"]):
-        details.update({"category": "Dairy", "days": 10, "icon": "🥛"})
-    elif any(x in label for x in ["egg"]):
-        details.update({"category": "Eggs", "days": 15, "icon": "🥚"})
-    elif any(x in label for x in ["meat", "beef", "chicken"]):
-        details.update({"category": "Meat", "days": 3, "icon": "🥩"})
+        if "carrot" in label: details["icon"] = "🥕"
+        elif "tomato" in label: details["icon"] = "🍅"
+        elif "pumpkin" in label: details["icon"] = "🎃"
+        elif "mushroom" in label: details["icon"] = "🍄"
+        elif "onion" in label: details["icon"] = "🧅"
+    
+    # Meat & Seafood
+    elif any(x in label for x in ["chicken", "beef", "pork", "steak", "meat"]):
+        details.update({"category": "Meat", "days": 3, "icon": "🥩", "unit": "pkg"})
+    elif any(x in label for x in ["fish", "salmon", "seafood"]):
+        details.update({"category": "Seafood", "days": 2, "icon": "🐟", "unit": "pkg"})
+    
+    # Dairy & Eggs
+    elif any(x in label for x in ["cheese", "butter", "milk", "yogurt", "cheddar", "mozzarella"]):
+        details.update({"category": "Dairy", "days": 14, "icon": "🥛", "unit": "item"})
+        if "cheese" in label: details["icon"] = "🧀"
+        elif "butter" in label: details["icon"] = "🧈"
+    elif "egg" in label: # matches white-shelled egg, brown-shelled egg
+        details.update({"category": "Eggs", "days": 21, "icon": "🥚", "unit": "pcs"})
+        
+    # Pantry / Drinks
+    elif any(x in label for x in ["soda", "water", "juice"]):
+        details.update({"category": "Drinks", "days": 180, "icon": "🥤", "unit": "can/bottle"})
+    elif any(x in label for x in ["ketchup", "mustard", "sauce"]):
+        details.update({"category": "Pantry", "days": 365, "icon": "🧂", "unit": "bottle"})
+    elif "ice" in label:
+        details.update({"category": "Freezer", "days": 365, "icon": "🧊", "unit": "tray"})
     
     expiry = today + datetime.timedelta(days=details["days"])
     return {
@@ -275,8 +302,11 @@ def scan_live():
                 for r in results:
                     for box in r.boxes:
                         conf = float(box.conf[0])
-                        if conf > 0.25:
-                            detected_label = model.names[int(box.cls[0])]
+                        if conf > CONFIDENCE_THRESHOLD:
+                            # With YOLO-World, the class ID maps to our custom list index
+                            # or model.names which has been updated
+                            cls_id = int(box.cls[0])
+                            detected_label = model.names[cls_id]
                             confidence = conf
                             print(f"DEBUG (YOLO): Found {detected_label} ({confidence:.2f})")
                             break # Take first high conf item
@@ -307,11 +337,11 @@ def scan_live():
         except Exception as e:
             print(f"Inference Error: {e}")
 
-    # Fallback simulation
+    # Fallback simulation (only if model broken/missing)
     if not detected_label or confidence < CONFIDENCE_THRESHOLD:
-        if not model: # Only simulate if model totally failed to load
+        if not model: 
             import random
-            detected_label = random.choice(["apple", "milk", "egg"])
+            detected_label = random.choice(["shiny red apple", "blue-capped milk bottle", "white-shelled egg"])
             confidence = 0.99
         else:
             return {"found": False}

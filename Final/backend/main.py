@@ -24,7 +24,7 @@ YOLO_MODEL_PATH = "yolov8s-world.pt"
 YOLO_CLASSES = [
     "pale_yellow_pumpkin",
     "orange",
-    "dark_brown_egg"
+    "dark_brown_eggs"
 ]
 
 

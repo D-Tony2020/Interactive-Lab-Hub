@@ -12,11 +12,11 @@ from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 from ultralytics import YOLO
 
-# --- 配置部分 ---
+# --- Configuration ---
 app = FastAPI(title="SmartFridge OS Backend")
 DB_PATH = "fridge_inventory.db"
 
-# 允许跨域 (CORS) - 关键：确保前端能调用
+# Allow CORS
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -25,39 +25,39 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# --- 1. 硬件与 AI 初始化 ---
+# --- 1. Hardware & AI Initialization ---
 
-# 全局变量
+# Global variables
 model = None
 camera = None
 
 def load_model():
-    """尝试加载 YOLO 模型，失败则标记为 None"""
+    """Attempt to load YOLO model, fallback to None if failed"""
     global model
     try:
-        print("正在加载 YOLOv8 模型...")
-        # 首次运行会自动下载 yolov8n.pt (约6MB)
+        print("Loading YOLOv8 model...")  # Changed to English
+        # First run will download yolov8n.pt automatically
         model = YOLO("yolov8n.pt")
-        print("AI 模型加载成功!")
+        print("AI Model loaded successfully!") # Changed to English
     except Exception as e:
-        print(f"警告: AI 模型加载失败 ({e})。将使用模拟识别模式。")
+        print(f"Warning: AI Model load failed ({e}). Using simulation mode.") # Changed to English
         model = None
 
-# 在后台线程加载模型，不阻塞服务器启动
+# Load model in background thread
 threading.Thread(target=load_model, daemon=True).start()
 
 class CameraManager:
-    """摄像头管理类，包含容错处理"""
+    """Camera manager with fault tolerance"""
     def __init__(self):
         self.cap = None
 
     def get_frame(self):
-        # 尝试打开摄像头
+        # Try to open camera
         if self.cap is None or not self.cap.isOpened():
-            # 0 通常是默认 USB 摄像头，如果是树莓派 CSI 可能需要配置
+            # 0 is usually the default USB camera
             self.cap = cv2.VideoCapture(0)
             if not self.cap.isOpened():
-                # 如果打开失败，生成一个黑底带文字的模拟帧
+                # Return a generated image if camera fails
                 blank_image = np.zeros((480, 640, 3), np.uint8)
                 cv2.putText(blank_image, "No Camera Found", (200, 240), 
                            cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 2)
@@ -65,7 +65,7 @@ class CameraManager:
 
         success, frame = self.cap.read()
         if not success:
-            # 读取失败时返回模拟帧
+            # Return error image if read fails
             blank_image = np.zeros((480, 640, 3), np.uint8)
             cv2.putText(blank_image, "Camera Error", (200, 240), 
                        cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
@@ -79,7 +79,7 @@ class CameraManager:
 
 camera_manager = CameraManager()
 
-# --- 2. 数据库管理 (SQLite) ---
+# --- 2. Database Management (SQLite) ---
 
 def init_db():
     with sqlite3.connect(DB_PATH) as conn:
@@ -100,8 +100,7 @@ def init_db():
 
 init_db()
 
-# --- 3. 数据模型 (Pydantic) ---
-# 必须与前端 App.jsx 中的 fetch body 完全一致
+# --- 3. Data Models (Pydantic) ---
 
 class InventoryItem(BaseModel):
     name: str
@@ -115,14 +114,14 @@ class InventoryItem(BaseModel):
 class InventoryItemResponse(InventoryItem):
     id: int
 
-# --- 4. 辅助逻辑 ---
+# --- 4. Helper Logic ---
 
 def get_item_details(label: str):
-    """根据识别到的物体标签，生成前端需要的详细信息"""
+    """Generate details based on detected object label"""
     today = datetime.date.today()
     label = label.lower()
     
-    # 默认值
+    # Defaults
     details = {
         "name": label,
         "category": "Other",
@@ -131,7 +130,7 @@ def get_item_details(label: str):
         "unit": "pcs"
     }
 
-    # 简单的规则映射
+    # Simple rule mapping
     if label in ["apple", "banana", "orange", "fruit"]:
         details.update({"category": "Fruit", "days": 7, "icon": "🍎", "unit": "pcs"})
     elif label in ["broccoli", "carrot", "vegetable", "potted plant"]:
@@ -143,7 +142,7 @@ def get_item_details(label: str):
     elif label in ["fish", "seafood"]:
         details.update({"category": "Seafood", "days": 2, "icon": "🐟", "unit": "slice"})
     
-    # 计算具体的日期字符串 (YYYY-MM-DD)
+    # Calculate expiry date string
     expiry = today + datetime.timedelta(days=details["days"])
     
     return {
@@ -156,7 +155,7 @@ def get_item_details(label: str):
         "expiry_date": expiry.isoformat()
     }
 
-# --- 5. API 接口 ---
+# --- 5. API Endpoints ---
 
 @app.get("/")
 def read_root():
@@ -193,36 +192,35 @@ def delete_item(item_id: int):
 @app.get("/api/scan/live")
 def scan_live():
     """
-    前端点击 'Scan' 时调用。
-    1. 获取当前帧
-    2. 运行 AI 识别
-    3. 返回识别结果和智能推断的保质期等信息
+    Called when frontend clicks 'Scan'.
+    1. Get current frame
+    2. Run AI
+    3. Return result
     """
     frame = camera_manager.get_frame()
     detected_objects = []
 
-    # 1. 尝试 AI 识别
+    # 1. Try AI detection
     if model:
         try:
             results = model(frame)
             for result in results:
                 for box in result.boxes:
-                    if float(box.conf[0]) > 0.5: # 置信度阈值
+                    if float(box.conf[0]) > 0.5: # Confidence threshold
                         cls_id = int(box.cls[0])
                         detected_objects.append(model.names[cls_id])
         except Exception as e:
-            print(f"AI 推理出错: {e}")
+            print(f"AI Inference Error: {e}") # Changed to English
     
-    # 2. 如果没有 AI 或没识别到，进行模拟 (用于演示)
+    # 2. Simulation fallback
     if not detected_objects:
-        # 为了演示效果，随机返回一个物品
-        # 在生产环境中，这里应该返回 found: False
+        # Random simulation for demo
         import random
         demo_items = ["apple", "broccoli", "milk", "fish"]
         detected_objects = [random.choice(demo_items)]
-        print(f"未识别到物体 (或无模型)，返回模拟数据: {detected_objects[0]}")
+        print(f"No object detected (or no model), returning demo data: {detected_objects[0]}") # Changed to English
 
-    # 3. 构造返回数据
+    # 3. Construct response
     if detected_objects:
         primary_item = detected_objects[0]
         details = get_item_details(primary_item)
@@ -230,7 +228,7 @@ def scan_live():
         return {
             "found": True,
             "confidence": 0.95,
-            **details # 展开 name, category, expiry_date, image_icon 等
+            **details 
         }
     else:
         return {"found": False}
@@ -238,16 +236,13 @@ def scan_live():
 @app.get("/api/video_feed")
 def video_feed():
     """
-    视频流接口，返回 multipart MJPEG 流
+    Multipart MJPEG stream
     """
     def iter_frames():
         while True:
             frame = camera_manager.get_frame()
             
-            # 可选：这里可以把 YOLO 的识别框画在 frame 上再返回
-            # if model: ...
-            
-            # 压缩为 JPEG
+            # Compress to JPEG
             ret, buffer = cv2.imencode('.jpg', frame)
             if not ret:
                 continue
@@ -256,13 +251,11 @@ def video_feed():
             yield (b'--frame\r\n'
                    b'Content-Type: image/jpeg\r\n\r\n' + frame_bytes + b'\r\n')
             
-            # 控制帧率，避免占用过多 CPU
             time.sleep(0.03) 
 
     return StreamingResponse(iter_frames(), media_type='multipart/x-mixed-replace; boundary=frame')
 
 if __name__ == "__main__":
     import uvicorn
-    # host="0.0.0.0" 允许局域网访问
-    print("启动 SmartFridge 后端...")
+    print("Starting SmartFridge Backend...") # Changed to English
     uvicorn.run(app, host="0.0.0.0", port=8000)

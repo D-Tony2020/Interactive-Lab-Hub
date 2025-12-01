@@ -17,7 +17,7 @@ import torch
 app = FastAPI(title="SmartFridge OS Backend")
 DB_PATH = "fridge_inventory.db"
 
-# Allow CORS
+# Allow CORS - Crucial for frontend communication
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -36,7 +36,7 @@ def load_model():
     """Attempt to load YOLO model, fallback to None if failed"""
     global model
     try:
-        print("Loading YOLOv8 model...")  # Changed to English
+        print("Loading YOLOv8 model...") 
         
         # PATCH: PyTorch 2.6+ defaults torch.load(weights_only=True), which breaks 
         # loading complex models like YOLOv8 that contain custom classes.
@@ -54,14 +54,21 @@ def load_model():
         
         try:
             # First run will download yolov8n.pt automatically
+            # OPTION 1: Standard Model (Fast, good for general items)
             model = YOLO("yolov8n.pt")
-            print("AI Model loaded successfully!") # Changed to English
+            
+            # OPTION 2: YOLO-World (Open Vocabulary - finds eggs/pumpkins easily)
+            # Uncomment the lines below to use YOLO-World if yolov8n isn't enough
+            # model = YOLO("yolov8s-world.pt")
+            # model.set_classes(["egg", "pumpkin", "milk", "vegetable", "fruit", "bottle"])
+            
+            print("AI Model loaded successfully!") 
         finally:
             # Always restore the original function to avoid affecting other parts of the app
             torch.load = _original_load
             
     except Exception as e:
-        print(f"Warning: AI Model load failed ({e}). Using simulation mode.") # Changed to English
+        print(f"Warning: AI Model load failed ({e}). Using simulation mode.") 
         model = None
 
 # Load model in background thread
@@ -156,12 +163,14 @@ def get_item_details(label: str):
         details.update({"category": "Fruit", "days": 7, "icon": "🍎", "unit": "pcs"})
     elif label in ["broccoli", "carrot", "vegetable", "potted plant"]:
         details.update({"category": "Veg", "days": 5, "icon": "🥦", "unit": "bundle"})
-    elif label in ["bottle", "cup", "milk"]:
+    elif label in ["bottle", "cup", "milk", "can"]:
         details.update({"category": "Dairy", "days": 10, "icon": "🥛", "unit": "bottle"})
-    elif label in ["egg", "bird", "ball"]: 
-        details.update({"category": "Eggs", "days": 15, "icon": "🥚", "unit": "pcs"})
+    elif label in ["egg", "bird", "ball", "sports ball"]: # Mappings for eggs
+        details.update({"category": "Eggs", "days": 15, "icon": "🥚", "unit": "pcs", "name": "egg"})
     elif label in ["fish", "seafood"]:
         details.update({"category": "Seafood", "days": 2, "icon": "🐟", "unit": "slice"})
+    elif label in ["pumpkin"]:
+        details.update({"category": "Veg", "days": 30, "icon": "🎃", "unit": "pcs"})
     
     # Calculate expiry date string
     expiry = today + datetime.timedelta(days=details["days"])
@@ -227,11 +236,15 @@ def scan_live():
             results = model(frame)
             for result in results:
                 for box in result.boxes:
-                    if float(box.conf[0]) > 0.5: # Confidence threshold
+                    conf = float(box.conf[0])
+                    # Lower threshold to 0.25 to detect harder objects (like eggs/pumpkins)
+                    if conf > 0.25: 
                         cls_id = int(box.cls[0])
-                        detected_objects.append(model.names[cls_id])
+                        label = model.names[cls_id]
+                        detected_objects.append(label)
+                        print(f"DEBUG: Detected {label} ({conf:.2f})") # Debug log
         except Exception as e:
-            print(f"AI Inference Error: {e}") # Changed to English
+            print(f"AI Inference Error: {e}") 
     
     # 2. Simulation fallback
     if not detected_objects:
@@ -239,7 +252,7 @@ def scan_live():
         import random
         demo_items = ["apple", "broccoli", "milk", "fish"]
         detected_objects = [random.choice(demo_items)]
-        print(f"No object detected (or no model), returning demo data: {detected_objects[0]}") # Changed to English
+        print(f"No object detected (or no model), returning demo data: {detected_objects[0]}") 
 
     # 3. Construct response
     if detected_objects:
@@ -278,5 +291,5 @@ def video_feed():
 
 if __name__ == "__main__":
     import uvicorn
-    print("Starting SmartFridge Backend...") # Changed to English
+    print("Starting SmartFridge Backend...") 
     uvicorn.run(app, host="0.0.0.0", port=8000)

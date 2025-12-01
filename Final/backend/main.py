@@ -172,7 +172,7 @@ def get_item_details(label: str):
     # Keyword mapping: Clean up long YOLO descriptions to short names
     
     # --- Fruit ---
-    if any(x in label for x in ["apple", "banana", "pear", "grape", "mandarin", "peach", "blueberry", "lemon", "lime", "melon", "fruit"]):
+    if any(x in label for x in ["apple", "banana", "orange", "pear", "grape", "mandarin", "peach", "blueberry", "lemon", "lime", "melon", "fruit"]):
         details.update({"category": "Fruit", "days": 7, "icon": "🍎"})
         if "apple" in label: details["name"] = "Apple"
         elif "orange" in label: 

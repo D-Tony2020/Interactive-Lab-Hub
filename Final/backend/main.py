@@ -22,9 +22,9 @@ MODEL_TYPE = "yolo"
 # [配置 A] YOLO 设置 (YOLO-World Open Vocabulary)
 YOLO_MODEL_PATH = "yolov8s-world.pt"
 YOLO_CLASSES = [
-    "pumpkin",
-    "mandarin",
-    "brown_egg"
+    "pale_yellow_pumpkin",
+    "orange",
+    "dark_brown_egg"
 ]
 
 

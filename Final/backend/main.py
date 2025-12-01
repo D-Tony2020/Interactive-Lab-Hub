@@ -11,6 +11,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 from ultralytics import YOLO
+import torch
 
 # --- Configuration ---
 app = FastAPI(title="SmartFridge OS Backend")
@@ -36,6 +37,14 @@ def load_model():
     global model
     try:
         print("Loading YOLOv8 model...")  # Changed to English
+        
+        # Fix for PyTorch 2.6+ security update (weights_only=True)
+        try:
+            from ultralytics.nn.tasks import DetectionModel
+            torch.serialization.add_safe_globals([DetectionModel])
+        except Exception:
+            pass # Handle cases where this fix isn't needed or fails
+
         # First run will download yolov8n.pt automatically
         model = YOLO("yolov8n.pt")
         print("AI Model loaded successfully!") # Changed to English

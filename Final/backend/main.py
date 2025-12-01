@@ -36,16 +36,13 @@ def load_model():
     """Attempt to load YOLO model, fallback to None if failed"""
     global model
     try:
-        print("Loading YOLOv8 model...") 
+        print("Loading AI model...") 
         
         # PATCH: PyTorch 2.6+ defaults torch.load(weights_only=True), which breaks 
         # loading complex models like YOLOv8 that contain custom classes.
-        # We temporarily patch torch.load to allow pickle loading (weights_only=False)
-        # just for this operation.
         _original_load = torch.load
 
         def _safe_load_wrapper(*args, **kwargs):
-            # If the caller didn't specify weights_only, force it to False
             if 'weights_only' not in kwargs:
                 kwargs['weights_only'] = False
             return _original_load(*args, **kwargs)
@@ -53,18 +50,25 @@ def load_model():
         torch.load = _safe_load_wrapper
         
         try:
-            # First run will download yolov8n.pt automatically
-            # OPTION 1: Standard Model (Fast, good for general items)
-            model = YOLO("yolov8n.pt")
+            # --- SWITCHING TO YOLO-WORLD MODEL ---
+            # This model allows defining custom classes on the fly.
+            # It is much better at detecting specific items like 'pumpkin' or 'egg' 
+            # that are not in the standard COCO dataset.
             
-            # OPTION 2: YOLO-World (Open Vocabulary - finds eggs/pumpkins easily)
-            # Uncomment the lines below to use YOLO-World if yolov8n isn't enough
-            # model = YOLO("yolov8s-world.pt")
-            # model.set_classes(["egg", "pumpkin", "milk", "vegetable", "fruit", "bottle"])
+            print("Downloading/Loading YOLO-World (yolov8s-world.pt)...")
+            model = YOLO("yolov8s-world.pt")
             
-            print("AI Model loaded successfully!") 
+            # Define specific vocabulary for the fridge
+            # This tells the model EXACTLY what to look for
+            target_classes = [
+                "egg", "pumpkin", "milk", "milk carton", "vegetable", "fruit", 
+                "bottle", "can", "meat", "apple", "banana", "orange", 
+                "broccoli", "carrot", "fish", "seafood", "cheese", "yogurt"
+            ]
+            model.set_classes(target_classes)
+            
+            print(f"YOLO-World loaded! Looking for: {', '.join(target_classes)}") 
         finally:
-            # Always restore the original function to avoid affecting other parts of the app
             torch.load = _original_load
             
     except Exception as e:
@@ -82,18 +86,15 @@ class CameraManager:
     def get_frame(self):
         # Try to open camera
         if self.cap is None or not self.cap.isOpened():
-            # 0 is usually the default USB camera
             self.cap = cv2.VideoCapture(0)
             if not self.cap.isOpened():
-                # Return a generated image if camera fails
                 blank_image = np.zeros((480, 640, 3), np.uint8)
-                cv2.putText(blank_image, "No Camera Found", (200, 240), 
+                cv2.putText(blank_image, "No Camera", (200, 240), 
                            cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 2)
                 return blank_image
 
         success, frame = self.cap.read()
         if not success:
-            # Return error image if read fails
             blank_image = np.zeros((480, 640, 3), np.uint8)
             cv2.putText(blank_image, "Camera Error", (200, 240), 
                        cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
@@ -158,19 +159,21 @@ def get_item_details(label: str):
         "unit": "pcs"
     }
 
-    # Simple rule mapping
-    if label in ["apple", "banana", "orange", "fruit"]:
+    # Enhanced mapping rule
+    if label in ["apple", "banana", "orange", "fruit", "pear", "grape"]:
         details.update({"category": "Fruit", "days": 7, "icon": "🍎", "unit": "pcs"})
-    elif label in ["broccoli", "carrot", "vegetable", "potted plant"]:
+    elif label in ["broccoli", "carrot", "vegetable", "potted plant", "lettuce", "cucumber"]:
         details.update({"category": "Veg", "days": 5, "icon": "🥦", "unit": "bundle"})
-    elif label in ["bottle", "cup", "milk", "can"]:
+    elif label in ["bottle", "cup", "milk", "milk carton", "yogurt", "cheese"]:
         details.update({"category": "Dairy", "days": 10, "icon": "🥛", "unit": "bottle"})
-    elif label in ["egg", "bird", "ball", "sports ball"]: # Mappings for eggs
+    elif label in ["egg", "bird", "ball", "sports ball"]: 
         details.update({"category": "Eggs", "days": 15, "icon": "🥚", "unit": "pcs", "name": "egg"})
     elif label in ["fish", "seafood"]:
         details.update({"category": "Seafood", "days": 2, "icon": "🐟", "unit": "slice"})
-    elif label in ["pumpkin"]:
+    elif label in ["pumpkin", "squash"]:
         details.update({"category": "Veg", "days": 30, "icon": "🎃", "unit": "pcs"})
+    elif label in ["meat", "beef", "steak", "chicken"]:
+        details.update({"category": "Meat", "days": 3, "icon": "🥩", "unit": "kg"})
     
     # Calculate expiry date string
     expiry = today + datetime.timedelta(days=details["days"])
@@ -223,9 +226,6 @@ def delete_item(item_id: int):
 def scan_live():
     """
     Called when frontend clicks 'Scan'.
-    1. Get current frame
-    2. Run AI
-    3. Return result
     """
     frame = camera_manager.get_frame()
     detected_objects = []
@@ -237,26 +237,32 @@ def scan_live():
             for result in results:
                 for box in result.boxes:
                     conf = float(box.conf[0])
-                    # Lower threshold to 0.25 to detect harder objects (like eggs/pumpkins)
-                    if conf > 0.25: 
+                    # With YOLO-World + Custom Classes, we can trust slightly lower confidence
+                    if conf > 0.15: 
                         cls_id = int(box.cls[0])
                         label = model.names[cls_id]
                         detected_objects.append(label)
-                        print(f"DEBUG: Detected {label} ({conf:.2f})") # Debug log
+                        print(f"DEBUG: Detected {label} ({conf:.2f})") 
         except Exception as e:
             print(f"AI Inference Error: {e}") 
     
     # 2. Simulation fallback
     if not detected_objects:
-        # Random simulation for demo
+        # Use simple simulation if nothing found
         import random
         demo_items = ["apple", "broccoli", "milk", "fish"]
         detected_objects = [random.choice(demo_items)]
-        print(f"No object detected (or no model), returning demo data: {detected_objects[0]}") 
+        print(f"No object detected, returning demo data: {detected_objects[0]}") 
 
     # 3. Construct response
     if detected_objects:
+        # Prioritize pumpkin or egg if detected, otherwise pick the first one
         primary_item = detected_objects[0]
+        for obj in detected_objects:
+            if obj in ["pumpkin", "egg", "milk"]:
+                primary_item = obj
+                break
+                
         details = get_item_details(primary_item)
         
         return {
@@ -269,27 +275,20 @@ def scan_live():
 
 @app.get("/api/video_feed")
 def video_feed():
-    """
-    Multipart MJPEG stream
-    """
     def iter_frames():
         while True:
             frame = camera_manager.get_frame()
-            
-            # Compress to JPEG
             ret, buffer = cv2.imencode('.jpg', frame)
             if not ret:
                 continue
-            
             frame_bytes = buffer.tobytes()
             yield (b'--frame\r\n'
                    b'Content-Type: image/jpeg\r\n\r\n' + frame_bytes + b'\r\n')
-            
             time.sleep(0.03) 
 
     return StreamingResponse(iter_frames(), media_type='multipart/x-mixed-replace; boundary=frame')
 
 if __name__ == "__main__":
     import uvicorn
-    print("Starting SmartFridge Backend...") 
+    print("Starting SmartFridge Backend with YOLO-World...") 
     uvicorn.run(app, host="0.0.0.0", port=8000)

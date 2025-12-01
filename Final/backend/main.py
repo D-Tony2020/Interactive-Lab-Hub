@@ -21,7 +21,54 @@ MODEL_TYPE = "yolo"
 
 # [配置 A] YOLO 设置
 YOLO_MODEL_PATH = "yolov8s-world.pt"
-YOLO_CLASSES = ["egg", "pumpkin", "milk", "vegetable", "fruit", "meat"]
+YOLO_CLASSES = [
+    "bright green lettuce leaves",
+    "dark green spinach bunch",
+    "orange carrot sticks",
+    "smooth green cucumber slices",
+    "purple round onion",
+    "white sliced mushrooms",
+    "light green celery stalks",
+    "dark purple eggplant pieces",
+    "pale green cabbage head",
+    "bright red tomato",
+
+    "shiny red apple",
+    "ripe yellow banana",
+    "pale yellow pear",
+    "green seedless grape bunch",
+    "deep orange mandarin",
+    "fuzzy-skinned peach",
+    "dark purple blueberry box",
+    "bright yellow lemon",
+    "green lime",
+    "light green melon cubes",
+
+    "pink raw chicken breast",
+    "red lean beef chunks",
+    "pale pink pork loin slices",
+    "white fish fillet",
+    "orange salmon slices",
+    "brown cooked steak slices",
+    "white-shelled egg",
+    "brown-shelled egg",
+
+    "yellow cheddar cheese block",
+    "white mozzarella cheese balls",
+    "pale yellow butter block",
+    "blue-capped milk bottle",
+    "white yogurt cup",
+    "light pink strawberry milkshake bottle",
+
+    "silver soda can",
+    "clear bottled water",
+    "red ketchup bottle",
+    "yellow mustard bottle",
+    "clear ice cubes in tray",
+    "green glass pickle jar",
+    "blue-white packaged tofu box"
+]
+
 
 # [配置 B] Teachable Machine 设置
 TM_MODEL_PATH = "model.tflite"   # 你的 .tflite 文件名

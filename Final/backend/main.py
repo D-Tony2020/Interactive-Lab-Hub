@@ -108,7 +108,7 @@ def load_yolo():
         if "world" in YOLO_MODEL_PATH:
             print(f"Setting custom classes ({len(YOLO_CLASSES)} items)...")
             model.set_classes(YOLO_CLASSES)
-        print("✅ YOLO model loaded!")
+        print("YOLO model loaded!")
         return "yolo"
     finally:
         torch.load = _original_load
@@ -135,10 +135,10 @@ def load_teachable_machine():
             lines = f.readlines()
             tm_labels = [line.strip().split(" ", 1)[-1] if " " in line.strip() else line.strip() for line in lines]
             
-        print(f"✅ Teachable Machine loaded! Labels: {tm_labels}")
+        print(f"Teachable Machine loaded! Labels: {tm_labels}")
         return "tm"
     except Exception as e:
-        print(f"❌ Failed to load Teachable Machine model: {e}")
+        print(f"Failed to load Teachable Machine model: {e}")
         return None
 
 def load_model_thread():

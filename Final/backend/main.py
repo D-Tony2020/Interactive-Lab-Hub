@@ -22,50 +22,9 @@ MODEL_TYPE = "yolo"
 # [配置 A] YOLO 设置 (YOLO-World Open Vocabulary)
 YOLO_MODEL_PATH = "yolov8s-world.pt"
 YOLO_CLASSES = [
-    "lettuce",
-    "spinach",
-    "carrot",
-    "cucumber",
-    "onion",
-    "mushroom",
-    "celery",
-    "eggplant",
-    "cabbage",
-    "tomato",
-
-    "apple",
-    "banana",
-    "grape",
+    "pumpkin",
     "mandarin",
-    "peach",
-    "blueberry",
-    "lemon",
-    "lime",
-    "melon",
-
-    "chicken_breast",
-    "beef",
-    "pork",
-    "fish_fillet",
-    "salmon",
-    "steak",
-    "white_egg",
-    "brown_egg",
-
-    "cheddar_cheese",
-    "mozzarella",
-    "butter",
-    "milk",
-    "yogurt",
-    "strawberry_milkshake",
-
-    "soda_can",
-    "bottled_water",
-    "ketchup",
-    "mustard",
-    "ice_cubes",
-    "pickle_jar",
-    "tofu"
+    "brown_egg"
 ]
 
 

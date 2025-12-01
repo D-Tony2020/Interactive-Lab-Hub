@@ -38,23 +38,28 @@ def load_model():
     try:
         print("Loading YOLOv8 model...")  # Changed to English
         
-        # Fix for PyTorch 2.6+ security update (weights_only=True)
-        try:
-            from ultralytics.nn.tasks import DetectionModel
-            import torch.nn as nn
-            
-            # Add classes explicitly mentioned in errors and common containers to safe globals
-            torch.serialization.add_safe_globals([
-                DetectionModel,
-                nn.Sequential,
-                nn.ModuleList
-            ])
-        except Exception:
-            pass # Handle cases where this fix isn't needed or fails
+        # PATCH: PyTorch 2.6+ defaults torch.load(weights_only=True), which breaks 
+        # loading complex models like YOLOv8 that contain custom classes.
+        # We temporarily patch torch.load to allow pickle loading (weights_only=False)
+        # just for this operation.
+        _original_load = torch.load
 
-        # First run will download yolov8n.pt automatically
-        model = YOLO("yolov8n.pt")
-        print("AI Model loaded successfully!") # Changed to English
+        def _safe_load_wrapper(*args, **kwargs):
+            # If the caller didn't specify weights_only, force it to False
+            if 'weights_only' not in kwargs:
+                kwargs['weights_only'] = False
+            return _original_load(*args, **kwargs)
+
+        torch.load = _safe_load_wrapper
+        
+        try:
+            # First run will download yolov8n.pt automatically
+            model = YOLO("yolov8n.pt")
+            print("AI Model loaded successfully!") # Changed to English
+        finally:
+            # Always restore the original function to avoid affecting other parts of the app
+            torch.load = _original_load
+            
     except Exception as e:
         print(f"Warning: AI Model load failed ({e}). Using simulation mode.") # Changed to English
         model = None

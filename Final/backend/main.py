@@ -41,7 +41,14 @@ def load_model():
         # Fix for PyTorch 2.6+ security update (weights_only=True)
         try:
             from ultralytics.nn.tasks import DetectionModel
-            torch.serialization.add_safe_globals([DetectionModel])
+            import torch.nn as nn
+            
+            # Add classes explicitly mentioned in errors and common containers to safe globals
+            torch.serialization.add_safe_globals([
+                DetectionModel,
+                nn.Sequential,
+                nn.ModuleList
+            ])
         except Exception:
             pass # Handle cases where this fix isn't needed or fails
 

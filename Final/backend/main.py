@@ -35,7 +35,7 @@ YOLO_CLASSES = [
 
     "shiny red apple",
     "ripe yellow banana",
-    "pale yellow pear",
+
     "green seedless grape bunch",
     "deep orange mandarin",
     "fuzzy-skinned peach",
@@ -207,47 +207,105 @@ def get_item_details(label: str):
     today = datetime.date.today()
     label = label.lower().strip()
     
-    # Default fallback
-    details = {"name": label, "category": "Other", "days": 7, "icon": "📦", "unit": "pcs"}
+    # Default fallback (Capitalize valid detected words if no specific match found)
+    details = {"name": label.title(), "category": "Other", "days": 7, "icon": "📦", "unit": "pcs"}
 
-    # Keyword mapping based on your specific YOLO_CLASSES
-    # Fruit
+    # Keyword mapping: Clean up long YOLO descriptions to short names
+    
+    # --- Fruit ---
     if any(x in label for x in ["apple", "banana", "pear", "grape", "mandarin", "peach", "blueberry", "lemon", "lime", "melon", "fruit"]):
         details.update({"category": "Fruit", "days": 7, "icon": "🍎"})
-        if "banana" in label: details["icon"] = "🍌"
-        elif "grape" in label: details["icon"] = "🍇"
-        elif "lemon" in label: details["icon"] = "🍋"
+        if "apple" in label: details["name"] = "Apple"
+        elif "banana" in label: 
+            details["icon"] = "🍌"
+            details["name"] = "Banana"
+        elif "pear" in label: details["name"] = "Pear"
+        elif "grape" in label: 
+            details["icon"] = "🍇"
+            details["name"] = "Grape"
+        elif "mandarin" in label: details["name"] = "Mandarin"
+        elif "peach" in label: details["name"] = "Peach"
+        elif "blueberry" in label: details["name"] = "Blueberry"
+        elif "lemon" in label: 
+            details["icon"] = "🍋"
+            details["name"] = "Lemon"
+        elif "lime" in label: details["name"] = "Lime"
+        elif "melon" in label: details["name"] = "Melon"
     
-    # Veg
+    # --- Veg ---
     elif any(x in label for x in ["lettuce", "spinach", "carrot", "cucumber", "onion", "mushroom", "celery", "eggplant", "cabbage", "tomato", "pumpkin", "tofu", "pickle"]):
         details.update({"category": "Veg", "days": 5, "icon": "🥦"})
-        if "carrot" in label: details["icon"] = "🥕"
-        elif "tomato" in label: details["icon"] = "🍅"
-        elif "pumpkin" in label: details["icon"] = "🎃"
-        elif "mushroom" in label: details["icon"] = "🍄"
-        elif "onion" in label: details["icon"] = "🧅"
+        if "lettuce" in label: details["name"] = "Lettuce"
+        elif "spinach" in label: details["name"] = "Spinach"
+        elif "carrot" in label: 
+            details["icon"] = "🥕"
+            details["name"] = "Carrot"
+        elif "cucumber" in label: details["name"] = "Cucumber"
+        elif "onion" in label: 
+            details["icon"] = "🧅"
+            details["name"] = "Onion"
+        elif "mushroom" in label: 
+            details["icon"] = "🍄"
+            details["name"] = "Mushroom"
+        elif "celery" in label: details["name"] = "Celery"
+        elif "eggplant" in label: details["name"] = "Eggplant"
+        elif "cabbage" in label: details["name"] = "Cabbage"
+        elif "tomato" in label: 
+            details["icon"] = "🍅"
+            details["name"] = "Tomato"
+        elif "pumpkin" in label: 
+            details["icon"] = "🎃"
+            details["name"] = "Pumpkin"
+        elif "tofu" in label: details["name"] = "Tofu"
+        elif "pickle" in label: details["name"] = "Pickle"
     
-    # Meat & Seafood
+    # --- Meat & Seafood ---
     elif any(x in label for x in ["chicken", "beef", "pork", "steak", "meat"]):
         details.update({"category": "Meat", "days": 3, "icon": "🥩", "unit": "pkg"})
+        if "chicken" in label: details["name"] = "Chicken"
+        elif "beef" in label: details["name"] = "Beef"
+        elif "pork" in label: details["name"] = "Pork"
+        elif "steak" in label: details["name"] = "Steak"
+
     elif any(x in label for x in ["fish", "salmon", "seafood"]):
         details.update({"category": "Seafood", "days": 2, "icon": "🐟", "unit": "pkg"})
+        if "salmon" in label: details["name"] = "Salmon"
+        elif "fish" in label: details["name"] = "Fish"
     
-    # Dairy & Eggs
+    # --- Dairy & Eggs ---
     elif any(x in label for x in ["cheese", "butter", "milk", "yogurt", "cheddar", "mozzarella"]):
         details.update({"category": "Dairy", "days": 14, "icon": "🥛", "unit": "item"})
-        if "cheese" in label: details["icon"] = "🧀"
-        elif "butter" in label: details["icon"] = "🧈"
-    elif "egg" in label: # matches white-shelled egg, brown-shelled egg
+        if "milk" in label and "shake" in label: details["name"] = "Milkshake"
+        elif "milk" in label: details["name"] = "Milk"
+        elif "yogurt" in label: details["name"] = "Yogurt"
+        elif "butter" in label: 
+            details["icon"] = "🧈"
+            details["name"] = "Butter"
+        elif "cheese" in label: 
+            details["icon"] = "🧀"
+            if "cheddar" in label: details["name"] = "Cheddar Cheese"
+            elif "mozzarella" in label: details["name"] = "Mozzarella Cheese"
+            else: details["name"] = "Cheese"
+
+    elif "egg" in label: 
         details.update({"category": "Eggs", "days": 21, "icon": "🥚", "unit": "pcs"})
+        details["name"] = "Egg"
         
-    # Pantry / Drinks
+    # --- Pantry / Drinks / Frozen ---
     elif any(x in label for x in ["soda", "water", "juice"]):
         details.update({"category": "Drinks", "days": 180, "icon": "🥤", "unit": "can/bottle"})
+        if "soda" in label: details["name"] = "Soda"
+        elif "water" in label: details["name"] = "Water"
+        elif "juice" in label: details["name"] = "Juice"
+
     elif any(x in label for x in ["ketchup", "mustard", "sauce"]):
         details.update({"category": "Pantry", "days": 365, "icon": "🧂", "unit": "bottle"})
+        if "ketchup" in label: details["name"] = "Ketchup"
+        elif "mustard" in label: details["name"] = "Mustard"
+
     elif "ice" in label:
         details.update({"category": "Freezer", "days": 365, "icon": "🧊", "unit": "tray"})
+        details["name"] = "Ice"
     
     expiry = today + datetime.timedelta(days=details["days"])
     return {

@@ -1,0 +1,9 @@
+0 Nothing
+1 bell peppers
+2 bacon
+3 pumpkin nearing expiration
+4 orange
+5 blueberry
+6 yogurt
+7 asparagus
+8 bananas nearing expiration
